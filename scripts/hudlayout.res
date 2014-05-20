@@ -826,25 +826,25 @@ Batman
 		"fieldName" "HudDeathNotice"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	 "r640"	
-		"ypos"	 "20"	
-		"wide"	 "636"
-		"tall"	 "468"
+		"xpos"	 "r640"	//"r640"	
+		"ypos"	 "10" //	20
+		"wide"	 "636" //"636"
+		"tall"	 "468" //468
 
 		"MaxDeathNotices" "10"
 		"IconScale"	  "0.35"
-		"LineHeight"	  "16"
-		"LineSpacing"	  "1"      //Increase this to around "2" for line spacing in the killfeed
+		"LineHeight"	  "14" //16 //14
+		"LineSpacing"	  "-1"  //-1    //Increase this to around "2" for line spacing in the killfeed //1
 		"CornerRadius"	  "0"
 		"RightJustify"	  "1"
-		"TextFont"		"Medium11"
+		"TextFont"		"NoveLight12" //"Medium11"
 		
 		"TeamBlue"		"72 107 141 255"	
 		"TeamRed"		"189 55 56 255"	
 		"IconColor"		"227 227 227 255"
 		"LocalPlayerColor"	"18 17 17 255"
 
-		"BaseBackgroundColor"	"0 0 0 130"	        //Dark background color        
+		"BaseBackgroundColor"	 "57 54 54 230"	        //Dark background color        //130
 		"LocalBackgroundColor"	"255 255 255 175"	//Background color for you own actions
 	}
 	// HudDeathNotice //stock broesel killfeed

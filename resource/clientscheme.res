@@ -888,7 +888,18 @@ Scheme{Colors{
                 "antialias"    "1"
             }
         }
-	
+ "NoveLight12"          //killfeed   
+		{
+			"1"
+			{
+				"name"			"Novecentowide-Book"
+				"tall"		"12"
+				"additive"	"0"
+				"antialias" 	"1"
+                "dropshadow"	"0"
+			}
+		}
+		
 "reserveammosolid" //   TEST!   map koth_viaduct; mp_tournament 1
 		{
 			"1"
