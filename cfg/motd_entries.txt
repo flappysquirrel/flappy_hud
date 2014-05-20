@@ -1,0 +1,27 @@
+"motd_entries"
+{
+	"last_request_time"		"2013-05-05 21:40:25"
+	"last_request_language"		"english"
+	"1"
+	{
+		"post_time"		"2014-05-05 00:00:00"
+		"title_english"		"Custom Links"
+		"text_english"		"tf.tv  [scrap.tf]  backpack.tf  huds.tf  atf2.org  r/tf2  patchnotes  about"
+		"url"		"javascript:window.location.assign('http://tf2center.com');
+								window.open('http://irc.lc/gamesurge/tf2mix/', 'tf2mix');
+								window.open('http://irc.lc/geeksirc/tf2.pug.na', 'pugna');"
+		"image"		""
+		"header_type"		"2"
+		"header_english"		"News"
+	}
+	"2"
+	{
+		"post_time"		"2014-01-01 00:00:00"
+		"title_english"		"huds.tf"
+		"text_english"		"tf.tv  [scrap.tf]  backpack.tf  huds.tf  atf2.org  r/tf2  patchnotes  about"
+		"url"		"http://huds.tf"
+		"image"		""
+		"header_type"		"2"
+		"header_english"		"News"
+	}
+}

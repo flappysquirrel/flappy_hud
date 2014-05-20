@@ -1,0 +1,17 @@
+"UnlitGeneric"
+{
+   "$baseTexture" "vgui/replay/thumbnails/turbocat"
+   "$vertexcolor" 		0 
+   "$vertexalpha" 		0 
+   "$nolod" 			0
+   "$translucent" 0
+   "Proxies"
+   {
+      "AnimatedTexture"
+      {
+         "animatedtexturevar" "$basetexture"
+         "animatedtextureframenumvar" "$frame"
+         "animatedtextureframerate" "28"
+      }
+   }
+}
