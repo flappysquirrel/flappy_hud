@@ -235,6 +235,281 @@ Scheme{Colors{
 		"UpgradeSelectedBg"		"249 138 83 255"
 		"UpgradeDisabledFg"		"64 59 52 255"
 		"UpgradeDisabledBg"		"79 77 68 255"
+		
+		//Yahud
+		
+		   
+        "ya_Meter"					"142 142 142 255"	//Item charge meter labels
+        "ya_CrosshairPercentage"	"227 227 227 0"		//Shows Uber % under crosshair
+        
+        "ya_StatsBG"				"227 227 227 255"	//Stats background
+        "ya_Stats"             		"18 18 18 255"		//Stats
+        
+        //// CUSTOM COLORS ////
+      
+        "ya_Damage"                "240 240 20 255"     //Damage numbers
+        "ya_Crosshair"             "240 240 20 255"     //Crosshair color
+        "ya_CrosshairDamage"       "245 54 64 255"       //Crosshair damage flash color
+                                                      //Make this the same as "Crosshair" to disable the flash
+                                                      //Crosshairs can be activated in /scripts/hudlayout.res                                             
+                            
+        //// HUD COLORS
+                            
+        "ya_Ammo"                  "227 227 227 255"      //Current clip
+		"ya_AmmoReserve"           "227 227 227 255"      //Reserve clip
+        "ya_AmmoLow"               "107 107 107 255"      //Low ammo warning
+        
+        "ya_Health"				"227 227 227 255"    
+        "ya_Positive"			"227 227 227 255"    //Buffed HP font color   
+        "ya_Negative"			"227 227 227 255"    //Low HP
+        "ya_PositiveBG"			"18 127 220 255"     //HP effects
+        "ya_NegativeBG"			"245 54 64 255"      //
+		
+        "ya_Uber"					"227 227 227 255"   
+        "ya_UberReady"         		"227 227 227 255"	//Percentage color when ready
+        "ya_UberReadyMeter"			"22 182 71 255"		//Uber meter ready color
+        "ya_UberReadyMeterFlash"	"22 182 71 255"
+		"ya_UberReadyBG"			"22 182 71 255"		//Uber background ready color (only fl)
+		
+        "ya_Time"                  "227 227 227 255"            //Timer color
+		
+		"Red"                   "245 54 64 255"         //Red team  
+        "Blue"                  "18 127 220 255"        //Blue team
+        
+        //// SPEC ////
+        
+        "ya_HealthSpecBG"          "28 28 28 255"       //
+        "ya_PositiveSpecBG"        "18 127 220 255"     //Spectator HUD health effect
+        "ya_NegativeSpecBG"        "245 54 64 255"      //
+        
+        "ya_NameSpecBG"  		"227 227 227 255"   	//Middle BG
+		"ya_NameSpecLongBG"		"18 18 18 0"   			//Middle and right BG
+        "ya_NameSpec" 			"18 18 18 255"      	//Name font color
+		
+        "ya_ClassBG"			"28 28 28 255"		//Class background and charge cover
+		"ya_RespawnBG"			"100 100 100 255"	//BG
+        "ya_Respawn"  			"18 18 18 255" 
+        
+        //// SCOREBOARD, WINPANEL AND TARGETID ////
+        
+        "ya_HudBG"                "28 28 28 234"             //Scoreboard, winpanel, item meters
+        
+        "ya_NameLongBG"			"227 227 227 0"            //TargetID background
+        "ya_NameBG"				"227 227 227 255"          //for fl
+        "ya_Name"				"18 18 18 255"             //TargetID name color
+        "ya_NameCounter"		"227 227 227 255"          //Engineer shortcuts & destroy icon
+        
+        //// MENU ////
+        
+        "ya_Main"				"227 227 227 255"       //Main menu font color
+        "ya_MainBG"				"18 18 18 154"          //Main, intro, map, class team
+        
+        "ya_Select"                "137 137 137 255"          //Regular menu select color
+        
+        //// MISC ////
+        
+        "ya_Plus"          "22 182 71 255"
+        
+        //// fl COLORS /////
+        "ya_flBG"                "28 28 28 255"      //Enables background color 
+                                                      //Blu team -> "18 127 220 255"
+                                                      //Red team -> "245 54 64 255" 
+                                                      //Neutral gray  -> "28 28 28 255"
+
+        "NameHPBG"              "28 28 28 255"       //TargetID hp bg
+        "RespawnCoverHP"        "48 48 48 255"
+        "RespawnCoverName"      "100 100 100 255"
+        
+        //// box COLORS ////
+        
+        "ya_BoxBG"				"227 227 227 0"   //for main hud & menu bg
+		"ya_AmmoLowBG"			"0 0 0 0"			
+		
+		//// mx COLORS ////
+		
+		"ya_Shadow"             "0 0 0 0"			//Shadows under numbers
+		
+		//// universal ////
+		
+		"ScoreCounterBG"        "244 244 244 255"          //
+        "yaScoreCounterFont"      "18 18 18 255"             //
+        "yaScoreCounterFontArmed" "127 127 127 255"          //Used for arena team menu
+        "yaTeamButtonArmed"       "28 28 28 255"             //Used for team and class menu
+        
+        //// GAME MENU COLORS ////
+        
+        "ya_MenuFrame"             "48 48 48 255"			//
+        "ya_MenuBG"                "48 48 48 255"			//
+        "ya_MenuHi"                "227 227 227 255"		//Selcted Tab
+        "ya_MenuLo"                "87 87 87 255"			//
+        
+        "yaFieldBG"               "25 25 25 255"          //Backpack item bg
+        
+        "yaButtonBG"              "227 227 227 0"       //Standard button color
+        "yaButtonBGArmed"         "227 227 227 0"       //Armed BG color
+        "yaButtonBGSelect"        "18 18 18 0"          //Loadout preset
+        
+        "yaButtonFont"            "87 87 87 255"          //Font color
+        "yaButtonFontArmed"       "157 157 157 255"       //Highlighted font color
+        "yaButtonFontSelect"      "247 247 247 255"       //Highlighted font color
+        
+		
+		
+        ////CORE COLORS////
+       
+        "yaWhite"				"227 227 227 255"
+		"yaGray"				"154 154 154 255"
+        "yaBlack"				"18 18 18 255"
+
+        "yaGrayBGDark"           "57 57 57 255"    	//used for borders in clientscheme, to be replaced            
+        "yaGrayBGDarkest"        "27 27 27 255"		//
+        
+        // Base Colors TF2
+
+        "yaOrange"              "227 227 227 255"
+        "yaOrangeDim"           "225 225 225 120"
+        "yaLightOrange"         "188 112 0 128"
+        "yaGoalOrange"          "255 133 0"
+        "yaTFOrange"            "145 73 59 255"
+
+        
+        "yaRedSolid"            "254 27 4 255"
+        "yaYellow"            "225 225 225 255"
+        "yaTransparentYellow"    "255 255 255 140"
+        "yaGreenSolid"         "76 107 34 255"
+        
+        "yaTransparentBlack"    "0 0 0 196"
+        "yaTransparentLightBlack"    "0 0 0 90"
+        "yaFooterBGBlack"        "42 42 42 255"
+        
+        "yaHUDBlueTeam"        "0 137 228 255" 
+        "yaHUDRedTeam"        "254 27 4 255"
+        "yaHUDSpectator"        "124 124 124 127"
+        "yaHUDBlueTeamSolid"    "0 137 228 255" 
+        "yaHUDRedTeamSolid"    "254 27 4 255"
+        "yaHUDDeathWarning"    "255 0 0 255"
+        "yaHudWhite"            "225 225 225 255"
+        "yaHudOffWhite"        "225 225 225 255"
+        "yaHudBlack"            "65 65 65 255"
+        "yaProgressBarBlue"    "91 122 142 255"
+        
+        "yaCreditsGreen"        "94 150 49 255"
+
+        "yaBlank"                "0 0 0 0"
+
+        "yaHudPanelForeground"        "110 110 110 184"
+        "yaHudPanelBackground"        "110 110 110 184"
+        "yaHudPanelBorder"            "255 255 255 102"
+
+        "yaHudProgressBarActive"        "240 207 78 255"
+        "yaHudProgressBarInActive"    "140 120 73 255"
+        "yaHudProgressBarActiveLow"    "240 30 30 255"
+        "yaHudProgressBarInActiveLow"    "240 30 30 99"    
+
+        "yaHudTimerProgressActive"    "251 235 202 255"
+        "yaHudTimerProgressInActive"    "52 48 45 255"
+        "yaHudTimerProgressWarning"    "240 30 30 255"
+
+        // training
+        "yaHudTrainingHint"            "212 212 212 255"
+        
+        "yaTanDark"                "110 110 110 255"
+        "yaTanLight"                "221 221 221 255"
+        "yaTanDarker"                "42 42 42 255"
+        
+        "yaStoreDarkTan"            "121 121 121 255"
+        "yaStoreGreen"            "76 107 34 255"
+        
+        // Building HUD Specific
+        "yaLowHealthRed"        "200 47 47 255"
+        "yaProgressOffWhite"    "225 225 225 255"
+        "yaProgressBackground"    "250 234 201 51"
+        "yaHealthBgGrey"        "42 42 42 255"
+        
+        "yaProgressOffWhiteTransparent"    "227 227 227 255"
+        
+        "yaLabelDark"            "42 42 42 255"
+        "yaLabelTransparent"    "110 110 110 180"
+        
+        "yaBuildMenuActive"    "248 231 198 255"
+        
+        "yaDisguiseMenuIconRed"    "192 56 63 255"
+        "yaDisguiseMenuIconBlue"    "92 128 166 255"
+
+         "yaMatchmakingDialogTitleColor"            "225 225 225 255"
+         "yaMatchmakingMenuItemBackground"            "42 42 42 255"
+         "yaMatchmakingMenuItemBackgroundActive"    "57 57 57 255"    
+        "yaMatchmakingMenuItemTitleColor"            "225 225 225 255"
+        "yaMatchmakingMenuItemDescriptionColor"    "225 225 225 255"
+        
+        "yaHTMLBackground"                        "100 100 100 255"
+        
+        "yaItemAttribLevel"                        "117 107 94 255"
+        "yaItemAttribNeutral"                        "235 226 202 255"
+        "yaItemAttribPositive"                    "153 204 255 255"
+        "yaItemAttribNegative"                    "255 64 64 255"
+
+        "yaItemSetName"                            "225 255 15 255"
+        "yaItemSetItemEquipped"                    "149 175 12 255"
+        "yaItemSetItemMissing"                    "139 137 137 255"
+        "yaItemIsotope"                            "225 255 15 255"
+        "yaItemBundleItem"                        "149 175 12 255"
+        "yaItemLimitedUse"                        "0 160 0 255"
+        "yaItemFlags"                                "117 107 94 255"
+        
+        "yaQualityColorNormal"					"178 178 178 255"
+		"yaQualityColorrarity1"					"77 116 85 255"
+		"yaQualityColorrarity2"					"141 131 75 255"
+		"yaQualityColorrarity3"					"112 85 15 255"
+		"yaQualityColorrarity4"					"134 80 172 255"
+		"yaQualityColorVintage"					"71 98 145 255"
+		"yaQualityColorUnique"					"255 215 0 255"
+		"yaQualityColorCommunity"					"112 176 74 255"
+		"yaQualityColorDeveloper"					"165 15 121 255"
+		"yaQualityColorSelfMade"					"112 176 74 255"
+		"yaQualityColorCustomized"				"71 98 145 255"
+		"yaQualityColorStrange"					"207 106 50 255"
+		"yaQualityColorCompleted"					"134 80 172 255"
+		"yaQualityColorHaunted"					"56 243 171 255"
+		"yaQualityColorCollectors"				"170 0 0 255"
+
+		"yaQualityColorNormal_GreyedOut"			"44 44 44 255"
+		"yaQualityColorrarity1_GreyedOut"			"20 29 21 255"
+		"yaQualityColorrarity2_GreyedOut"			"35 33 19 255"
+		"yaQualityColorrarity3_GreyedOut"			"51 51 62 255"
+		"yaQualityColorrarity4_GreyedOut"			"36 20 43 255"
+		"yaQualityColorVintage_GreyedOut"			"18 25 36 255"
+		"yaQualityColorUnique_GreyedOut"			"64 54 0  255"
+		"yaQualityColorCommunity_GreyedOut"		"28 44 19 255"
+		"yaQualityColorDeveloper_GreyedOut"		"41 4  30  255"
+		"yaQualityColorSelfMade_GreyedOut"		"28 44 74 255"
+		"yaQualityColorCustomized_GreyedOut"		"71 98 19 255"
+		"yaQualityColorStrange_GreyedOut"			"52 27 13 255"
+		"yaQualityColorCompleted_GreyedOut"		"34 20 43 255"
+		"yaQualityColorHaunted_GreyedOut"			"14 61 43 255"
+		"yaQualityColorCollectors_GreyedOut"		"60 0 0 255"
+        
+        "yaSaleGreen"                                "76 107 34 255"
+        
+        "yaLightRed"                                "200 80 60 255"
+        "yaLighterRed"                            "220 100 80 255"
+        "yaLighterDarkBrown"                        "59 54 48 255"
+        "yaDarkBrown"                                "41 37 38 255"       //should be same as "ya_MenuBG"
+
+        "yaUpgradeDefaultFg"        "87 82 74 255"
+        "yaUpgradeDefaultBg"        "111 104 94 255"
+        "yaUpgradeArmedFg"        "194 96 47 255"
+        "yaUpgradeArmedBg"        "239 128 73 255"
+        "yaUpgradeDepressedFg"    "204 106 57 255"
+        "yaUpgradeDepressedBg"    "249 138 83 255"
+        "yaUpgradeSelectedFg"        "204 106 57 255"
+        "yaUpgradeSelectedBg"        "249 138 83 255"
+        "yaUpgradeDisabledFg"        "64 59 52 255"
+        "yaUpgradeDisabledBg"        "79 77 68 255"
+
+		
+		
+		
 	}
 
 	///////////////////// BASE SETTINGS ////////////////////////
@@ -1123,6 +1398,3325 @@ Scheme{Colors{
 		
 		/// ende mac 
 		
+		//////YAHUD FONTS YAFONT
+		
+		     ///////////////////// YAHUD FONTS ya
+        //Shapes and Symbols
+        
+        "yaSymbolS"		//Main menu icons
+        {
+            "1"
+            {
+                "name"            "Entypo"
+                "tall"        "25"
+                "additive"    "0"
+                "antialias"     "1"
+            }
+        }
+		"yaBackpackS"		//Main menu icons
+        {
+            "1"
+            {
+                "name"            "Backpack"
+                "tall"        	"25"
+                "additive"    	"0"
+                "antialias"     "1"
+            }
+        }
+        "yaShapes64"
+        {
+            "1"
+            {
+                "name"        "Blocks"
+                "tall"        "64"
+                "additive"    "0"
+                "antialias" "0"
+            }
+        }
+        
+        "yahud58"       //Used for class icons
+        {
+            "1"
+            {
+                "name"        "yahud"
+                "tall"        "58"
+                "additive"    "0"
+                "antialias"    "1"
+            }
+        }
+        "yahud36"       //Used for tournament setup
+        {
+            "1"
+            {
+                "name"        "yahud"
+                "tall"        "36"
+                "additive"    "0"
+                "antialias"    "1"
+            }
+        }
+		
+       "yaRespawn20"       
+        {
+            "1"
+            {
+                "name"        "RespawnFont"
+                "tall"        "20"
+                "additive"    "0"
+                "antialias"    "1"
+            }
+        }
+		
+        "yaCircle62"              //for team selection and tournament ready up
+        {
+            "1"
+            {
+                "name"        "Paula"
+                "tall"        "62"
+                "weight"    "0"
+                "antialias"    "1"
+            }
+        }
+        "yaCircle42"          //used for winpanel
+        {
+            "1"
+            {
+                "name"        "Paula"
+                "tall"        "42"
+                "weight"    "0"
+                "antialias"    "1"
+            }
+        }
+        "yaCircle38"    //for ctf counter
+        {
+            "1"
+            {
+                "name"        "Paula"
+                "tall"        "38"
+                "weight"    "0"
+                "antialias"    "1"
+            }
+        }
+        "yaCircle36"    //for ctf counter
+        {
+            "1"
+            {
+                "name"        "Paula"
+                "tall"        "36"
+                "weight"    "0"
+                "antialias"    "1"
+            }
+        }
+        "yaCircle34"    //for ctf counter
+        {
+            "1"
+            {
+                "name"        "Paula"
+                "tall"        "34"
+                "weight"    "0"
+                "antialias"    "1"
+            }
+        }
+        "yaCircle30"    //for game menu shortcuts
+        {
+            "1"
+            {
+                "name"        "Paula"
+                "tall"        "30"
+                "weight"    "0"
+                "antialias"    "1"
+            }
+        }
+        "yaCircle24"          //for shortcuts and class counters
+        {
+            "1"
+            {
+                "name"        "Paula"
+                "tall"        "24"
+                "weight"    "0"
+                "antialias"    "1"
+            }
+        }
+        
+		//// Fonts
+		
+		
+		"yaDamage"            
+        {
+            "1"
+            {
+                "name"            "FuturaStd-Medium"
+                "tall"        	"18"
+                "additive"    	"0"
+                "antialias"     "1"
+                "dropshadow"    "0"
+				"outline"		"1"
+            }
+        }
+		
+        "yaItemMeterFont"            
+        {
+            "1"
+            {
+                "name"            "FuturaStd-Medium"
+                "tall"        "8"
+                "additive"    "0"
+                "antialias"     "1"
+                "dropshadow"    "0"
+            }
+        }
+        
+        "yaHeavyNumbers48"   
+        {
+            "1"
+            {
+                "name"            "FuturaHeavyNumbers"
+                "tall"        "48"
+                "additive"    "0"
+                "antialias"     "1"
+                "dropshadow"    "0"
+            }
+        }
+		
+		
+        "yaHeavyNoNumbers14"		//used for spectator interface
+        {
+            "1"
+            {
+                "name"        "FuturaHeavyNoNumbers"
+                "tall"        "14"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+        
+		
+		"yaHeavy59"       //main menu font
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Heavy"
+                "tall"        "59"
+                "additive"    "0"
+                "antialias" "1"
+            }
+        }
+		
+        "yaHeavy58"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Heavy"
+                "tall"        "58"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaHeavy57"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Heavy"
+                "tall"        "57"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaHeavy56"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Heavy"
+                "tall"        "56"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaHeavy54"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Heavy"
+                "tall"        "54"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaHeavy52"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Heavy"
+                "tall"        "52"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaHeavy51"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Heavy"
+                "tall"        "51"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaHeavy50"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Heavy"
+                "tall"        "50"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaHeavy49"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Heavy"
+                "tall"        "49"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaHeavy48"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Heavy"
+                "tall"        "48"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaHeavy48Shadow"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Heavy"
+                "tall"        "48"
+                "additive"        "0"
+                "antialias"    "1"
+                "dropshadow"    "1"
+            }
+        }
+        
+        "yaHeavy47"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Heavy"
+                "tall"        "47"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaHeavy46"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Heavy"
+                "tall"        "46"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaHeavy45"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Heavy"
+                "tall"        "45"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaHeavy44"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Heavy"
+                "tall"        "44"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaHeavy42"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Heavy"
+                "tall"        "42"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaHeavy40"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Heavy"
+                "tall"        "40"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaHeavy38"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Heavy"
+                "tall"        "38"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaHeavy36"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Heavy"
+                "tall"        "36"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaHeavy34"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Heavy"
+                "tall"        "34"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaHeavy32"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Heavy"
+                "tall"        "32"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaHeavy32Shadow"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Heavy"
+                "tall"        "32"
+                "additive"        "0"
+                "antialias"    "1"
+                "dropshadow"    "1"
+            }
+        }
+        
+        "yaHeavy30"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Heavy"
+                "tall"        "30"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaHeavy28"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Heavy"
+                "tall"        "28"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaHeavy26"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Heavy"
+                "tall"        "26"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaHeavy24"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Heavy"
+                "tall"        "24"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaHeavy23"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Heavy"
+                "tall"        "23"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaHeavy22"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Heavy"
+                "tall"        "22"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaHeavy21"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Heavy"
+                "tall"        "21"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaHeavy20"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Heavy"
+                "tall"        "20"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaHeavy19"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Heavy"
+                "tall"        "19"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaHeavy18"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Heavy"
+                "tall"        "18"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaHeavy16"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Heavy"
+                "tall"        "16"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaHeavy14"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Heavy"
+                "tall"        "14"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaHeavy12"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Heavy"
+                "tall"        "12"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaHeavy11"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Heavy"
+                "tall"        "11"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaHeavy10"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Heavy"
+                "tall"        "10"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaHeavy9"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Heavy"
+                "tall"        "9"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaHeavy8"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Heavy"
+                "tall"        "8"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaHeavy7"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Heavy"
+                "tall"        "7"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaHeavy6"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Heavy"
+                "tall"        "6"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+		
+		"yaMediumNumbers32"
+        {
+            "1"
+            {
+                "name"            "FuturaMediumNumbers"
+                "tall"        "32"
+                "additive"    "0"
+                "antialias"     "1"
+                "dropshadow"    "0"
+            }
+        }
+        "yaMediumNumbers28"
+        {
+            "1"
+            {
+                "name"            "FuturaMediumNumbers"
+                "tall"        "28"
+                "additive"    "0"
+                "antialias"     "1"
+                "dropshadow"    "0"
+            }
+        }
+        "yaMediumNumbers26"
+        {
+            "1"
+            {
+                "name"            "FuturaMediumNumbers"
+                "tall"        "26"
+                "additive"    "0"
+                "antialias"     "1"
+                "dropshadow"    "0"
+            }
+        }
+		"yaMediumNumbers22"
+        {
+            "1"
+            {
+                "name"            "FuturaMediumNumbers"
+                "tall"        "22"
+                "additive"    "0"
+                "antialias"     "1"
+                "dropshadow"    "0"
+            }
+        }
+        "yaMediumNumbers20"
+        {
+            "1"
+            {
+                "name"            "FuturaMediumNumbers"
+                "tall"        "20"
+                "additive"    "0"
+                "antialias"     "1"
+                "dropshadow"    "0"
+            }
+        }
+        "yaMediumNumbers18"
+        {
+            "1"
+            {
+                "name"            "FuturaMediumNumbers"
+                "tall"        "18"
+                "additive"    "0"
+                "antialias"     "1"
+                "dropshadow"    "0"
+            }
+        }
+        "yaMediumNumbers16"
+        {
+            "1"
+            {
+                "name"            "FuturaMediumNumbers"
+                "tall"        "16"
+                "additive"    "0"
+                "antialias"     "1"
+                "dropshadow"    "0"
+            }
+        }
+        "yaMediumNumbers14"
+        {
+            "1"
+            {
+                "name"            "FuturaMediumNumbers"
+                "tall"        "14"
+                "additive"    "0"
+                "antialias"     "1"
+                "dropshadow"    "0"
+            }
+        }
+        "yaMediumNumbers12"
+        {
+            "1"
+            {
+                "name"            "FuturaMediumNumbers"
+                "tall"        "12"
+                "additive"    "0"
+                "antialias"     "1"
+                "dropshadow"    "0"
+            }
+        }
+        "yaMediumNumbers10"
+        {
+            "1"
+            {
+                "name"            "FuturaStd-Medium"
+                "tall"        "10"
+                "additive"    "0"
+                "antialias"     "1"
+                "dropshadow"    "0"
+            }
+        }
+		
+        "yaBold59"
+        {
+            "1"
+            {
+                "name"        "FuturaBold"
+                "tall"        "59"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaBold58"
+        {
+            "1"
+            {
+                "name"        "FuturaBold"
+                "tall"        "58"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaBold57"
+        {
+            "1"
+            {
+                "name"        "FuturaBold"
+                "tall"        "57"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaBold56"
+        {
+            "1"
+            {
+                "name"        "FuturaBold"
+                "tall"        "56"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaBold54"
+        {
+            "1"
+            {
+                "name"        "FuturaBold"
+                "tall"        "54"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaBold52"
+        {
+            "1"
+            {
+                "name"        "FuturaBold"
+                "tall"        "52"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaBold51"
+        {
+            "1"
+            {
+                "name"        "FuturaBold"
+                "tall"        "51"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaBold50"
+        {
+            "1"
+            {
+                "name"        "FuturaBold"
+                "tall"        "50"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaBold49"
+        {
+            "1"
+            {
+                "name"        "FuturaBold"
+                "tall"        "49"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaBold48"
+        {
+            "1"
+            {
+                "name"        "FuturaBold"
+                "tall"        "48"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaBold47"
+        {
+            "1"
+            {
+                "name"        "FuturaBold"
+                "tall"        "47"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaBold46"
+        {
+            "1"
+            {
+                "name"        "FuturaBold"
+                "tall"        "46"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaBold45"
+        {
+            "1"
+            {
+                "name"        "FuturaBold"
+                "tall"        "45"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaBold44"
+        {
+            "1"
+            {
+                "name"        "FuturaBold"
+                "tall"        "44"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaBold42"
+        {
+            "1"
+            {
+                "name"        "FuturaBold"
+                "tall"        "42"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaBold40"
+        {
+            "1"
+            {
+                "name"        "FuturaBold"
+                "tall"        "40"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaBold38"
+        {
+            "1"
+            {
+                "name"        "FuturaBold"
+                "tall"        "38"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaBold36"
+        {
+            "1"
+            {
+                "name"        "FuturaBold"
+                "tall"        "36"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaBold34"
+        {
+            "1"
+            {
+                "name"        "FuturaBold"
+                "tall"        "34"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaBold32"
+        {
+            "1"
+            {
+                "name"        "FuturaBold"
+                "tall"        "32"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaBold32Shadow"
+        {
+            "1"
+            {
+                "name"        "FuturaBold"
+                "tall"        "32"
+                "additive"        "0"
+                "antialias"    "1"
+                "dropshadow"    "1"
+            }
+        }
+        
+        "yaBold30"
+        {
+            "1"
+            {
+                "name"        "FuturaBold"
+                "tall"        "30"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaBold28"
+        {
+            "1"
+            {
+                "name"        "FuturaBold"
+                "tall"        "28"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaBold26"
+        {
+            "1"
+            {
+                "name"        "FuturaBold"
+                "tall"        "26"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaBold25"
+        {
+            "1"
+            {
+                "name"        "FuturaBold"
+                "tall"        "25"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+        
+        "yaBold24"
+        {
+            "1"
+            {
+                "name"        "FuturaBold"
+                "tall"        "24"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaBold23"
+        {
+            "1"
+            {
+                "name"        "FuturaBold"
+                "tall"        "23"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaBold22"
+        {
+            "1"
+            {
+                "name"        "FuturaBold"
+                "tall"        "22"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaBold22Outline"
+        {
+            "1"
+            {
+                "name"        "FuturaBold"
+                "tall"        "22"
+                "additive"        "0"
+                "antialias"    "1"
+                "outline" "1"
+            }
+        }
+        
+        "yaBold21"
+        {
+            "1"
+            {
+                "name"        "FuturaBold"
+                "tall"        "21"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaBold20"
+        {
+            "1"
+            {
+                "name"        "FuturaBold"
+                "tall"        "20"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaBold19"
+        {
+            "1"
+            {
+                "name"        "FuturaBold"
+                "tall"        "19"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaBold18"
+        {
+            "1"
+            {
+                "name"        "FuturaBold"
+                "tall"        "18"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+        "yaBold16"
+        {
+            "1"
+            {
+                "name"        "FuturaBold"
+                "tall"        "16"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaBold14"
+        {
+            "1"
+            {
+                "name"        "FuturaBold"
+                "tall"        "14"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaBold13"
+        {
+            "1"
+            {
+                "name"        "FuturaBold"
+                "tall"        "13"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+        
+        "yaBold12"
+        {
+            "1"
+            {
+                "name"        "FuturaBold"
+                "tall"        "12"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+        "yaBold10"
+        {
+            "1"
+            {
+                "name"        "FuturaBold"
+                "tall"        "10"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+		
+        "yaMedium58"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "58"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaMedium56"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "56"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaMedium54"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "54"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaMedium52"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "52"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaMedium50"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "50"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaMedium48"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "48"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaMedium46"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "46"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaMedium45"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "45"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaMedium44"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "44"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaMedium42"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "42"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaMedium41"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "41"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaMedium40"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "40"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaMedium39"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "39"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaMedium38"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "38"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaMedium37"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "37"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaMedium36"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "36"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaMedium35"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "35"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaMedium34"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "34"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaMedium33"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "33"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaMedium32"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "32"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaMedium31"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "31"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaMedium30"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "30"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaMedium29"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "29"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaMedium28"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "28"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaMedium27"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "27"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaMedium26"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "26"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaMedium26Shadow"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "26"
+                "additive"        "0"
+                "antialias"    "1"
+                "dropshadow"    "1"
+            }
+        }
+        
+        "yaMedium25"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "25"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaMedium24"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "24"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaMedium23"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "23"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaMedium23Outline"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "23"
+                "additive"        "0"
+                "antialias"    "1"
+                "outline" "1"
+            }
+        }
+        
+        "yaMedium23Shadow"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "23"
+                "additive"        "0"
+                "antialias"    "1"
+                "dropshadow"    "1"
+            }
+        }
+        
+        "yaMedium22"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "22"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaMedium21"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "21"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+        "yaMedium21Outline"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "21"
+                "additive"        "0"
+                "antialias"    "1"
+                "outline" "1"
+            }
+        }
+        "yaMedium21Shadow"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "21"
+                "additive"        "0"
+                "antialias"    "1"
+                "dropshadow"    "1"
+            }
+        }
+        
+        "yaMedium20"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "20"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaMedium18"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "18"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaMedium17"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "17"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+    //Font changed for lower resolution    
+        
+        
+        
+        "yaMedium16"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "16"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaMedium16Shadow"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "16"
+                "additive"        "0"
+                "antialias"    "1"
+                "dropshadow"    "1"
+            }
+        }
+        
+        "yaMedium15"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "15"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaMedium15Shadow"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "15"
+                "additive"        "0"
+                "antialias"    "1"
+                "dropshadow"    "1"
+            }
+        }
+
+        "yaMedium14"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "14"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaMedium13"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "13"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaMedium13Shadow"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "13"
+                "additive"        "0"
+                "antialias"    "1"
+                "dropshadow"    "1"
+            }
+        }
+
+        "yaMedium12"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "12"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaMedium12Shadow"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "12"
+                "additive"        "0"
+                "antialias"    "1"
+                "dropshadow"    "1"
+            }
+        }
+
+        "yaMedium11"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "11"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+        "yaMedium11Shadow"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "11"
+                "additive"        "0"
+                "antialias"    "1"
+                "dropshadow"    "1"
+            }
+        }
+
+        "yaMedium10"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "10"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaMedium10Shadow"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "10"
+                "additive"        "0"
+                "antialias"    "1"
+                "dropshadow"    "1"
+            }
+        }
+        
+        "yaMedium9"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "9"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaMedium9Shadow"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "9"
+                "additive"        "0"
+                "antialias"    "1"
+                "dropshadow"    "1"
+            }
+        }
+        
+        "yaMedium8"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "8"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+        
+        "yaMedium8Shadow"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "8"
+                "additive"        "0"
+                "antialias"    "1"
+                "dropshadow"    "1"
+            }
+        }
+        
+        "yaMedium7"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "7"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaMedium6"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "6"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+        
+        //TF2 font def
+        
+        "yaDefault"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "9"
+                "additive"    "0"
+                "antialias" "1"
+            }
+        }
+
+        "yaDefaultUnderline"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "9"
+                "underline" "1"
+                "range"        "0x0000 0x017F" //    Basic Latin, Latin-1 Supplement, Latin Extended-A
+                "antialias"     "1"
+            }
+            "2"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "9"
+                "range"         "0x0000 0x00FF"
+                "antialias"     "1"
+            }
+        }
+        "yaDefaultSmall"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "9"
+                "range"        "0x0000 0x017F"
+                "yres"        "480 599"
+                "antialias"     "1"
+            }
+            "2"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "9"
+                "range"        "0x0000 0x017F"
+                "yres"    "600 767"
+                "antialias"     "1"
+            }
+            "3"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "11"
+                "range"        "0x0000 0x017F"
+                "yres"    "768 1023"
+                "antialias"    "1"
+            }
+            "4"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "18"
+                "range"        "0x0000 0x017F"
+                "yres"    "1024 1199"
+                "antialias"    "1"
+            }
+            "5"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "20"
+                "range"        "0x0000 0x017F"
+                "yres"    "1200 6000"
+                "antialias"    "1"
+            }
+            "6"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "12"
+                "range"         "0x0000 0x00FF"
+                "antialias"     "1"
+            }
+        }
+
+
+        "yaDefaultVerySmall"          //scoreboard legend
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "2"
+                "yres"        "480 599"
+                "antialias"     "0"
+            }
+            "2"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "3"
+                "yres"    "600 719"
+                "antialias"     "1"
+            }
+            "3"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "8"
+                "yres"    "720 767"
+                "antialias"     "1"
+            }
+            "4"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "8"
+                "yres"    "768 899"
+                "antialias"     "1"
+            }
+            "5"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "10"
+                "yres"    "900 1023"
+                "antialias"     "1"
+            }
+            "6"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "8"
+                "antialias"     "1"
+            }
+        }
+        “yaDefaultLarge” //????????????
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "18"
+                "range"        "0x0000 0x017F" //    Basic Latin, Latin-1 Supplement, Latin Extended-A
+                "yres"        "480 599"
+                "antialias"     "1"
+            }
+            "2"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "20"
+                "range"        "0x0000 0x017F" //    Basic Latin, Latin-1 Supplement, Latin Extended-A
+                "yres"        "600 767"
+                "antialias"     "1"
+            }
+            "3"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "22"
+                "range"        "0x0000 0x017F" //    Basic Latin, Latin-1 Supplement, Latin Extended-A
+                "yres"        "768 1023"
+                "antialias"    "1"
+            }
+            "4"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "28"
+                "range"        "0x0000 0x017F" //    Basic Latin, Latin-1 Supplement, Latin Extended-A
+                "yres"        "1024 1199"
+                "antialias"    "1"
+            }
+            "5"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "28"
+                "range"        "0x0000 0x017F" //    Basic Latin, Latin-1 Supplement, Latin Extended-A
+                "yres"    "1200 6000"
+                "antialias"     "1"
+            }
+            "6"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "20"
+                "range"         "0x0000 0x00FF"
+                "antialias"     "1"
+            }
+            "7"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "20"
+                "range"         "0x0000 0x00FF"
+                "antialias"     "1"
+            }
+        }
+     
+        "yaPlayerPanelPlayerName"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "9"
+                "additive"    "0"
+                "antialias" "1"
+                "antialias"     "1"
+            }
+        }
+
+       “yaHudHintText”
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "12"
+                "yres"    "480 599"
+                "antialias"     "1"
+            }
+            "2"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "12"    [$WIN32]
+                "tall"        "20"    [$X360]
+                "yres"    "600 767"
+                "antialias"     "1"
+            }
+            "3"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "14"
+                "yres"    "768 1023"
+                "antialias"     "1"
+            }
+            "4"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "20"
+                "yres"    "1024 1199"
+                "antialias"     "1"
+            }
+            "5"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "22"
+                "yres"    "1200 10000"
+                "antialias"     "1"
+            }
+        }
+
+        "yaHudFontGiant"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "22"
+                "additive"    "0"
+                "antialias" "1"
+            }
+            "2"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "30"
+                "additive"    "0"
+                "antialias" "1"
+            }
+            "3"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "40"
+                "additive"    "0"
+                "antialias" "1"
+            }
+            "4"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "44"
+                "additive"    "0"
+                "antialias" "1"
+            }
+            "5"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "48"
+                "additive"    "0"
+                "antialias" "1"
+            }
+        }
+        "yaHudFontGiantBold"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "40"
+                "additive"    "0"
+                "antialias" "1"
+            }
+        }
+
+        "yaHudFontBiggerBold"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "32"
+                "additive"    "0"
+                "antialias" "1"
+            }
+        }
+
+        "yaHudFontBig"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "32"
+                "additive"    "0"
+                "antialias" "1"
+            }
+        }
+        "yaHudFontMediumBig"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "28"
+                "additive"    "0"
+                "antialias" "1"
+            }
+        }    
+        "yaHudFontMediumBigBold"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "28"
+                "additive"    "0"
+                "antialias" "1"
+            }
+        }        
+        "yaHudFontMedium"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "22"
+                "additive"    "0"
+                "antialias" "1"
+            }
+        }
+        "yaHudFontMediumSecondary"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "22"
+                "additive"    "0"
+                "antialias" "1"
+            }
+        }
+        "yaHudFontMediumBold"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "22"
+                "additive"    "0"
+                "antialias" "1"
+            }
+        }
+        "yaHudFontMediumSmallBold"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "18"
+                "additive"    "0"
+                "antialias" "1"
+            }
+        }
+        "yaHudFontMediumSmall"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "18"
+                "additive"    "0"
+                "antialias" "1"
+            }
+        }
+        "yaHudFontMediumSmallSecondary"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "18"
+                "additive"    "0"
+                "antialias" "1"
+            }
+        }
+        "yaHudFontSmall"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "14"
+                "additive"    "0"
+                "antialias"     "1"
+            }
+        }    
+        "yaHudFontSmallishBold"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "16"
+                "additive"    "0"
+                "antialias" "1"
+            }
+        }
+        "yaHudFontSmallBold"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "14"
+                "additive"    "0"
+                "antialias" "1"
+            }
+        }
+        "yaHudFontSmallBoldShadow"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "14"
+                "additive"    "0"
+                "antialias" "1"
+                "dropshadow"    "1"
+            }
+        }
+        "yaHudFontSmallest"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "10"
+                "additive"    "0"
+                "antialias"     "1"
+            }
+        }
+        "yaHudFontSmallestShadow"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "10"
+                "additive"    "0"
+                "antialias"     "1"
+                "dropshadow"    "1"
+            }
+        }
+        "yaHudFontSmallestBold"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "10"
+                "additive"    "0"
+                "antialias" "1"
+            }
+        }
+        "yaPerformanceModeSmall"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "9"
+                "additive"    "0"
+                "antialias" "1"
+            }
+        }
+        "yaStorePromotionsTitle"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "10"
+                "additive"    "0"
+                "antialias" "1"
+            }
+        }
+        "yaFontCartPrice"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "16"
+                "additive"    "0"
+                "antialias" "1"
+            }
+        }
+        "yaFontStorePrice"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "10"
+                "additive"    "0"
+                "antialias" "1"
+            }
+        }
+        "yaFontStoreOriginalPrice"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "10"
+                "additive"    "0"
+                "antialias" "1"
+            }
+        }
+        "yaFontStorePriceSmall"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "9"
+                "additive"    "0"
+                "antialias" "1"
+            }
+        }
+        "yaFontStorePromotion"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "12"
+                "additive"    "0"
+                "antialias" "1"
+            }
+        }
+        "yaTextTooltipFont"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "10"
+                "additive"    "0"
+                "antialias" "1"
+            }
+        }
+              "yaGameUIButtonText"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "18"
+                "additive"    "0"
+                "antialias" "1"
+            }
+        }
+        "yaHudClassHealth"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "16"
+                "additive"    "0"
+                "antialias" "1"
+            }
+        }
+        "yaSpectatorKeyHints"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "9"
+                "additive"    "0"
+                "antialias" "1"
+            }
+        }
+        "yaClockSubText"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "9"
+                "additive"    "0"
+                "antialias" "1"
+            }
+        }
+        "yaClockSubTextSuddenDeath"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "9"
+                "additive"    "0"
+                "antialias" "1"
+            }
+        }
+        "yaClockSubTextTiny"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "9"
+                "additive"    "0"
+                "antialias" "1"
+            }
+        }
+        "yaHudSelectionText"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "16"
+                "antialias"     "1"
+                "additive"    "1"
+            }
+            "2"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "16"    
+                "antialias"     "1"
+                "additive"    "1"
+            }
+            "3"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "18"
+                "antialias"     "1"
+            }
+            "4"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "20"
+                "antialias"     "1"
+            }
+            "5"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "22"
+                "antialias"     "1"
+            }
+        }
+              
+            "yaBetaFont"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "60"
+                "antialias" "1"
+                "additive"    "0"
+            }
+        }
+
+        “yaHudNumbers”
+        {
+            "1"
+            {
+                "name"  "Team Fortress" // tf.ttf
+                "tall"  "28"
+                "additive" "1"
+                "antialias" "1"
+            }
+            "2"
+            {
+                "name"  "FuturaStd-Medium"
+                "tall"  "28"
+                "additive" "1"
+                "antialias" "1"
+            }
+        }
+        "yaCloseCaption_Normal"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "20"
+                "antialias"    "1"
+                "dropshadow"    "1"
+            }
+        }
+        "yaCloseCaption_Italic"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "20"
+                "antialias"    "1"
+                "italic"    "1"
+                "dropshadow"    "1"
+            }
+        }
+        "yaCloseCaption_Bold"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "20"
+                "antialias"    "1"
+                "dropshadow"    "1"
+            }
+        }
+        "yaCloseCaption_BoldItalic"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "20"
+                "antialias"    "1"
+                "italic"    "1"
+                "dropshadow"    "1"
+            }
+        }
+        "yaCloseCaption_Small"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "16"
+                "antialias"    "1"
+                "dropshadow"    "1"
+            }
+        }
+        // this is the symbol font
+        "yaMarlett"
+        {
+            "1"
+            {
+                "name"        "Marlett"
+                "tall"        "20"
+                "weight"    "0"
+                "symbol"    "1"
+                "range"        "0x0000 0x007F"    //    Basic Latin
+            }
+        }
+        "yaMenuMainTitle"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "20"
+                "antialias" "1"
+            }
+        }
+        "yaMenuClassBuckets"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "12"
+                "tall_lodef"    "14"
+                "antialias" "1"
+            }
+        }
+        "yaMenuKeys"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "12"
+                "antialias" "1"
+            }
+        }
+        
+        "yaGoalText"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "10"
+                "additive"    "0"
+                "antialias"     "1"
+            }
+        }        
+        
+        "yaChalkboardTitle"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "28"
+                "antialias"        "1" 
+                "custom"        "1" [$OSX]
+            }
+        }
+        "yaChalkboardTitleBig"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "36"
+                "antialias"        "1"
+                "custom"        "1" [$OSX]
+            }
+        }
+        "yaChalkboardTitleMedium"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "22"
+                "antialias" "1"
+                "custom"        "1" [$OSX]
+            }
+        }
+        "yaChalkboardText"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "14" [!$OSX]
+                "tall"        "15" [$OSX]
+                "tall_lodef"    "32"
+                "tall_hidef"    "32"
+                "antialias"        "1"
+                "custom"        "1" [$OSX]
+            }
+        }
+        "yaScoreboardVerySmall"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "9"
+                "additive"    "0"
+                "antialias" "1"
+            }
+        }
+        "yaScoreboardSmall"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "9"
+                "additive"    "0"
+                "antialias" "1"
+            }
+        }
+        "yaScoreboardMediumSmall"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "14"
+                "antialias" "1"
+                "additive"    "0"
+            }
+        }
+        "yaScoreboardMedium"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "20"
+                "antialias" "1"
+                "additive"    "0"
+            }
+        }
+        "yaScoreboardTeamName"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "20"
+                "antialias" "1"
+                "additive"    "0"
+            }
+        }
+        "yaScoreboardTeamNameLarge"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "28"
+                "antialias" "1"
+                "additive"    "0"
+            }
+        }
+
+        "yaScoreboardTeamScore"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "44"
+                "antialias" "1"
+            }
+            "2"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "72"
+                "antialias" "1"
+            }
+            "3"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "80"
+                "antialias" "1"
+            }
+            "4"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "100"
+                "antialias" "1"
+            }
+            "5"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "180"
+                "antialias" "1"
+            }
+        }
+        
+        "yaControlPointTimer"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "10"
+                "additive"    "0"
+                "antialias" "1"
+            }
+        }
+        "yaControlPointTimerSmaller"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "9"
+                "additive"    "0"
+                "antialias" "1"
+            }
+        }
+
+        "yaLink"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "10"
+                "additive"    "0"
+                "antialias" "1"
+            }
+        }
+        
+        "yaTargetID"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "12"
+                "dropshadow"    "0"
+                "antialias"    "1"
+            }
+            "2"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "14"
+                "dropshadow"    "0"
+                "antialias"    "1"
+            }
+            "3"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "14"
+                "dropshadow"    "0"
+                "antialias"    "1"
+            }
+            "4"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "20"
+                "dropshadow"    "0"
+                "antialias"    "1"
+            }
+            "5"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "20"
+                "dropshadow"    "0"
+                "antialias"    "1"
+            }
+        }
+
+        "yaChatFont"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "9"
+                "antialias"    "1"
+            }
+        }
+
+        "yaChatMiniFont"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "9"
+                "antialias"        "1"
+            }
+        }
+
+        “yaMenuSmallestFont” //????????
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "9"
+                "range"         "0x0000 0x00FF"
+                "antialias"        "1"
+            }
+        }    
+        
+        “yaMenuSmallFont” //?????????
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "14"
+                "antialias"        "1"
+            }
+        }            
+        “yaCapPlayerFont”
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "9"
+                "TextColor"    "Black"
+                "antialias"     "1"
+            }
+        }
+        “yaCapPlayerFontSmall”
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "9"
+                "TextColor"    "Black"
+                "antialias"     "1"
+            }
+        }
+
+        “yaTFFontSmall”
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "9"
+                "additive"    "1"
+                "antialias"     "1"
+            }
+        }        
+        “yaTFFontMedium”
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "9"
+                "additive"    "0"
+                "antialias"     "1"
+            }
+        }        
+        
+        “yaInstructionalText”
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "9"  [!$OSX]
+                "tall"        "9"  [$OSX]
+                "additive"    "0"
+                "antialias"     "1"
+            }
+        }        
+        
+        “yaMatchmakingDialogTitle”
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "32"
+                "tall_lodef"        "28"
+                "antialias" "1"
+            }
+        }
+        “yaMatchmakingDialogSessionOptionsTitle”
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "28"
+                "antialias" "1"
+            }
+        }
+        “yaMatchmakingDialogMenuLarge”
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "26"
+                "antialias" "1"
+            }
+        }
+        “yaMatchmakingDialogMenuBrowserHostname”
+        {
+            "1"            // brower item hostname
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "20"
+                "antialias" "1"
+            }
+        }
+        “yaMatchmakingDialogMenuBrowserDetails”
+        {
+            "1"            // browser item players and map name
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "18"
+                "antialias" "1"
+            }
+        }        
+        “yaMatchmakingDialogMenuMedium”
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "22"
+                "antialias" "1"
+            }
+        }
+       “yaMatchmakingDialogMenuMediumSmall”
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "18"
+                "antialias" "1"
+            }
+        }
+        “yaMatchmakingDialogMenuSmall”
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "20"
+                "antialias" "1"
+            }
+        }
+        “yaMatchmakingDialogMenuSmallest”
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "18"
+                "antialias" "1"
+            }
+        }
+        “yaRankingDialogHeaders”
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "16"
+                "antialias" "1"
+            }
+        }
+        
+        "yaTeamMenuBold"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "28"
+                "additive"    "0"
+                "antialias" "1"
+            }
+        }
+        "yaTeamMenu"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "10"
+                "additive"    "0"
+                "antialias"     "1"
+            }
+        }        
+        "yaIntroMenuCaption"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "18"
+                "additive"    "0"
+                "antialias"     "1"
+            }
+        }            
+        "yaAchievementNotification"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "14"
+                "antialias" "1"
+            }
+        }
+        // Used by scoreboard and spectator UI for names which don't map in the normal fashion
+        "yaDefaultVerySmallFallBack"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "10"
+                "antialias"    "1"
+            }
+            "2"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "12"
+                "antialias"    "1"
+            }
+            "3"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "14"
+                "antialias"    "1"
+            }
+        }
+        
+        "yaItemFontNameSmallest"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "9"
+                "additive"    "0"
+                "antialias" "1"
+            }
+        }
+        "yaItemFontNameSmall"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "10"
+                "additive"    "0"
+                "antialias" "1"
+            }
+        }
+        "yaItemFontNameLarge"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "10"
+                "additive"    "0"
+                "antialias" "1"
+            }
+        }
+        "yaItemFontAttribSmallest"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "9"
+                "additive"    "0"
+                "antialias"     "1"
+            }
+        }
+        "yaItemFontAttribSmall"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "9"
+                "additive"    "0"
+                "antialias"     "1"
+            }
+        }
+        "yaItemFontAttribLarge"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "10"
+                "additive"    "0"
+                "antialias"     "1"
+            }
+        }    
+        
+        "yaAchievementTracker_Name"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "10"
+                "additive"    "0"
+                "antialias"     "1"
+            }
+        }
+        "yaAchievementTracker_NameGlow"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "10"
+                "blur"        "3"
+                "additive"    "1"
+                "antialias"     "1"
+                "custom"    "1"
+            }
+        }
+        "yaAchievementTracker_Desc"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "10"
+                "additive"    "1"
+                "antialias"     "1"
+            }
+        }
+        
+        
+        //
+        //////////////////// REPLAY FONTS //////////////////////////////
+        //
+        "yaReplayVerySmall"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "12"
+                "antialias" "1"
+            }
+            "2"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "12"
+                "antialias" "1"
+            }
+            "3"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "12"
+                "antialias"    "1"
+            }
+            "4"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "14"
+                "antialias"    "1"
+            }
+            "5"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "16"
+                "antialias"    "1"
+            }
+        }
+        "yaReplayBrowserSmallest"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "10"
+                "additive"    "0"
+                "antialias"     "1"
+            }
+        }
+        "yaReplaySmaller"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "12"
+                "antialias" "1"
+            }
+            "2"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "12"
+                "antialias" "1"
+            }
+            "3"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "14"
+                "antialias"    "1"
+            }
+            "4"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "20"
+                "antialias"    "1"
+            }
+            "5"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "20"
+                "antialias"    "1"
+            }
+            "6"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "12"
+                "antialias" "1"
+            }
+        }
+        "yaReplayMediumSmall"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "10"
+                "additive"    "0"
+                "antialias" "1"
+            }
+        }
+        "yaReplayMedium"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "14"
+                "additive"    "0"
+                "antialias" "1"
+            }
+        }
+        "yaReplayMediumBig"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "16"
+                "additive"    "0"
+                "antialias" "1"
+            }
+        }
+        "yaReplayBrowserTab"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "22"
+                "additive"    "0"
+                "antialias" "1"
+            }
+        }
+        "yaReplayLarger"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "16"
+                "additive"    "0"
+                "antialias" "1"
+            }
+        }
+        
+        //
+        //////////////////// ECON FONTS //////////////////////////////
+        //
+        "yaEconFontSmall"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "14"
+                "additive"    "0"
+                "antialias" "1"
+            }
+        }
+        "yaEconFontMedium"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "22"
+                "additive"    "0"
+                "antialias" "1"
+            }
+        }
+        “yaControllerHintText”
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "14"
+                "antialias" "1"
+                "additive"    "0"
+            }
+        }
+
+
+		
+		
+		////ENDE YAFONT YAHUD FONTS
 		
 		surfaceNumbers14
 		{
@@ -5486,6 +9080,78 @@ Scheme{Colors{
             "font" "resource/fonts/ptest1.otf"
             "name" "test1"
         }
+		
+		
+		
+		 "24" 
+        {
+            "font" "resource/fonts/symbol.ttf"
+            "name" "symbol"
+        }
+        "25" 
+        {
+            "font" "resource/fonts/FORMASGE.ttf"
+            "name" "FORMASGE"
+        }
+        "26" 
+        {
+            "font" "resource/fonts/Paula.ttf"
+            "name" "Paula"
+        }
+       
+         
+        "27"
+        {
+            "font" "resource/fonts/Entypo.otf"
+            "name" "Entypo"
+        }
+        "28" 
+        {
+            "font" "resource/fonts/Garm3nFont.ttf"
+            "name" "Garm3nFont"
+        }
+       
+        
+        //futura font definitions
+        
+     
+        "29"
+        {
+            "font" "resource/fonts/FuturaStd-Heavy.otf"
+            "name" "FuturaStd-Heavy"
+        }
+        "30"
+        {
+            "font" "resource/fonts/FuturaMediumNumbers.otf"
+            "name" "FuturaMediumNumbers"
+        }
+        "31"
+        {
+            "font" "resource/fonts/FuturaHeavyNumbers.otf"
+            "name" "FuturaHeavyNumbers"
+        }
+        "32"
+        {
+            "font" "resource/fonts/FuturaBold.otf"
+            "name" "FuturaBold"
+        }
+        "33"
+        {
+            "font" "resource/fonts/yahud.otf"
+            "name" "yahud"
+        }
+        "34"
+        {
+            "font" "resource/fonts/FuturaHeavyNoNumbers.otf"
+            "name" "FuturaHeavyNoNumbers"
+        }
+		
+		"35"
+        {
+            "font" "resource/fonts/Backpack.otf"
+            "name" "Backpack"
+        }
+		
 	}
 }
 
