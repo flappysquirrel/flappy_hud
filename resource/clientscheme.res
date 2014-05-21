@@ -878,6 +878,17 @@ Scheme{Colors{
 				"outline"	"0"
 			}
 		}
+				circl3 
+		{
+			"1"
+			{
+				"name"		"test1"
+				"tall"		"20" //30
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+			}
+		}
     "Respawn20"       
         {
             "1"
@@ -5470,7 +5481,11 @@ Scheme{Colors{
             "font" "resource/fonts/RespawnFont.otf"
             "name" "RespawnFont"
         }
-		
+			"23"
+        {
+            "font" "resource/fonts/ptest1.otf"
+            "name" "test1"
+        }
 	}
 }
 
