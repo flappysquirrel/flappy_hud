@@ -1339,6 +1339,18 @@ Scheme{Colors{
 			}
 		}
 		
+		
+		"ptest2"
+		{
+			"1"
+			{
+				"name"		"fsbrowse"
+				"tall"		"24"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
 "S007"
 		{
 			"1"
@@ -9151,7 +9163,11 @@ Scheme{Colors{
             "font" "resource/fonts/Backpack.otf"
             "name" "Backpack"
         }
-		
+		"36"
+        {
+            "font" "resource/fonts/ptest2.otf"
+            "name" "fsbrowse"
+        }
 	}
 }
 
