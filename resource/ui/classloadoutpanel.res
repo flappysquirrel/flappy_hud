@@ -54,7 +54,7 @@
 			
 			"attriblabel"
 			{
-				"font"			"ItemFontAttribLarge"
+				"font"			"yaItemFontAttribLarge"
 				"visible"		"0"
 			}
 			
@@ -78,7 +78,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"+"
-			"font"			"HudFontSmallBold"
+			"font"			"yaHudFontSmallBold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -92,7 +92,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CaratLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"yaHudFontSmallestBold"
 		"labelText"		""
 		"textAlignment"	"west"
 		"xpos"			"c-300"
@@ -110,7 +110,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"HudFontMediumBold"
+		"font"			"yaHudFontMediumBold"
 		"labelText"		"#ClassBeingEquipped"
 		"textAlignment"	"west"
 		"xpos"			"c-280"
@@ -128,7 +128,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurrentlyEquippedLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"yaHudFontSmallestBold"
 		"labelText"		"#CurrentlyEquipped"
 		"textAlignment"	"south-west"
 		"xpos"			"c-55"
@@ -275,7 +275,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PassiveAttribsLabel"
-		"font"			"ItemFontAttribLarge"
+		"font"			"yaItemFontAttribLarge"
 		"xpos"			"c-135"
 		"ypos"			"120"
 		"zpos"			"0"	
@@ -333,7 +333,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"yaHudFontSmallBold"
 			"labelText"		"#ItemPresetsExplanation_Title"
 			"textAlignment"	"north"
 			"xpos"			"20"
@@ -352,7 +352,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TextLabel"
-			"font"			"HudFontSmall"
+			"font"			"yaHudFontSmall"
 			"labelText"		"#ClassLoadoutItemPresetsExplanation_Text"
 			"textAlignment"	"north-west"
 			"xpos"			"20"
@@ -382,7 +382,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"font"			"yaHudFontSmallBold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"

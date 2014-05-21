@@ -57,8 +57,8 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"Heavy59"
-		"fgcolor"		"White"
+		"font"			"yaHeavy59"
+		"fgcolor"		"yaWhite"
 	}
 	"MapInfoTitle"
 	{
@@ -75,8 +75,8 @@
 		"enabled"		"1"
 		"labelText"		"%mapname%"
 		"textAlignment"	"west"
-		"font"			"Bold16"
-		"fgcolor"		"White"
+		"font"			"yaBold16"
+		"fgcolor"		"yaWhite"
 	}
 	"MapInfoType"
 	{
@@ -93,15 +93,15 @@
 		"enabled"		"1"
 		"labelText"		"%gamemode%"
 		"textAlignment"	"west"
-		"font"			"Medium12"
-		"fgcolor"		"White"
+		"font"			"yaMedium12"
+		"fgcolor"		"yaWhite"
 	}
 
 	"MapInfoText"
 	{
 		"ControlName"	"CTFRichText"
 		"fieldName"		"MapInfoText"
-		"font"			"Medium14"
+		"font"			"yaMedium14"
 		"xpos"			"15"
 		"ypos"			"87"
 		"zpos"			"3"
@@ -113,7 +113,7 @@
 		"enabled"		"1"
 		"paintborder"	"0"
 		"textAlignment"	"west"
-		"fgcolor"		"White"
+		"fgcolor"		"yaWhite"
 	}
 
 	"MapImage"
@@ -148,11 +148,11 @@
 		"border_default"	""
 		"border_armed"		""
 		"paintbackground"	"0"
-		"font"			"Medium14"
-		"fgcolor"		"Black"
-		"defaultFgColor_override" "Black"
-		"armedFgColor_override" "White"
-		"depressedFgColor_override" "Black"
+		"font"			"yaMedium14"
+		"fgcolor"		"yaBlack"
+		"defaultFgColor_override" "yaBlack"
+		"armedFgColor_override" "yaWhite"
+		"depressedFgColor_override" "yaBlack"
 	}
 	
 	"MapInfoWatchIntro" 
@@ -184,17 +184,17 @@
 		"border_default"	""
 		"border_armed"		""
 		"paintbackground"	"0"
-		"font"			"Default"
-		"fgcolor"		"Blank"
-		"defaultFgColor_override" "Blank"
-		"armedFgColor_override" "Blank"
-		"depressedFgColor_override" "Blank"
+		"font"			"yaDefault"
+		"fgcolor"		"yaBlank"
+		"defaultFgColor_override" "yaBlank"
+		"armedFgColor_override" "yaBlank"
+		"depressedFgColor_override" "yaBlank"
 	}	
     "ButtonBGEnter"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ButtonBG"
-		"font"			"Circle24"
+		"font"			"yaCircle24"
 		"labelText"		"o"
 		"textAlignment"		"center"
 		"xpos"			"13"		
@@ -202,7 +202,7 @@
 		"zpos"			"7"
 		"wide"			"20"
 		"tall"			"20"
-		"fgcolor"		"White"
+		"fgcolor"		"yaWhite"
 		"visible"		"1"
 		"enabled"		"1"
 	}
@@ -226,12 +226,12 @@
 		"border_default"	""
 		"border_armed"		""
 		"paintbackground"	"0"
-		"font"			"Bold10"
-		"fgcolor"			"Black"
-		"defaultFgColor_override" "Black"
-		"armedFgColor_override" "Black"
-		"depressedFgColor_override" "Black"
-		"selectedFgColor_override" "Black"
+		"font"			"yaBold10"
+		"fgcolor"			"yaBlack"
+		"defaultFgColor_override" "yaBlack"
+		"armedFgColor_override" "yaBlack"
+		"depressedFgColor_override" "yaBlack"
+		"selectedFgColor_override" "yaBlack"
 	}
     "EnterButton"
 	{
@@ -256,12 +256,12 @@
 		"border_default"	""
 		"border_armed"		""
 		"paintbackground"	"0"
-		"font"			"Medium10"
-		"fgcolor"			"White"
-		"defaultFgColor_override" "White"
-		"armedFgColor_override" "White"
-		"depressedFgColor_override" "White"
-		"selectedFgColor_override" "White"
+		"font"			"yaMedium10"
+		"fgcolor"			"yaWhite"
+		"defaultFgColor_override" "yaWhite"
+		"armedFgColor_override" "yaWhite"
+		"depressedFgColor_override" "yaWhite"
+		"selectedFgColor_override" "yaWhite"
 	}
     "EnterSC2"
 	{
@@ -280,8 +280,8 @@
 		"border_default"	""
 		"border_armed"		""
 		"paintbackground"	"0"
-		"font"			"Medium10"
-		"fgcolor"			"White"
+		"font"			"yaMedium10"
+		"fgcolor"			"yaWhite"
 	}
 	"ContSCGlobal"
 	{
@@ -300,7 +300,7 @@
 		"border_default"	""
 		"border_armed"		""
 		"paintbackground"	"0"
-		"font"			"Medium10"
-		"fgcolor"			"Blank"
+		"font"			"yaMedium10"
+		"fgcolor"			"yaBlank"
 	}
 }

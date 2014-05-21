@@ -72,8 +72,8 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"Medium20"
-		"fgcolor"		"White"
+		"font"			"yaMedium20"
+		"fgcolor"		"yaWhite"
 	}
     "Welcome"
 	{
@@ -92,8 +92,8 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"Heavy59"
-		"fgcolor"		"White"
+		"font"			"yaHeavy59"
+		"fgcolor"		"yaWhite"
 	}
     "Server"
 	{
@@ -112,8 +112,8 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"Bold16"
-		"fgcolor"		"White"
+		"font"			"yaBold16"
+		"fgcolor"		"yaWhite"
 	}
 	"TextMessage"
 	{
@@ -127,7 +127,7 @@
 	{
 		"ControlName"	"CTFRichText"
 		"fieldName"		"TFTextMessage"
-		"font"			"Medium14"
+		"font"			"yaMedium14"
 		"xpos"			"15"
 		"ypos"			"90"
 		"zpos"			"3"
@@ -139,7 +139,7 @@
 		"enabled"		"1"
 		"paintborder"	"0"
 		"textAlignment"	"north-west"
-		"fgcolor"		"White"
+		"fgcolor"		"yaWhite"
 	}
 
 	"HTMLMessage"
@@ -179,11 +179,11 @@
 		"paintbackground"	"0"
 		"border_default"	""
 		"border_armed"		""
-		"font"			"Medium10"
-		"fgcolor"		"White"
-		"defaultFgColor_override" "White"
-		"armedFgColor_override" "White"
-		"depressedFgColor_override" "White"
+		"font"			"yaMedium10"
+		"fgcolor"		"yaWhite"
+		"defaultFgColor_override" "yaWhite"
+		"armedFgColor_override" "yaWhite"
+		"depressedFgColor_override" "yaWhite"
 	}
 	"ConLabel"
 	{
@@ -204,8 +204,8 @@
 		"paintbackground"	"0"
 		"border_default"	""
 		"border_armed"		""
-		"font"			"Medium10"
-		"fgcolor"		"White"
+		"font"			"yaMedium10"
+		"fgcolor"		"yaWhite"
 	}
     "Anywhere"
 	{
@@ -226,8 +226,8 @@
 		"paintbackground"	"0"
 		"border_default"	""
 		"border_armed"		""
-		"font"			"Medium10"
-		"fgcolor"		"Blank"
+		"font"			"yaMedium10"
+		"fgcolor"		"yaBlank"
 	}
 	
 	"MenuBG"
@@ -269,7 +269,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ButtonBG"
-		"font"			"Circle24"
+		"font"			"yaCircle24"
 		"labelText"		"o"
 		"textAlignment"		"center"
 		"xpos"			"13"
@@ -277,7 +277,7 @@
 		"zpos"			"7"
 		"wide"			"20"
 		"tall"			"20"
-		"fgcolor"		"White"
+		"fgcolor"		"yaWhite"
 		"visible"		"1"
 		"enabled"		"1"
 	}
@@ -301,12 +301,12 @@
 		"border_default"	""
 		"border_armed"		""
 		"paintbackground"	"0"
-		"font"			"Bold10"
-		"fgcolor"			"Black"
-		"defaultFgColor_override" "Black"
-		"armedFgColor_override" "Black"
-		"depressedFgColor_override" "Black"
-		"selectedFgColor_override" "Black"
+		"font"			"yaBold10"
+		"fgcolor"			"yaBlack"
+		"defaultFgColor_override" "yaBlack"
+		"armedFgColor_override" "yaBlack"
+		"depressedFgColor_override" "yaBlack"
+		"selectedFgColor_override" "yaBlack"
 	}
     "ContSC2"
 	{
@@ -325,7 +325,7 @@
 		"border_default"	""
 		"border_armed"		""
 		"paintbackground"	"0"
-		"font"			"Medium10"
-		"fgcolor"			"White"
+		"font"			"yaMedium10"
+		"fgcolor"			"yaWhite"
 	}
 }
