@@ -311,13 +311,13 @@ event HudHealthBonusPulseStop
 
 event HudHealthDyingPulse
 {
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.075
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"		Linear 0.125 0.075
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.2
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"		Linear 0.2 0.2
 
 	Animate PlayerStatusHealthvalue         FgColor "low HP"          linear 0.0 0.0
 	Animate PlayerStatusHealthvalueTargetID FgColor "TargetID low HP" linear 0.0 0.0
 	
-	RunEvent HudHealthDyingPulseLoop	0.25
+	RunEvent HudHealthDyingPulseLoop	0.4
 }
 
 event HudHealthDyingPulseLoop

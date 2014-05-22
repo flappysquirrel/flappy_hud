@@ -844,7 +844,7 @@ Batman
 		"IconColor"		"227 227 227 255"
 		"LocalPlayerColor"	"18 17 17 255"
 
-		"BaseBackgroundColor"	 "57 54 54 230"	        //Dark background color        //130
+		"BaseBackgroundColor"	 "57 54 54 238"	        //Dark background color        //130
 		"LocalBackgroundColor"	"255 255 255 175"	//Background color for you own actions
 	}
 	// HudDeathNotice //stock broesel killfeed
