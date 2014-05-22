@@ -9,7 +9,7 @@
 "title_english"	 "huds.tf"
 "text_english"		"tf.tv  scrap.tf   backpack.tf  huds.tf
 atf2.org  r/tf2    patchnotes [about]"
-"url"	 "http://teamfortress.tv/thread/8247/show-your-hud-modifications"
+"url"	 "https://github.com/flappysquirrel/flappy_hud"
 "image"	 ""
 "header_type"	 "2"
 "header_english"	 "News"
