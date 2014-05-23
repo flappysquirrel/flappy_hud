@@ -144,7 +144,7 @@ Scheme
 
 		ListPanel.TextColor					"White"
 		ListPanel.TextBgColor				"Blank"
-		ListPanel.BgColor			"17 21 38 225"//"19 23 42 222" //"9 28 49 222"	// "26 61 68 180"//	"White"
+		ListPanel.BgColor		"57 54 54 238"//	"17 21 38 225"//"19 23 42 222" //"9 28 49 222"	// "26 61 68 180"//	"White"
 		ListPanel.SelectedTextColor			"White"
 		ListPanel.SelectedBgColor			"0 168 255 204"
 		ListPanel.OutOfFocusSelectedTextColor	"Black"
