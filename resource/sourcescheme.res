@@ -16,18 +16,18 @@ Scheme
 	Colors
 	{
 		// base colors
-		"White"				"255 255 255 255"
+		"White"				"240 240 240 180"
 		"OffWhite"			"221 221 221 255"
 		"DullWhite"			"190 190 190 255"
 		"Orange"			"255 155 0 255"
 		"TransparentBlack"	"0 0 0 128"
 		"Black"				"0 0 0 255"
-		"Black"				"54 54 54 255"	
+		//"Black"				"54 54 54 255"	
 		"BlackTran"			"54 54 54 255"
-		"Gray"				"177 177 177 255"
-		"ButtonHover"		"74 74 74 255"
-		"WhiteBG"			"225 225 225 255"
-		"HudBG"				"54 54 54 255"	
+		"Gray"			"255 255 255 100"	//"177 177 177 255"
+		"ButtonHover"		"74 74 255 255"
+		"WhiteBG"			"225 225 225 140"
+		"HudBG"				"54 54 54 200"	
 		"Blank"				"0 0 0 0"
 		
 		"SteamLightGreen"	"157 194 80 255"
@@ -61,8 +61,8 @@ Scheme
 		"ControlDarkBG"		"104 104 104 255"	// darker background color; used for background of scrollbars
 		"WindowBG"			"64 64 64 255"		// background color of text edit panes (chat, text entries, etc.)
 		"SelectionBG"		"100 100 100 255"		// background color of any selected text or menu item
-		"SelectionBG2"		"64 64 64 255"		// selection background in window w/o focus
-		"ListBG"			"77 77 77 255"		// background of server browser, buddy list, etc.
+		"SelectionBG2"		"64 64 64 210"		// selection background in window w/o focus
+		"ListBG"			"77 77 77 210"		// background of server browser, buddy list, etc.
 	}
 
 	///////////////////// BASE SETTINGS ////////////////////////
@@ -106,15 +106,15 @@ Scheme
 		Frame.TitleTextInsetX			16
 		Frame.ClientInsetX				8
 		Frame.ClientInsetY				6
-		Frame.BgColor					"108 111 114 250"	[$WIN32]
+		Frame.BgColor					"108 111 114 200"	[$WIN32]
 		Frame.BgColor					"80 80 80 192"		[$X360]
-		Frame.OutOfFocusBgColor			"97 100 102 240"	[$WIN32]
+		Frame.OutOfFocusBgColor			"97 100 102 70"	[$WIN32]
 		Frame.OutOfFocusBgColor			"80 80 80 192"		[$X360]
-		Frame.FocusTransitionEffectTime	"0.3"							// time it takes for a window to fade in/out on focus/out of focus
-		Frame.TransitionEffectTime		"0.3"				[$WIN32]	// time it takes for a window to fade in/out on open/close
+		Frame.FocusTransitionEffectTime	"0.9"							// time it takes for a window to fade in/out on focus/out of focus
+		Frame.TransitionEffectTime		"0.9"				[$WIN32]	// time it takes for a window to fade in/out on open/close
 		Frame.TransitionEffectTime		"0.2"				[$X360]		// time it takes for a window to fade in/out on open/close
-		Frame.AutoSnapRange				"0"
-		FrameGrip.Color1				"200 200 200 196"
+		Frame.AutoSnapRange				"5"
+		FrameGrip.Color1				"100 200 200 196"
 		FrameGrip.Color2				"0 0 0 196"
 		FrameTitleButton.FgColor		"200 200 200 196"
 		FrameTitleButton.BgColor		"Blank"
@@ -127,9 +127,9 @@ Scheme
 		FrameTitleBar.Font				"UiBold"		[$WIN32]
 		FrameTitleBar.Font				"DefaultLarge"	[$WIN32]
 		FrameTitleBar.TextColor			"255 255 255 204"
-		FrameTitleBar.BgColor			"Blank"
+		FrameTitleBar.BgColor			"0 230 255 180"
 		FrameTitleBar.DisabledTextColor	"255 255 255 91"
-		FrameTitleBar.DisabledBgColor	"Blank"
+		FrameTitleBar.DisabledBgColor	"0 230 255 90"
 
 		GraphPanel.FgColor				"White"
 		GraphPanel.BgColor				"TransparentBlack"
@@ -196,10 +196,10 @@ Scheme
 		RichText.SelectedTextColor		"White"
 		RichText.SelectedBgColor		"0 168 255 204"
 
-		ScrollBar.Wide					15
+		ScrollBar.Wide					17
 
-		ScrollBarButton.FgColor				"60 60 60 255"
-		ScrollBarButton.BgColor				"207 207 207 255"
+		ScrollBarButton.FgColor				"60 60 60 210"
+		ScrollBarButton.BgColor				"207 207 207 60"
 		ScrollBarButton.ArmedFgColor		"20 65 72 255"
 		ScrollBarButton.ArmedBgColor		"210 237 255 255"
 		ScrollBarButton.DepressedFgColor	"9 119 226 255"
