@@ -114,7 +114,7 @@ Scheme
 		Frame.TransitionEffectTime		"0.7"				[$WIN32]	// time it takes for a window to fade in/out on open/close
 		Frame.TransitionEffectTime		"0.2"				[$X360]		// time it takes for a window to fade in/out on open/close
 		Frame.AutoSnapRange				"5"
-		FrameGrip.Color1			"253 87 45 220"//	"100 200 200 150"
+		FrameGrip.Color1		"227 200 95 180"	//"253 87 45 220"//	"100 200 200 150"
 		FrameGrip.Color2				"0 0 0 196"
 		FrameTitleButton.FgColor		"200 200 200 196"
 		FrameTitleButton.BgColor		"Blank"
@@ -225,7 +225,7 @@ Scheme
 		Slider.DisabledTextColor1	"110 110 110 255"
 		Slider.DisabledTextColor2	"50 50 50 255"
 
-		TextEntry.TextColor			"10 10 10 255"
+		TextEntry.TextColor  "41 31 30 255"	//"23 64 31 255"	// "46 84 19 255"	//"10 10 10 255"
 		TextEntry.BgColor			"255 255 255 150"
 		TextEntry.CursorColor		"10 10 10 255"
 		TextEntry.DisabledTextColor	"DullWhite"

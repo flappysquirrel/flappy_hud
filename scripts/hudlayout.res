@@ -750,19 +750,33 @@ Batman
 		"PaintBackgroundType"	"2"
 	}
 
-	HudDamageIndicator
-	{
-		"fieldName"		"HudDamageIndicator"
-		"visible"		"1"
-		"enabled"		"1"
-		"MinimumWidth"	"23"
-		"MaximumWidth"	"23"
-		"StartRadius"	"80"
-		"EndRadius"		"80"
-		"MinimumHeight"	"30"
-		"MaximumHeight"	"60"
-		"MinimumTime"	"1"
-	}
+	 HudDamageIndicator
+    {
+        "fieldName" "HudDamageIndicator"
+        "visible" "1"
+        "enabled" "1"
+        "MinimumWidth" "5"
+        "MaximumWidth" "5"
+        "StartRadius" "70"
+        "EndRadius" "70"
+        "MinimumHeight" "120"
+        "MaximumHeight" "120"
+        "MinimumTime" "3" 
+    }
+	
+//	HudDamageIndicator
+//	{
+//		"fieldName"		"HudDamageIndicator"
+//		"visible"		"1"
+//		"enabled"		"1"
+//		"MinimumWidth"	"23"
+//		"MaximumWidth"	"23"
+//		"StartRadius"	"80"
+//		"EndRadius"		"80"
+//		"MinimumHeight"	"30"
+//		"MaximumHeight"	"60"
+//		"MinimumTime"	"1"
+//	}
 
 	HudCommentary
 	{
