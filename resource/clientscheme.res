@@ -773,7 +773,7 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"Tienne"
+				"name"		"Tienne1"
 				"tall"		"8"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -784,7 +784,7 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"Tienne"
+				"name"		"Tienne1"
 				"tall"		"9"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -795,7 +795,7 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"Tienne"
+				"name"		"Tienne1"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -806,7 +806,7 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"Tienne"
+				"name"		"Tienne1"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -818,7 +818,7 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"Tienne"
+				"name"		"Tienne1"
 				"tall"		"11"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -829,7 +829,7 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"Tienne"
+				"name"		"Tienne1"
 				"tall"		"12"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -840,7 +840,7 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"Tienne"
+				"name"		"Tienne1"
 				"tall"		"12"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -852,7 +852,7 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"Tienne"
+				"name"		"Tienne1"
 				"tall"		"13"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -863,7 +863,7 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"Tienne"
+				"name"		"Tienne1"
 				"tall"		"14"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -874,7 +874,7 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"Tienne"
+				"name"		"Tienne1"
 				"tall"		"15"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -885,7 +885,7 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"Tienne"
+				"name"		"Tienne1"
 				"tall"		"15"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -897,7 +897,7 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"Tienne"
+				"name"		"Tienne1"
 				"tall"		"16"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -908,7 +908,7 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"Tienne"
+				"name"		"Tienne1"
 				"tall"		"18"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -919,7 +919,7 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"Tienne"
+				"name"		"Tienne1"
 				"tall"		"18"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -931,7 +931,7 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"Tienne"
+				"name"		"Tienne1"
 				"tall"		"20"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -942,7 +942,7 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"Tienne"
+				"name"		"Tienne1"
 				"tall"		"23"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -953,7 +953,7 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"Tienne"
+				"name"		"Tienne1"
 				"tall"		"23"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -965,7 +965,7 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"Tienne"
+				"name"		"Tienne1"
 				"tall"		"24"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -976,7 +976,7 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"Tienne"
+				"name"		"Tienne1"
 				"tall"		"24"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -988,7 +988,7 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"Tienne"
+				"name"		"Tienne1"
 				"tall"		"26"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -999,7 +999,7 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"Tienne"
+				"name"		"Tienne1"
 				"tall"		"26"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -1011,7 +1011,7 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"Tienne"
+				"name"		"Tienne1"
 				"tall"		"28"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -1022,7 +1022,7 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"Tienne"
+				"name"		"Tienne1"
 				"tall"		"28"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -1034,7 +1034,7 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"Tienne"
+				"name"		"Tienne1"
 				"tall"		"32"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -1045,7 +1045,7 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"Tienne"
+				"name"		"Tienne1"
 				"tall"		"36"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -1056,7 +1056,7 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"Tienne"
+				"name"		"Tienne1"
 				"tall"		"36"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -1068,7 +1068,7 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"Tienne"
+				"name"		"Tienne1"
 				"tall"		"40"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -1079,7 +1079,7 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"Tienne"
+				"name"		"Tienne1"
 				"tall"		"52"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -1090,7 +1090,7 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"Tienne"
+				"name"		"Tienne1"
 				"tall"		"60"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -1101,7 +1101,7 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"Tienne"
+				"name"		"Tienne1"
 				"tall"		"72"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -1200,7 +1200,7 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"Tienne"
+				"name"		"Tienne1"
 				"tall"		"72"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -4734,7 +4734,7 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"Tienne"
+				"name"		"Tienne1"
 				"tall"		"14"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -4745,7 +4745,7 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"Tienne"
+				"name"		"Tienne1"
 				"tall"		"18"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -5669,7 +5669,7 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"Tienne"
+				"name"		"Tienne1"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -6146,7 +6146,7 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"Tienne"
+				"name"		"Tienne1"
 				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
@@ -9048,8 +9048,8 @@ Scheme{Colors{
 		}
 		"15" // hp and main ammo font
 		{
-			"font" "resource/fonts/Tienne-Regular.ttf"
-			"name" "Tienne"
+			"font" "resource/fonts/TienneWO4.otf"
+			"name" "Tienne1"
 		}
 		
 		"16" // reserve ammo font
