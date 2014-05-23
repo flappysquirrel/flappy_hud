@@ -21,12 +21,12 @@ Scheme
 		"DullWhite"			"190 190 190 255"
 		"Orange"			"255 155 0 255"
 		"TransparentBlack"	"0 0 0 128"
-		"Black"				"0 0 0 255"
-		//"Black"				"54 54 54 255"	
+		//"Black"				"0 0 0 255"
+		"Black"				"54 54 54 255"	
 		"BlackTran"			"54 54 54 255"
 		"Gray"			"255 255 255 100"	//"177 177 177 255"
 		"ButtonHover"		"74 74 255 255"
-		"WhiteBG"			"225 225 225 140"
+		"WhiteBG"			"200 225 200 150"
 		"HudBG"				"54 54 54 200"	
 		"Blank"				"0 0 0 0"
 		
@@ -59,10 +59,10 @@ Scheme
 
 		"ControlBG"			"74 74 74 255"		// background color of controls
 		"ControlDarkBG"		"104 104 104 255"	// darker background color; used for background of scrollbars
-		"WindowBG"			"64 64 64 255"		// background color of text edit panes (chat, text entries, etc.)
+		"WindowBG"			"64 64 64 40"		// background color of text edit panes (chat, text entries, etc.)
 		"SelectionBG"		"100 100 100 255"		// background color of any selected text or menu item
 		"SelectionBG2"		"64 64 64 210"		// selection background in window w/o focus
-		"ListBG"			"77 77 77 210"		// background of server browser, buddy list, etc.
+		"ListBG"			"77 77 77 160"		// background of server browser, buddy list, etc.
 	}
 
 	///////////////////// BASE SETTINGS ////////////////////////
@@ -92,7 +92,7 @@ Scheme
 		CheckButton.BgColor				"White"
 		CheckButton.Border1  			"Border.Subtle" 		// the left checkbutton border
 		CheckButton.Border2  			"Border.Subtle"		// the right checkbutton border
-		CheckButton.Check				"118 189 118 255"	// color of the check itself
+		CheckButton.Check			"255 10 70 255"	//"118 255 118 255"	// color of the check itself
 		CheckButton.HighlightFgColor	"OffWhite"
 		CheckButton.ArmedBgColor		"Blank"
 		CheckButton.DepressedBgColor	"Blank"
@@ -106,15 +106,15 @@ Scheme
 		Frame.TitleTextInsetX			16
 		Frame.ClientInsetX				8
 		Frame.ClientInsetY				6
-		Frame.BgColor					"108 111 114 200"	[$WIN32]
+		Frame.BgColor					"108 111 114 150"	[$WIN32]
 		Frame.BgColor					"80 80 80 192"		[$X360]
-		Frame.OutOfFocusBgColor			"97 100 102 70"	[$WIN32]
+		Frame.OutOfFocusBgColor			"97 100 102 45"	[$WIN32]
 		Frame.OutOfFocusBgColor			"80 80 80 192"		[$X360]
-		Frame.FocusTransitionEffectTime	"0.9"							// time it takes for a window to fade in/out on focus/out of focus
-		Frame.TransitionEffectTime		"0.9"				[$WIN32]	// time it takes for a window to fade in/out on open/close
+		Frame.FocusTransitionEffectTime	"0.7"							// time it takes for a window to fade in/out on focus/out of focus
+		Frame.TransitionEffectTime		"0.7"				[$WIN32]	// time it takes for a window to fade in/out on open/close
 		Frame.TransitionEffectTime		"0.2"				[$X360]		// time it takes for a window to fade in/out on open/close
 		Frame.AutoSnapRange				"5"
-		FrameGrip.Color1				"100 200 200 196"
+		FrameGrip.Color1				"100 200 200 150"
 		FrameGrip.Color2				"0 0 0 196"
 		FrameTitleButton.FgColor		"200 200 200 196"
 		FrameTitleButton.BgColor		"Blank"
@@ -173,7 +173,7 @@ Scheme
 		PropertySheet.TextColor			"10 10 10 200"
 		PropertySheet.SelectedTextColor	"10 10 10 255"
 		PropertySheet.SelectedBgColor	"10 10 10 255"
-		PropertySheet.TransitionEffectTime	"0.25"	// time to change from one tab to another
+		PropertySheet.TransitionEffectTime	"0.3"	// time to change from one tab to another
 		PropertySheet.BgColor "0 0 0 255"
 
 		RadioButton.TextColor			"OffWhite"
@@ -226,14 +226,14 @@ Scheme
 		Slider.DisabledTextColor2	"50 50 50 255"
 
 		TextEntry.TextColor			"10 10 10 255"
-		TextEntry.BgColor			"255 255 255 255"
+		TextEntry.BgColor			"255 255 255 150"
 		TextEntry.CursorColor		"10 10 10 255"
 		TextEntry.DisabledTextColor	"DullWhite"
 		TextEntry.DisabledBgColor	"192 192 192 255"
 		TextEntry.SelectedTextColor	"10 10 10 255"
-		TextEntry.SelectedBgColor	"0 168 255 204"
-		TextEntry.OutOfFocusSelectedBgColor	"132 183 241 100"
-		TextEntry.FocusEdgeColor	"0 0 0 196"
+		TextEntry.SelectedBgColor	"255 0 40 140"	//"0 168 255 204"
+		TextEntry.OutOfFocusSelectedBgColor	"132 183 241 30"
+		TextEntry.FocusEdgeColor "255 0 40 255"	// "0 0 0 196"
 
 		ToggleButton.SelectedTextColor	"White"
 
@@ -242,7 +242,7 @@ Scheme
 
 		TreeView.BgColor			"TransparentBlack"
 
-		WizardSubPanel.BgColor		"Blank"
+		WizardSubPanel.BgColor	"Blank"
 
 		// scheme-specific colors
 		MainMenu.TextColor			"White"				[$WIN32]
