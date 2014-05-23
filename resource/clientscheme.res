@@ -26,6 +26,14 @@ Scheme{Colors{
 	"Low-Ammo Warning 1"  "255 0 65 255"
 	"Low-Ammo Warning 2"  "255 0 49 255"
 
+	-----------------------------------------------------------------------------
+		// These are the colors used for Zimmy´s Target ID's
+		-----------------------------------------------------------------------------
+		
+		"Target ID Color"			"230 230 230 240"	// Target ID background color
+		"Target ID Name Color"		"0 0 0 240"			// Target ID player name color
+		"Target ID Data Color"		"0 0 0 240"			// Target ID data color (i.e. "Ubercharge:" status or "Disguised As:" status)
+	
 // omp colours
 		"OmpText"			"255 255 255 255"
 		"OmpShadow"			"30 30 30 255"
@@ -1406,7 +1414,58 @@ Scheme{Colors{
 			}
 		}
 
-		
+		"CapsFont9"
+		{
+			"1"
+			{
+				"name"		"Novecentowide-Medium"
+				"tall"		"9"
+				"antialias"	"1"
+				"additive"	"0"
+			}
+		}
+"GameFont12"
+		{
+			"1"
+			{
+				"name"		"Montserrat-Regular"
+				"tall"		"12"
+				"antialias"	"1"
+				"additive"	"0"
+			}
+		}
+		"CapsFont20"
+		{
+			"1"
+			{
+				"name"		"Novecentowide-Medium"
+				"tall"		"20"
+				"antialias"	"1"
+				"additive"	"0"
+			}
+		}
+	"zimmyHudFontSmall"
+		{
+			"1"
+			{
+				"name"		"Montserrat-Regular"
+				"tall"		"14"
+				"weight"	"100"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+"zimmyScoreboardVerySmall"
+		{
+			"1"
+			{
+				"name"		"Montserrat-Regular"
+				"tall"		"12"
+				"weight"	"100"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		
 		/// ende mac 
 		
@@ -9168,6 +9227,11 @@ Scheme{Colors{
             "font" "resource/fonts/ptest2.otf"
             "name" "fsbrowse"
         }
+		"37" 
+		{
+			"font" "resource/fonts/Montserrat-Regular.otf"
+			"name" "Montserrat-Regular"
+		}
 	}
 }
 
