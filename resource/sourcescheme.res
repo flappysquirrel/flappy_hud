@@ -62,7 +62,7 @@ Scheme
 		"WindowBG"			"64 64 64 40"		// background color of text edit panes (chat, text entries, etc.)
 		"SelectionBG"		"100 100 100 255"		// background color of any selected text or menu item
 		"SelectionBG2"		"64 64 64 210"		// selection background in window w/o focus
-		"ListBG"			"77 77 77 160"		// background of server browser, buddy list, etc.
+		"ListBG"			"77 77 77 160"	// "109 12 232 0"//<< purple delete	// background of server browser, buddy list, etc.
 	}
 
 	///////////////////// BASE SETTINGS ////////////////////////
@@ -114,7 +114,7 @@ Scheme
 		Frame.TransitionEffectTime		"0.7"				[$WIN32]	// time it takes for a window to fade in/out on open/close
 		Frame.TransitionEffectTime		"0.2"				[$X360]		// time it takes for a window to fade in/out on open/close
 		Frame.AutoSnapRange				"5"
-		FrameGrip.Color1				"100 200 200 150"
+		FrameGrip.Color1			"253 87 45 220"//	"100 200 200 150"
 		FrameGrip.Color2				"0 0 0 196"
 		FrameTitleButton.FgColor		"200 200 200 196"
 		FrameTitleButton.BgColor		"Blank"
@@ -131,7 +131,7 @@ Scheme
 		FrameTitleBar.DisabledTextColor	"255 255 255 91"
 		FrameTitleBar.DisabledBgColor "10 200 150 90"	// "0 230 255 90"
 
-		GraphPanel.FgColor				"White"
+		GraphPanel.FgColor				"109 12 232 220"//"White"
 		GraphPanel.BgColor				"TransparentBlack"
 
 		Label.TextDullColor				"DullWhite"
@@ -142,9 +142,9 @@ Scheme
 		Label.DisabledFgColor1			"110 110 110 255"
 		Label.DisabledFgColor2			"50 50 50 255"
 
-		ListPanel.TextColor					"Black"
+		ListPanel.TextColor					"White"
 		ListPanel.TextBgColor				"Blank"
-		ListPanel.BgColor					"White"
+		ListPanel.BgColor			"17 21 38 225"//"19 23 42 222" //"9 28 49 222"	// "26 61 68 180"//	"White"
 		ListPanel.SelectedTextColor			"White"
 		ListPanel.SelectedBgColor			"0 168 255 204"
 		ListPanel.OutOfFocusSelectedTextColor	"Black"
@@ -190,7 +190,7 @@ Scheme
 		ReplayBrowser.Search.FgColor						"Black"		
 		Replay.RenderDialog.BgColor							"Menu BG Color"
 		
-		
+		// 34 38 1 // 
 		RichText.TextColor				"OffWhite"
 		RichText.BgColor				"TransparentBlack"
 		RichText.SelectedTextColor		"White"
@@ -198,9 +198,9 @@ Scheme
 
 		ScrollBar.Wide					17
 
-		ScrollBarButton.FgColor				"60 60 60 210"
+		ScrollBarButton.FgColor			"61 58 57 220"	//"60 60 60 210"
 		ScrollBarButton.BgColor				"207 207 207 60"
-		ScrollBarButton.ArmedFgColor		"20 65 72 255"
+		ScrollBarButton.ArmedFgColor		"61 58 57 220" //"20 65 72 255"
 		ScrollBarButton.ArmedBgColor		"210 237 255 255"
 		ScrollBarButton.DepressedFgColor	"9 119 226 255"
 		ScrollBarButton.DepressedBgColor	"31 207 248 255"
