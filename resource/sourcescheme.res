@@ -106,9 +106,9 @@ Scheme
 		Frame.TitleTextInsetX			16
 		Frame.ClientInsetX				8
 		Frame.ClientInsetY				6
-		Frame.BgColor					"108 111 114 150"	[$WIN32]
+		Frame.BgColor		 "108 111 114 150" 	[$WIN32]  //"20 20 20 150"	//	"20 200 130 170"	//
 		Frame.BgColor					"80 80 80 192"		[$X360]
-		Frame.OutOfFocusBgColor			"97 100 102 45"	[$WIN32]
+		Frame.OutOfFocusBgColor		"60 60 60 150" //	"97 100 102 45"	[$WIN32]
 		Frame.OutOfFocusBgColor			"80 80 80 192"		[$X360]
 		Frame.FocusTransitionEffectTime	"0.7"							// time it takes for a window to fade in/out on focus/out of focus
 		Frame.TransitionEffectTime		"0.7"				[$WIN32]	// time it takes for a window to fade in/out on open/close
@@ -127,9 +127,9 @@ Scheme
 		FrameTitleBar.Font				"UiBold"		[$WIN32]
 		FrameTitleBar.Font				"DefaultLarge"	[$WIN32]
 		FrameTitleBar.TextColor			"255 255 255 204"
-		FrameTitleBar.BgColor			"0 230 255 180"
+		FrameTitleBar.BgColor	"10 200 110 190"	//	"0 230 255 180"
 		FrameTitleBar.DisabledTextColor	"255 255 255 91"
-		FrameTitleBar.DisabledBgColor	"0 230 255 90"
+		FrameTitleBar.DisabledBgColor "10 200 150 90"	// "0 230 255 90"
 
 		GraphPanel.FgColor				"White"
 		GraphPanel.BgColor				"TransparentBlack"
@@ -231,7 +231,7 @@ Scheme
 		TextEntry.DisabledTextColor	"DullWhite"
 		TextEntry.DisabledBgColor	"192 192 192 255"
 		TextEntry.SelectedTextColor	"10 10 10 255"
-		TextEntry.SelectedBgColor	"255 0 40 140"	//"0 168 255 204"
+		TextEntry.SelectedBgColor "10 200 160 140"	//"255 0 40 140"	//"0 168 255 204"
 		TextEntry.OutOfFocusSelectedBgColor	"132 183 241 30"
 		TextEntry.FocusEdgeColor "255 0 40 255"	// "0 0 0 196"
 
