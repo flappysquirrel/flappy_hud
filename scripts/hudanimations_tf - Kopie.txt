@@ -290,9 +290,6 @@ event HudHealthBonusPulse
 	Animate PlayerStatusHealthvalue         FgColor "buffed HP"          linear 0.0 0.0
 	Animate PlayerStatusHealthvalueTargetID FgColor "TargetID buffed HP" linear 0.0 0.0
 
-	Animate SpectatorGUIHealthAlert			BgColor		"50 170 255 255"		Accel 0.0 0.025 //zimmy
-	Animate KillerHealthAlertBonus			Alpha		"220"		Accel 0.0 0.025 //zimmy
-	
 	RunEvent HudHealthBonusPulseLoop	0.4
 }
 
@@ -307,10 +304,6 @@ event HudHealthBonusPulseStop
 	StopEvent HudHealthBonusPulseLoop 0.0
 	Animate PlayerStatusHealthvalue         fgcolor "HP" accel 0.0 0.0
 	Animate PlayerStatusHealthvalueTargetID fgcolor "HP" accel 0.0 0.0
-	
-	Animate SpecTournamentHealthAlert		BgColor		"0 0 0 0"	Accel 0.0 0.025
-	Animate SpectatorGUIHealthAlert			BgColor		"0 0 0 0"	Accel 0.0 0.025
-	Animate KillerHealthAlertBonus			Alpha		"0"			Accel 0.0 0.025 //z
 }
 
 //===========================================
@@ -323,10 +316,6 @@ event HudHealthDyingPulse
 
 	Animate PlayerStatusHealthvalue         FgColor "low HP"          linear 0.0 0.0
 	Animate PlayerStatusHealthvalueTargetID FgColor "TargetID low HP" linear 0.0 0.0
-	
-	Animate SpecTournamentHealthAlert		Alpha		"220"		Accel 0.0 0.025
-	Animate SpectatorGUIHealthAlert			BgColor		"255 40 55 255"		Accel 0.0 0.025
-	Animate KillerHealthAlertLow			Alpha		"220"		Accel 0.0 0.025 //z
 	
 	RunEvent HudHealthDyingPulseLoop	0.34
 }
@@ -342,10 +331,6 @@ event HudHealthDyingPulseStop
 	StopEvent HudHealthDyingPulseLoop 0.0
 	Animate PlayerStatusHealthvalue         fgcolor "HP" accel 0.0 0.0
 	Animate PlayerStatusHealthvalueTargetID fgcolor "HP" accel 0.0 0.0
-	
-	Animate SpecTournamentHealthAlert	BgColor		"0 0 0 0"		Accel 0.0 0.025
-	Animate SpectatorGUIHealthAlert		BgColor		"0 0 0 0"		Accel 0.0 0.025
-	Animate KillerHealthAlert			Alpha		"0"				Accel 0.0 0.025 //z
 }
 
 //===========================================

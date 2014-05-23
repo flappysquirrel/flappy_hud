@@ -160,8 +160,8 @@
 		"HealthBonusPosAdj"	"10"
 		"HealthDeathWarning"	"0.49"
 		"TFFont"		"zimmyHudFontSmall"
-		"HealthDeathWarningColor" "240 20 35 255"	//"HUDDeathWarning"
-		"TextColor"		"200 187 161 255" //"HudOffWhite"
+		"HealthDeathWarningColor" "zimmyHUDDeathWarning"
+		"TextColor"		 "zimmyHudOffWhite"
 	}	
 	
 	"AmmoIcon"

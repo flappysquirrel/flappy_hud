@@ -33,7 +33,8 @@ Scheme{Colors{
 		"Target ID Color"			"230 230 230 240"	// Target ID background color
 		"Target ID Name Color"		"0 0 0 240"			// Target ID player name color
 		"Target ID Data Color"		"0 0 0 240"			// Target ID data color (i.e. "Ubercharge:" status or "Disguised As:" status)
-	
+	"zimmyHUDDeathWarning" "240 20 35 255"
+	"zimmyHudOffWhite" "200 187 161 255"
 // omp colours
 		"OmpText"			"255 255 255 255"
 		"OmpShadow"			"30 30 30 255"
