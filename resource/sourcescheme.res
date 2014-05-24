@@ -388,14 +388,15 @@ Scheme
 				"outline"	 "1"
 			}
 		}
-		"Default"
+		"Default" //!!!!!!!!!!!!!!!!
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$POSIX]
-				"name"		"Verdana" [$POSIX]
+				"name"		"Novecentowide-Book" [!$POSIX]
+				"name"		"Novecentowide-Book" [$POSIX]
 				"tall"		"16"
-				"weight"	"500"
+				"weight"	"200"
+				"antialias"		"1"
 			}
 		}
 		"DefaultBold"
@@ -1469,5 +1470,6 @@ Scheme
 		"2"		"resource/HL2EP2.ttf"	
 		"3"		"resource/marlett.ttf"
 		"4"		"resource/segoe/segoeui.ttf"
+		"5"		"resource/Novecentowide-Book.otf"
 	}
 }
