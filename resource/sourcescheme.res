@@ -388,6 +388,18 @@ Scheme
 				"outline"	 "1"
 			}
 		}
+//		"Default"
+//		{
+//			"1"
+//			{
+//				"name"		"Tahoma" [!$POSIX]
+//				"name"		"Verdana" [$POSIX]
+//				"tall"		"16"
+//				"weight"	"500"
+//			}
+//		}
+
+		
 		"Default" //!!!!!!!!!!!!!!!!
 		{
 			"1"
@@ -1470,6 +1482,6 @@ Scheme
 		"2"		"resource/HL2EP2.ttf"	
 		"3"		"resource/marlett.ttf"
 		"4"		"resource/segoe/segoeui.ttf"
-		"5"		"resource/Novecentowide-Book.otf"
+		"5"		"resource/NoveScentowide-Book.otf"
 	}
 }
