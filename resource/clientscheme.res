@@ -1608,7 +1608,38 @@ Scheme{Colors{
                 "antialias"    "1"
             }
         }
-        
+        //// +circle
+		"yaCircleBGSmallest"
+		{
+			"1"
+			{
+				"name"		"Paula"
+				"tall"		"24"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+		"yaCircleBG"
+		{
+			"1"
+			{
+				"name"		"Paula"
+				"tall"		"62"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+		"yaCircleBGClass"
+		{
+			"1"
+			{
+				"name"		"Paula"
+				"tall"		"32"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+		
 		//// Fonts
 		
 		
