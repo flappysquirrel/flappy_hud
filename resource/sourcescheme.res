@@ -419,14 +419,25 @@ Scheme
 				"underline" "1"
 			}
 		}
+//		"DefaultSmall"
+//		{
+//			"1"
+//			{
+//				"name"		"Tahoma" [!$POSIX]
+//				"name"		"Verdana" [$POSIX]
+//				"tall"		"12" [!$POSIX]
+//				"tall"		"13" [$POSIX]
+//				"weight"	"0"
+//			}
+//		}
 		"DefaultSmall"
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$POSIX]
-				"name"		"Verdana" [$POSIX]
-				"tall"		"12" [!$POSIX]
-				"tall"		"13" [$POSIX]
+				"name"		 "Segoe UI" [!$POSIX]
+				"name"		 "Segoe UI" [$POSIX]
+				"tall"		"17" [!$POSIX]
+				"tall"		"17" [$POSIX]
 				"weight"	"0"
 			}
 		}
@@ -1457,5 +1468,6 @@ Scheme
 		"1"		"resource/HALFLIFE2.ttf"
 		"2"		"resource/HL2EP2.ttf"	
 		"3"		"resource/marlett.ttf"
+		"4"		"resource/segoe/segoeui.ttf"
 	}
 }
