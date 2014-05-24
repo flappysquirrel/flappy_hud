@@ -253,7 +253,9 @@ Scheme{Colors{
         
         "ya_StatsBG"				"227 227 227 255"	//Stats background
         "ya_Stats"             		"18 18 18 255"		//Stats
-        
+		 "yaDarkGray"          "57 54 54 255"
+		
+        "yaBrightGray"        "210 200 200 255"
         //// CUSTOM COLORS ////
       
         "ya_Damage"                "240 240 20 255"     //Damage numbers
@@ -1608,7 +1610,20 @@ Scheme{Colors{
                 "antialias"    "1"
             }
         }
-        //// +circle
+          "yaNoveMedium10"            
+		{
+			"1"
+			{
+				"name"			"NovecentoMedium"
+				"tall"		"10"
+				"additive"	"0"
+				"antialias" 	"1"
+                "dropshadow"	"0"
+			}
+		}
+
+
+	   //// +circle
 		"yaCircleBGSmallest"
 		{
 			"1"
