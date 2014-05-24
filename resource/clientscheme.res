@@ -320,7 +320,7 @@ Scheme{Colors{
         "ya_Plus"          "22 182 71 255"
         
         //// fl COLORS /////
-        "ya_flBG"                "28 28 28 255"      //Enables background color 
+        "ya_flBG"                "28 28 28 70"      //Enables background color 
                                                       //Blu team -> "18 127 220 255"
                                                       //Red team -> "245 54 64 255" 
                                                       //Neutral gray  -> "28 28 28 255"
@@ -368,7 +368,7 @@ Scheme{Colors{
        
         "yaWhite"				"227 227 227 255"
 		"yaGray"				"154 154 154 255"
-        "yaBlack"				"18 18 18 255"
+        "yaBlack"			"18 18 18 255" // *************
 
         "yaGrayBGDark"           "57 57 57 255"    	//used for borders in clientscheme, to be replaced            
         "yaGrayBGDarkest"        "27 27 27 255"		//
