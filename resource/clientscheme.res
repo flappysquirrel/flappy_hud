@@ -1130,6 +1130,16 @@ Scheme{Colors{
 				"outline"	"0"
 			}
 		}
+		"Book19"
+		{
+			"1"
+			{
+				"name"		"Novecentowide-Book"
+				"tall"		"19"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
 	//	"reserveammo" //      map koth_viaduct; mp_tournament 1
 	//	{
 	//		"1"
