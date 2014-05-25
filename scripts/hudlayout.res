@@ -443,14 +443,13 @@ Batman
 			"visible"	"0"
 		}
 	}
-	
 	HudKothTimeStatus
 	{
 		"fieldName" "HudKothTimeStatus"
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	"c-100"
-		"ypos"	"0"
+		"ypos"	"c+220"
 		"wide"	"200"
 		"tall"	"60"
 		
@@ -458,6 +457,21 @@ Batman
 	
 		"red_active_xpos"			"115"
 	}
+
+//	HudKothTimeStatus
+//	{
+//		"fieldName" "HudKothTimeStatus"
+//		"visible" "1"
+//		"enabled" "1"
+//		"xpos"	"c-100"
+//		"ypos"	"0"
+//		"wide"	"200"
+//		"tall"	"60"
+//		
+//		"blue_active_xpos"			"15"
+//	
+//		"red_active_xpos"			"115"
+//	}
 
 	HudItemEffectMeter
 	{
