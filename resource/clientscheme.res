@@ -9170,22 +9170,22 @@ Scheme{Colors{
 		}	
 		 "18" // main menu font
 		{
-			"font" "resource/SegoeWP-Light.ttf"
+			"font" "resource/fonts/SegoeWP-Light.ttf"
 			"name" "Segoe WP Light"
 		}
  "19" // main menu font
 		{
-			"font" "resource/FuturaStd-Medium.otf"
+			"font" "resource/fonts/FuturaStd-Medium.otf"
 			"name" "FuturaStd-Medium"
 		}
 		"20" 
 		{
-			"font" "resource/European Pi 1.ttf"
+			"font" "resource/fonts/European Pi 1.ttf"
 			"name" "EuropeanPi"
 		}
 		"21" 
 		{
-			"font" "resource/seguisym.ttf"
+			"font" "resource/fonts/seguisym.ttf"
 			"name" "Segoe UI Symbol"
 		}
 		"22"
