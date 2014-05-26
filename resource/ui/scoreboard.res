@@ -13,13 +13,13 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"avatar_width"		"46"	[$WIN32] //50
-		"name_width"		"69	"	[$WIN32] //60
-		"status_width"		"13"	[$WIN32] //10
-		"nemesis_width"		"13"	[$WIN32] //15 
+		"avatar_width"		"55"	[$WIN32] //50 "46"
+		"name_width"		"90"		[$WIN32] //60 "69"
+		"status_width"		"13"	[$WIN32] //10 "13"
+		"nemesis_width"		"13"	[$WIN32] //15 "13"
 		"class_width"		"14"	[$WIN32]//14
-		"score_width"		"17"//20
-		"ping_width"		"19"	[$WIN32]//18
+		"score_width"		"22"//20 "17"
+		"ping_width"		"21"	[$WIN32]//18 "19"
 	}
 	"BlueScoreBG"
 	{
@@ -94,7 +94,7 @@
 		"textAlignment"	"east"
 		"textinsetx"	"20"
 		"xpos"		"c-200"
-		"ypos"		"c-40" 
+		"ypos"		"c-40"// "c-40" "r38"
 		"zpos"		"4"
 		"wide"		"200"
 		"tall"		"40"
@@ -118,7 +118,7 @@
 		"textAlignment"	"east"
 		"textinsetx"	"20"
 		"xpos"		"c-199"
-		"ypos"		"c-39" 
+		"ypos"		"c-39" //"c-39" "r38"
 		"zpos"		"4"
 		"wide"		"200"
 		"tall"		"40"
@@ -188,7 +188,7 @@
 		"textAlignment"	"west"
 		"textinsetx"	"20"
 		"xpos"		"c0"
-		"ypos"		"c-40" 
+		"ypos"		"c-40" //"c-40" "r38"
 		"zpos"		"4"
 		"wide"		"200"
 		"tall"		"40"
@@ -212,7 +212,7 @@
 		"textAlignment"	"west"
 		"textinsetx"	"20"
 		"xpos"		"c1"
-		"ypos"		"c-39"
+		"ypos"		"c-39"//"c-39""r38"
 		"zpos"		"4"
 		"wide"		"200"
 		"tall"		"40"
@@ -258,8 +258,8 @@
 		"labelText"		"%server%"
 		"textAlignment"		"east"
 		"textinsetx"		"20"
-		"xpos"			"c0"
-		"ypos"			"r70"
+		"xpos"			"c0"//"c0" "c90"
+		"ypos"			"r17"//"r70"
 		"zpos"			"2"
 		"wide"			"320"
 		"tall"			"20"
@@ -283,7 +283,7 @@
 		"labelText"		"%servertimeleft%"
 		"textAlignment"		"center"
 		"xpos"			"c-320"
-		"ypos"			"c-16"
+		"ypos"			"r17"//"c-16"
 		"wide"			"640"
 		"tall"			"20"
 		"autoResize"		"0"
@@ -300,10 +300,10 @@
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"BluePlayerList"
-		"xpos"			"c-197"
-		"ypos"			"c0"
+		"xpos"			"c-220" //"c-197""c-227" "c-250"
+		"ypos"			"c15"
 		"zpos"			"20"
-		"wide"			"200"
+		"wide"			"250"
 		"tall"			"178"	[$WIN32]
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -322,10 +322,10 @@
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"RedPlayerList"
-		"xpos"			"c-3"
-		"ypos"			"c0"
+		"xpos"			"c+17"// "c-3"
+		"ypos"			"c15"
 		"zpos"			"20"
-		"wide"			"200"
+		"wide"			"250"
 		"tall"			"178"	[$WIN32]
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -355,8 +355,8 @@
 		"labelText"		"%spectators%"
 		"textAlignment"		"west"
 		"textinsetx"		"20"
-		"xpos"			"c-320"
-		"ypos"			"r70"	[$WIN32]
+		"xpos"			"c-400"
+		"ypos"			"r17"	[$WIN32]
 		"zpos"			"4"
 		"wide"			"320"
 		"tall"			"20"
@@ -398,7 +398,7 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"		"LocalBG"
 		"xpos"			"0"
-		"ypos"			"r50"	[$WIN32]
+		"ypos"			"r30"	[$WIN32] //"r50"	[$WIN32]
 		"zpos"			"2"
 		"wide"			"f0"
 		"tall"			"50"
