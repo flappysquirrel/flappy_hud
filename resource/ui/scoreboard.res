@@ -18,7 +18,7 @@
 		"status_width"		"13"	[$WIN32] //10 "13"
 		"nemesis_width"		"13"	[$WIN32] //15 "13"
 		"class_width"		"14"	[$WIN32]//14
-		"score_width"		"22"//20 "17"
+		"score_width"		"22" //20 "17"
 		"ping_width"		"21"	[$WIN32]//18 "19"
 	}
 	"BlueScoreBG"
@@ -48,8 +48,8 @@
 		"labelText"		"%blueteamname%"
 		"textAlignment"		"west"
 		"textinsetx"		"20"
-		"xpos"			"c-200"
-		"ypos"			"c-25"	[$WIN32]
+		"xpos"			"c-220" //"c-200"
+		"ypos"			"c-12"	[$WIN32] //"c-25"
 		"wide"			"200"
 		"tall"			"20"
 		"autoResize"		"0"
@@ -141,8 +141,8 @@
 		"labelText"		"%blueteamplayercount%"
 		"textAlignment"		"west"
 		"textinsetx"		"20"
-		"xpos"			"c-200"
-		"ypos"			"c-15"
+		"xpos"			"c-220" //"c-200"
+		"ypos"			"c-0" //"c-15"
 		"wide"			"100"
 		"tall"			"20"
 		"autoResize"		"0"
@@ -164,8 +164,8 @@
 		"labelText"		"%redteamname%"
 		"textAlignment"		"east"
 		"textinsetx"		"20"
-		"xpos"			"c0"
-		"ypos"			"c-25"	[$WIN32]
+		"xpos"		"c+31"	//"c0"
+		"ypos"			"c-12"// "c-25"	[$WIN32]
 		"wide"			"200"
 		"tall"			"20"
 		"autoResize"	"0"
@@ -235,8 +235,8 @@
 		"labelText"		"%redteamplayercount%"
 		"textAlignment"		"east"
 		"textinsetx"		"20"
-		"xpos"			"c0"
-		"ypos"			"c-15"
+		"xpos"			"c+44" //"c0"
+		"ypos"			"c-0" //"c-15"
 		"wide"			"200"
 		"tall"			"20"
 		"autoResize"	"0"
@@ -300,10 +300,10 @@
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"BluePlayerList"
-		"xpos"			"c-220" //"c-197""c-227" "c-250"
+		"xpos"			"c-250" //"c-197""c-227" "c-250" "c-220"
 		"ypos"			"c15"
 		"zpos"			"20"
-		"wide"			"250"
+		"wide"			"250" //250
 		"tall"			"178"	[$WIN32]
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -322,7 +322,7 @@
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"RedPlayerList"
-		"xpos"			"c+17"// "c-3"
+		"xpos"			"c+2"// "c-3" "c+17"
 		"ypos"			"c15"
 		"zpos"			"20"
 		"wide"			"250"
