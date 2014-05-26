@@ -1185,6 +1185,18 @@ Scheme{Colors{
 				"outline"	"0"
 			}
 		}
+		
+				circl4 
+		{
+			"1"
+			{
+				"name"		"test1"
+				"tall"		"36" //30
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+			}
+		}
     "Respawn20"       
         {
             "1"
