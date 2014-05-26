@@ -1135,7 +1135,7 @@ Scheme{Colors{
 			"1"
 			{
 				"name"		"Novecentowide-Book"
-				"tall"		"19"
+				"tall"		"15"
 				"additive"		"0"
 				"antialias"	"1"
 			}

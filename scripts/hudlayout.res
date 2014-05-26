@@ -453,9 +453,9 @@ Batman
 		"wide"	"200"
 		"tall"	"60"
 		
-		"blue_active_xpos"			"15"
+		"blue_active_xpos"			"31"
 	
-		"red_active_xpos"			"115"
+		"red_active_xpos"			"131"
 	}
 
 //	HudKothTimeStatus
