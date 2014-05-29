@@ -1211,8 +1211,8 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"			"Novecentowide-Book"
-				"tall"		"12"
+				"name"			"GeosansLight" //"Segoe UI Semilight" //"Novecentowide-Book"
+				"tall"		"14" //"16"// "12"
 				"additive"	"0"
 				"antialias" 	"1"
                 "dropshadow"	"0"
@@ -9301,6 +9301,18 @@ Scheme{Colors{
 			"font" "resource/fonts/Montserrat-Regular.otf"
 			"name" "Montserrat-Regular"
 		}
+		
+			"38" 
+		{
+			"font" "resource/fonts/segoeuisl.ttf"
+			"name" "Segoe UI Semilight"
+		}
+			"39" 
+		{
+			"font" "resource/fonts/GeosansLight.ttf"
+			"name" "GeosansLight"
+		}
+		
 	}
 }
 

@@ -404,9 +404,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Book" [!$POSIX]
-				"name"		"Novecentowide-Book" [$POSIX]
-				"tall"		"16"
+				"name"		"Segoe UI Light" [!$POSIX] //"Novecentowide-Book" [!$POSIX]
+				"name"		"Segoe UI Light" [$POSIX] //"Novecentowide-Book" [$POSIX]
+				"tall"		"22"// "16"
 				"weight"	"200"
 				"antialias"		"1"
 			}
@@ -447,8 +447,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "Segoe UI" [!$POSIX]
-				"name"		 "Segoe UI" [$POSIX]
+				"name"		"Segoe UI" [!$POSIX]
+				"name"		 "Segoe UI" [$POSIX] 
 				"tall"		"17" [!$POSIX]
 				"tall"		"17" [$POSIX]
 				"weight"	"0"
@@ -1483,5 +1483,6 @@ Scheme
 		"3"		"resource/marlett.ttf"
 		"4"		"resource/segoe/segoeui.ttf"
 		"5"		"resource/NoveScentowide-Book.otf"
+		"6"		"resource/segoe/segoeuil.ttf"
 	}
 }
