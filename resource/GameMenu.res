@@ -3,14 +3,14 @@
 	"tserv6" 
 	{
 		"label"			"A" //arena
-		"command"		"engine map tr_arena_rc1 "
+		"command"	"engine exec training1"	//
 		"tooltip" "tr_arena_rc1"		
 	}
 
 		"tserv7" 
 	{
 		"label"			"E" //walkway
-		"command"		"engine map tr_walkway_fix "
+		"command"		"engine exec training2"	//
 		"tooltip" "tr_walkway_fix"		
 	}
 
