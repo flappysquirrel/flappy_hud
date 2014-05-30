@@ -1191,7 +1191,19 @@ Scheme{Colors{
 			"1"
 			{
 				"name"		"test1"
-				"tall"		"36" //30
+				"tall"		"31" //"36" //30
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+			}
+		}
+		
+		circlx 
+		{
+			"1"
+			{
+				"name"		"testx"
+				"tall"		"31" //"36" //30
 				"additive"	"0"
 				"antialias" 	"1"
 				"outline"	"0"
@@ -1405,7 +1417,16 @@ Scheme{Colors{
 			}
 		}		
 		
-		
+	"S11"
+		{
+			"1"
+			{
+				"name"		"Segoe WP Light"
+				"tall"		"33"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}	
 		
 		
 "S10"
@@ -9311,6 +9332,11 @@ Scheme{Colors{
 		{
 			"font" "resource/fonts/GeosansLight.ttf"
 			"name" "GeosansLight"
+		}
+			"40" 
+		{
+			"font" "resource/fonts/testx1.ttf"
+			"name" "testx"
 		}
 		
 	}

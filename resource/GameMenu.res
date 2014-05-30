@@ -1,5 +1,27 @@
 "GameMenu" [$WIN32]
 {
+	"tserv6" 
+	{
+		"label"			"A" //arena
+		"command"		"engine map tr_arena_rc1 "
+		"tooltip" "tr_arena_rc1"		
+	}
+
+		"tserv7" 
+	{
+		"label"			"E" //walkway
+		"command"		"engine map tr_walkway_fix "
+		"tooltip" "tr_walkway_fix"		
+	}
+
+//		"tserv8" 
+//	{
+//		"label"			"p" //practise
+//		"command"		"engine echo test"
+//		"tooltip" "PRACTISE"		
+//	}
+
+
 	"ResumeGameButton"
 	{
 		"label"			"resume"
