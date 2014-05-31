@@ -16,8 +16,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DamageAccountValue"
-		"xpos"			"c-55" //"c-90" //"c-212"
-		"ypos"			"c" //"c-15" //"r155"
+		"xpos_minmode"			"c-55" //"c-90" //"c-212"
+		"ypos_minmode"			"c" //"c-15" //"r155"
+		"xpos"			"c-212"
+		"ypos"			"r155"
 		"zpos"			"2"
 		"wide"			"101"
 		"tall"			"26"
@@ -25,17 +27,21 @@
 		"enabled"		"1"
 		"labelText"		"%metal%"
 		"textAlignment"	"center"
-		"fgcolor"		"124 223 26 255"// "255 0 65 255" //"Damage Numbers"
-		"font"		"dmg2"
+		"fgcolor"		"255 0 65 255" //"Damage Numbers"
+		"font"		"reserveammosolid"
+		"fgcolor_minmode"		"124 223 26 255"// "255 0 65 255" //"Damage Numbers"
+		"font_minmode"		"dmg2"
 	}
 	
 	"DamageAccountValueBG"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DamageAccountValueBG"
-		"xpos"			"c-55" //"c-90" //"c-212"
-		"ypos"			"c" //"c-15" //"r155"
-		"zpos"			"1"
+		"xpos_minmode"			"c-55" //"c-90" //"c-212"
+		"ypos_minmode"			"c" //"c-15" //"r155"
+		"xpos"			"c-212"
+		"ypos"			"r155"
+		"zpos_minmode"			"1"
 		"wide"			"102"
 		"tall"			"27"
 		"visible"		"1"
@@ -43,6 +49,7 @@
 		"labelText"		"%metal%"
 		"textAlignment"	"center"
 		"fgcolor"		"0 0 0 255"
-		"font"		"dmg2"
+		"font_minmode"		"dmg2"
+		"font"		"reserveammosolid"
 	}
 }
