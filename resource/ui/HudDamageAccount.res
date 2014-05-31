@@ -9,7 +9,7 @@
 		"PositiveColor"		"255 255 255 255"//"Damage Numbers"
 		"NegativeColor"		"255 255 255 255"//"Damage Numbers"
 		"delta_lifetime"		"4"//"1.2"
-		"delta_item_font"		"dmg"//"surface23shadow"
+		"delta_item_font"		"dmgsm"//"surface23shadow"
 		"delta_item_font_big"	"dmg"//"surface23shadow"
 	}
 	"DamageAccountValue"

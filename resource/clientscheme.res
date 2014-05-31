@@ -1250,8 +1250,20 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"Exo 2 Medium Italic" 
+				"name"		"Exo 2 Italic" //"Exo 2 Medium Italic" 
 				"tall"		"30"
+				"additive"	"0" 
+				"antialias"	"1"
+				"dropshadow"	"1"
+			}
+		}
+		
+			"dmgsm" 
+		{
+			"1"
+			{
+				"name"		"Exo 2 Italic" //"Exo 2 Medium Italic" 
+				"tall"		"26"
 				"additive"	"0" 
 				"antialias"	"1"
 				"dropshadow"	"1"
@@ -9360,6 +9372,11 @@ Scheme{Colors{
 			"name" "Exo 2 Medium Italic"
 		}
 		
+			"42" 
+		{
+			"font" "resource/fonts/Exo2-Italic.ttf"
+			"name" "Exo 2 Italic"
+		}
 	}
 }
 
