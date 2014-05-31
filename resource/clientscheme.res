@@ -1242,7 +1242,18 @@ Scheme{Colors{
 			}
 		}
 		
+	"dmg2" //   TEST!   map koth_viaduct; mp_tournament 1
+		{
+			"1"
+			{
+				"name"		"Exo 2 Extra Light" 
+				"tall"		"21" //"18"
+				"additive"	"0" 
+				"antialias"	"1"
+			}
+		}
 		
+			
 		
 		
 		
