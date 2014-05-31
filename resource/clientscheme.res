@@ -1241,6 +1241,22 @@ Scheme{Colors{
 				"antialias"	"1"
 			}
 		}
+		
+		
+		
+		
+		
+		"dmg" 
+		{
+			"1"
+			{
+				"name"		"Exo 2 Medium Italic" 
+				"tall"		"30"
+				"additive"	"0" 
+				"antialias"	"1"
+				"dropshadow"	"1"
+			}
+		}
 		surfaceHPAmmo72
 		{
 			"1"
@@ -9337,6 +9353,11 @@ Scheme{Colors{
 		{
 			"font" "resource/fonts/testx1.ttf"
 			"name" "testx"
+		}
+			"41" 
+		{
+			"font" "resource/fonts/Exo2-MediumItalic.ttf"
+			"name" "Exo 2 Medium Italic"
 		}
 		
 	}
