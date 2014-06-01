@@ -15,26 +15,7 @@
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/ammo_red_bg"
 		"teambg_3"		"../hud/ammo_blue_bg"
-		
-		"xpos_minmode"			"999999"
 	}
-	
-	"PlayerAmmoBG"
-	{
-		"ControlName_minmode"				"CExImageButton"
-		"fieldName"					"PlayerAmmoBG"
-		"xpos_minmode"						"c-25"
-		"ypos_minmode"						"c115"
-		"zpos_minmode"						"2"
-		"wide_minmode"						"50"
-		"tall_minmode"						"20"
-		"visible_minmode"					"1"		
-		"enabled_minmode"					"1"
-		"defaultbgcolor_override_minmode"	"0 0 0 130"
-		"PaintBackgroundType_minmode"		"0"
-		"TextInsetX_minmode"				"999999"
-	}
-	
 	"HudWeaponLowAmmoImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -50,13 +31,6 @@
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/ammo_red_bg"
 		"teambg_3"		"../hud/ammo_blue_bg"
-		
-		"xpos_minmode"			"999999"
-		"visible_minmode"		"0"
-		"enabled_minmode"		"1"
-	
-		"scaleImage_minmode"	"1"	
-	
 	}
 	"AmmoInClip"
 	{
@@ -73,19 +47,6 @@
 		"enabled"		"1"
 		"textAlignment"	"east"	
 		"labelText"		"%Ammo%"
-		
-		
-		"font_minmode"			"roboto20"
-		"fgcolor_minmode"		"255 255 255 255"
-		"xpos_minmode"			"c-25"
-		"ypos_minmode"			"c115"
-		"zpos_minmode"			"5"
-		"wide_minmode"			"25"
-		"tall_minmode"			"20"
-		"visible_minmode"		"0"
-		"enabled_minmode"		"1"
-		"textAlignment_minmode"	"east"
-		"textinsetx_minmode"	"5"
 	}
 	"AmmoInClipShadow"
 	{
@@ -102,8 +63,6 @@
 		"enabled"		"0"
 		"textAlignment"	"east"	
 		"labelText"		"%Ammo%"
-		
-		"xpos_minmode"			"999999"
 	}
 	"AmmoInReserve"  
 	{
@@ -120,19 +79,6 @@
 		"enabled"		"1"
 		"textAlignment"	"west"
 		"labelText"		"%AmmoInReserve%"
-		
-		
-		"font_minmode"			"roboto18"
-		"fgcolor_minmode"		"255 255 255 255"
-		"xpos_minmode"			"c0"
-		"ypos_minmode"			"c115"
-		"zpos_minmode"			"7"
-		"wide_minmode"			"25"
-		"tall_minmode"			"20"
-		"visible_minmode"		"0"
-		"enabled_minmode"		"1"
-		"textAlignment_minmode"	"west"
-		"textinsetx_minmode"	"5"
 	}		
 	"AmmoInReserveShadow"
 	{
@@ -149,8 +95,6 @@
 		"enabled"		"1"
 		"textAlignment"	"west"
 		"labelText"		"%AmmoInReserve%"
-		
-		"xpos_minmode"			"999999"
 	}
 					
 	"AmmoNoClip"
@@ -168,18 +112,6 @@
 		"enabled"		"1"
 		"textAlignment"	"center"	
 		"labelText"		"%Ammo%"
-		
-		
-		"font_minmode"			"roboto20"
-		"fgcolor_minmode"		"255 255 255 255"
-		"xpos_minmode"			"c-25"
-		"ypos_minmode"			"c115"
-		"zpos_minmode"			"5"
-		"wide_minmode"			"50"
-		"tall_minmode"			"20"
-		"visible_minmode"		"0"
-		"enabled_minmode"		"1"
-		"textAlignment_minmode"	"center"
 	}	
 	"AmmoNoClipShadow"
 	{
@@ -196,7 +128,5 @@
 		"enabled"		"0"
 		"textAlignment"	"center"	
 		"labelText"		"%Ammo%"
-		
-		"xpos_minmode"			"999999"
 	}									
 }
