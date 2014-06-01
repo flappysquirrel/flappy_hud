@@ -328,6 +328,21 @@ event HudHealthDyingPulse
 	Animate SpectatorGUIHealthAlert			BgColor		"255 40 55 255"		Accel 0.0 0.025
 	Animate KillerHealthAlertLow			Alpha		"220"		Accel 0.0 0.025 //z
 	
+	//bxhud start
+	
+	
+	Animate	PlayerHealthBG					BgColor		"221 74 56 255"		Linear 0.0 0.075
+	Animate	PlayerHealthBG					BgColor		"147 44 31 255"		Linear 0.125 0.075
+	Animate	SpecPlayerHealthBG				BgColor		"221 74 56 255"		Linear 0.0 0.075
+	Animate	SpecPlayerHealthBG				BgColor		"147 44 31 255"		Linear 0.125 0.075
+	Animate	PlayerHealthCrossBG		BgColor		"221 74 56 255"		Linear 0.0 0.075
+	Animate	PlayerHealthCrossBG		BgColor		"147 44 31 255"		Linear 0.125 0.075
+
+	
+	
+	//bxhud end
+	
+	
 	RunEvent HudHealthDyingPulseLoop	0.34
 }
 
@@ -346,6 +361,18 @@ event HudHealthDyingPulseStop
 	Animate SpecTournamentHealthAlert	BgColor		"0 0 0 0"		Accel 0.0 0.025
 	Animate SpectatorGUIHealthAlert		BgColor		"0 0 0 0"		Accel 0.0 0.025
 	Animate KillerHealthAlert			Alpha		"0"				Accel 0.0 0.025 //z
+	
+	
+	//bxhud start
+	
+	Animate	PlayerHealthBG					BgColor		"0 0 0 130"		Linear 0.0 0.0
+	Animate	SpecPlayerHealthBG				BgColor		"50 50 50 255"		Linear 0.0 0.0
+	Animate	PlayerHealthCrossBG		BgColor		"0 0 0 130"		Linear 0.0 0.0
+
+	
+	//bxhud end 
+	
+	
 }
 
 //===========================================
