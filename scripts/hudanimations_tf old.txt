@@ -350,22 +350,12 @@ event HudHealthDyingPulseStop
 
 //===========================================
 //===========================================
-////BXTESTSTART
-
-
-
-//// BXTESTEND
 
 event LowAmmoPulse
 {
 	Animate	HudWeaponLowAmmoImage		Alpha		"255"		Linear 0.0 0.075
 	Animate	HudWeaponLowAmmoImage		Alpha		"0"		Linear 0.125 0.075
-	
-	//bx start
-	Animate	PlayerAmmoBG					BgColor		"221 74 56 255"		Linear 0.0 0.075
-	Animate	PlayerAmmoBG					BgColor		"147 44 31 255"		Linear 0.125 0.075
-    //bx end
- 
+
 	//Animate	AmmoInClip	    FgColor		"Low-Ammo //Warning 1"	Linear 0.0 0.075
 	//Animate	AmmoInClip 	    FgColor		"Low-Ammo //Warning 2"	Linear 0.125 0.075
 
@@ -393,11 +383,6 @@ event HudLowAmmoPulseStop
 	Animate	AmmoInReserve   FgColor		"Ammo in Reserve"		Linear 0.0 0.0
 
 	//Animate	AmmoNoClip	    FgColor		"Ammo in Clip"		//Linear 0.0 0.0
-	
-	//bx start
-	Animate	PlayerAmmoBG					BgColor		"0 0 0 130"		Linear 0.0 0.0
-	
-	//bx end
 }
 
 //===========================================
