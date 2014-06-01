@@ -293,6 +293,22 @@ event HudHealthBonusPulse
 	Animate SpectatorGUIHealthAlert			BgColor		"50 170 255 255"		Accel 0.0 0.025 //zimmy
 	Animate KillerHealthAlertBonus			Alpha		"220"		Accel 0.0 0.025 //zimmy
 	
+	///BX start
+	
+	
+	Animate	PlayerHealthBG					BgColor		"34 164 135 255"		Linear 0.0 0.075
+	Animate	PlayerHealthBG					BgColor		"0 146 118 255"			Linear 0.125 0.075
+	Animate	SpecPlayerHealthBG				BgColor		"34 164 135 255"		Linear 0.0 0.075
+	Animate	SpecPlayerHealthBG				BgColor		"0 146 118 255"			Linear 0.125 0.075
+	Animate	PlayerHealthCrossBG		BgColor		"34 164 135 255"		Linear 0.0 0.075
+	Animate	PlayerHealthCrossBG		BgColor		"0 146 118 255"			Linear 0.125 0.075
+	
+
+	
+	//BX end
+	
+	
+	
 	RunEvent HudHealthBonusPulseLoop	0.4
 }
 
