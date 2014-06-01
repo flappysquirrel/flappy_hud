@@ -1552,6 +1552,44 @@ Scheme{Colors{
 			}
 		}
 		
+		/// BX FONTS BXFONTS
+		
+		/// BX AMMO
+		"roboto18"
+		{
+			"1"
+			{
+				"name"		"Roboto Condensed Bold"
+				"tall"		"18"
+				"antialias"	"1"
+			}
+		}
+			"roboto20"
+		{
+			"1"
+			{
+				"name"		"Roboto Condensed Bold"
+				"tall"		"20"
+				"antialias"	"1"
+			}
+		}
+		
+		///BX HEALTH - hudplayerhealth.res
+		
+		
+		"roboto34"
+		{
+			"1"
+			{
+				"name"		"Roboto Condensed Bold"
+				"tall"		"34"
+				"antialias"	"1"
+			}
+		}
+		
+		
+		
+		
 		/// ende mac 
 		
 		//////YAHUD FONTS YAFONT
@@ -9387,6 +9425,17 @@ Scheme{Colors{
 		{
 			"font" "resource/fonts/Exo2-Italic.ttf"
 			"name" "Exo 2 Italic"
+		}
+		
+		"43" 
+		{
+			"font" "resource/fonts/RobotoCondensed-Bold.ttf"
+			"name" "Roboto Condensed Bold"
+		}
+		"44" 
+		{
+			"font" "resource/fonts/RobotoCondensed-Regular.ttf"
+			"name" "Roboto Condensed Regular"
 		}
 	}
 }
