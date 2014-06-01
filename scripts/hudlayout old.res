@@ -426,12 +426,6 @@ Batman
 		"ypos"	"r136"
 		"wide"	"250"
 		"tall"	"65"
-		
-		
-		"xpos_minmode"	"0"	[$WIN32]
-		"ypos_minmode"	"0"	[$WIN32]
-		"wide_minmode"	"f0"
-		"tall_minmode"	"480"
 	}
 	
 	HudObjectiveStatus
