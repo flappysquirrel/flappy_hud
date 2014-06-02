@@ -6,7 +6,7 @@
 		"fieldName"		"NotificationQueuePanel"
 		"xpos"			"r+250"//"r13"//"c+0"
 		"ypos"			"400" //"r315"
-		"zpos"			"100"
+		"zpos"			"-10"//"100"
 		"wide"			"200"
 		"tall"			"100"
 		"visible"		"1"
