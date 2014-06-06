@@ -460,9 +460,9 @@ Batman
 		"wide"	"500"
 		"tall"	"500"
 		
-		"blue_active_xpos"	"73"
+		"blue_active_xpos"	"30"
 	
-		"red_active_xpos"	"157"
+		"red_active_xpos"	"150"
 	}
 
 
