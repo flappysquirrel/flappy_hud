@@ -457,7 +457,7 @@ Batman
 		"xpos"	"c-130"
 		"ypos"	"c+110"
 			"zpos" "10"
-		"wide"	"200"
+		"wide"	"500"
 		"tall"	"500"
 		
 		"blue_active_xpos"	"73"

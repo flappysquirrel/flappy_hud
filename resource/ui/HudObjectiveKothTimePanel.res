@@ -1,5 +1,36 @@
 "Resource/UI/HudObjectiveKothTimePanel.res"
 {	
+
+
+        "BlueBG"
+        {
+            "ControlName"	"ImagePanel"
+            "fieldName"		"BlueBG"
+            "xpos"          "30" //"0"
+            "ypos"          "99"
+            "zpos"          "-8"
+            "wide"          "80"
+            "tall"          "26"
+            "fillcolor"		"18 127 220 255"        
+            "visible"		"1"
+            "enabled"		"1"
+        }
+
+"BLUBGinner"
+        {
+            "ControlName"	"ImagePanel"
+            "fieldName"		"BLUBGinner"
+           "xpos"          "36"
+            "ypos"          "103"
+            "zpos"          "-8"
+            "wide"          "69"
+            "tall"          "17"
+            "fillcolor"		"0 255 100 210"//"245 54 64 255"         
+            "visible"		"1"
+            "enabled"		"1"
+        }
+
+
 "rterte_image" ///
 	{
 		"ControlName"		"ImagePanel"
@@ -10,8 +41,8 @@
                     "wide"          "60"
 					"image"			"replay/thumbnails/t2"
                     "tall"          "26"
-                    "visible"       "1"
-                    "enabled"       "1"
+                    "visible"       "0"
+                    "enabled"       "0"
                     "scaleImage"    "0"
 			}
 
@@ -21,7 +52,7 @@
 	{
 		"ControlName"		"CTFHudTimeStatus"
 		"fieldName"			"BlueTimer"
-		"xpos"				"40"
+		"xpos"				"22"
 		"ypos"				"105"
 		"zpos"				"2"
 		"wide"				"125"
@@ -57,20 +88,45 @@
                     "wide"          "70"
 					"image"			"replay/thumbnails/t1"
                     "tall"          "26"
-                    "visible"       "1"
-                    "enabled"       "1"
+                    "visible"       "0"
+                    "enabled"       "0"
                     "scaleImage"    "0"
 			}
 
+	"RedBG"
+        {
+            "ControlName"	"ImagePanel"
+            "fieldName"		"RedBG"
+            "xpos"          "150"
+            "ypos"          "99"
+            "zpos"          "-8"
+            "wide"          "80"
+            "tall"          "26"
+            "fillcolor"		"245 54 64 255"         
+            "visible"		"1"
+            "enabled"		"1"
+        }
 	
-	
+	"RedBGinner"
+        {
+            "ControlName"	"ImagePanel"
+            "fieldName"		"RedBGinner"
+           "xpos"          "156"
+            "ypos"          "103"
+            "zpos"          "-8"
+            "wide"          "69"
+            "tall"          "17"
+            "fillcolor"		"0 255 100 210"//"245 54 64 255"         
+            "visible"		"1"
+            "enabled"		"1"
+        }
 	
 	
 	"RedTimer"
 	{
 		"ControlName"		"CTFHudTimeStatus"
 		"fieldName"			"RedTimer"
-		"xpos"				"125"
+		"xpos"				"132"
 		"ypos"				"105"
 		"zpos"				"2"
 		"wide"				"125"
