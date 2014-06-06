@@ -454,15 +454,17 @@ Batman
 		"fieldName" "HudKothTimeStatus"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"c-100"
-		"ypos"	"c+220"
+		"xpos"	"c-130"
+		"ypos"	"c+110"
+			"zpos" "10"
 		"wide"	"200"
-		"tall"	"60"
+		"tall"	"500"
 		
-		"blue_active_xpos"			"31"
+		"blue_active_xpos"	"73"
 	
-		"red_active_xpos"			"131"
+		"red_active_xpos"	"157"
 	}
+
 
 //	HudKothTimeStatus
 //	{

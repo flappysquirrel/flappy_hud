@@ -1140,6 +1140,18 @@ Scheme{Colors{
 				"antialias"	"1"
 			}
 		}
+		
+				"b19"
+		{
+			"1"
+			{
+				"name"		"MyriadPro-Light"
+				"tall"		"19"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+
 	//	"reserveammo" //      map koth_viaduct; mp_tournament 1
 	//	{
 	//		"1"
@@ -9437,6 +9449,12 @@ Scheme{Colors{
 			"font" "resource/fonts/RobotoCondensed-Regular.ttf"
 			"name" "Roboto Condensed Regular"
 		}
+		"45" 
+		{
+			"font" "resource/fonts/MyriadPro-Light.otf"
+			"name" "MyriadPro-Light"
+		}
+
 	}
 }
 
