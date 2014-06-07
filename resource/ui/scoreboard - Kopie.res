@@ -43,7 +43,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamLabel"
-		"font"			"roboto18" //nope
+		"font"			"roboto18"
 		"fgcolor"		"255 255 255 255"
 		"labelText"		"%blueteamname%"
 		"textAlignment"		"west"
@@ -54,8 +54,8 @@
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		
 		if_mvm
 		{
@@ -159,16 +159,15 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamPlayerCount"
-		"font"			"yaBold16"
-		"fgcolor"		"255 255 255 180"
+		"font"			"roboto10"
+		"fgcolor"		"255 255 255 255"
 		"labelText"		"%blueteamplayercount%"
-		"textAlignment"		"east"
+		"textAlignment"		"west"
 		"textinsetx"		"20"
-		"xpos"			"c-195"
-        "ypos"			"10"
-        "zpos"			"2"
-        "wide"			"145"
-        "tall"			"19"
+		"xpos"			"c-408" //"c-200"
+		"ypos"			"c+170" //"c-15"
+		"wide"			"100"
+		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -194,8 +193,8 @@
 		"tall"			"20"
 		"autoResize"	"0"	
 		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		
 		if_mvm
 		{
@@ -276,16 +275,15 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamPlayerCount"
-		"font"			"yaBold16"
-		"fgcolor"		"255 255 255 180"
+		"font"			"roboto10"
+		"fgcolor"		"255 255 255 255"
 		"labelText"		"%redteamplayercount%"
-		"textAlignment"		"west"
+		"textAlignment"		"east"
 		"textinsetx"		"20"
-		"xpos"			"c50"
-        "ypos"			"10"
-        "zpos"			"2"
-        "wide"			"145"
-        "tall"			"19"
+		"xpos"			"c+200" //"c0"
+		"ypos"			"c+170" //"c-15"
+		"wide"			"200"
+		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
