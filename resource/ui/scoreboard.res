@@ -258,7 +258,7 @@
 		"textAlignment"	"west"
 		"textinsetx"	"20"
 		"xpos"		"c1"
-		"ypos"		"c-39"//"c-39""r38"
+		"ypos"		"c-39" //"c-39""r38"
 		"zpos"		"4"
 		"wide"		"200"
 		"tall"		"40"
@@ -300,24 +300,25 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ServerLabel"
-		"font"			"robotoreg10"
+		"font"			"yaMedium10"
 		"fgcolor"		"255 255 255 255"
 		"labelText"		"%server%"
-		"textAlignment"		"east"
-		"textinsetx"		"20"
-		"xpos"			"c0"//"c0" "c90"
-		"ypos"			"r17"//"r70"
-		"zpos"			"2"
-		"wide"			"320"
-		"tall"			"20"
+		"textAlignment"		"west"
+		 "textinsetx"	"-23"
+		"xpos"			 "3"
+		"ypos"          "15" 
+        "zpos"          "4"
+		 "wide"          "378"
+        "tall"          "15"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"	[$WIN32]
+		"visible"		"1"	
 		"enabled"		"1"
+		"use_proportional_insets"  "1"
 		
 		if_mvm
 		{
-			"ypos"		"0"
+			
 			"visible"	"0"
 		}
 	}
@@ -325,22 +326,25 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ServerTimeLeft"
-		"font"			"roboto10"
+		"font"			"yaMediumNumbers20"
 		"fgcolor"		"255 255 255 255"
 		"labelText"		"%servertimeleft%"
-		"textAlignment"		"center"
-		"xpos"			"c-320"
-		"ypos"			"r17"//"c-16"
-		"wide"			"640"
+		"textAlignment"		"west"
+		"xpos"			"4"
+		"ypos"			"0" //"c-16"
+			"zpos"			"18"
+		"wide"			"300"
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"	[$WIN32]
 		"enabled"		"1"
+		"textinsetx"	"-4"
+		"use_proportional_insets" "1"
 		
 		if_mvm
 		{
-			"ypos"			"0"
+			 "xpos"			"3"
 		}
 	}							
 	"BluePlayerList"
@@ -445,14 +449,14 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"		"LocalBG"
 		"xpos"			"0"
-		"ypos"			"r30"	[$WIN32] //"r50"	[$WIN32]
+		"ypos"			"r16"	[$WIN32] //"r50"	[$WIN32]
 		"zpos"			"2"
 		"wide"			"f0"
 		"tall"			"50"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"	
-		"fillcolor"		"0 0 0 130"
+		"fillcolor"		"0 0 0 100"
 		"PaintBackgroundType"	"0"
 	}
 	"ClassImage"
@@ -583,7 +587,7 @@
 			"labelText"	"#TF_ScoreBoard_AssistsLabel"
 			"textAlignment"	"south-west"
 			"textinsetx"	"20"
-			"xpos"		"c-320"
+			"xpos"	"c-320"
 			"ypos"		"r50"	[$WIN32]
 			"zpos"		"3"
 			"wide"		"90"
@@ -593,7 +597,7 @@
 			"visible"	"1"
 			"enabled"	"1"
 		}
-		"Assists"
+		"Assists" //move KILLS, ASSISTS + DEATHS TO BOTTOM BAR
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"	"Assists"
