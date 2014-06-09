@@ -460,7 +460,7 @@ Batman
 		"wide"	"500"
 		"tall"	"500"
 		
-		"blue_active_xpos"	"30"
+		"blue_active_xpos"	"50"
 	
 		"red_active_xpos"	"150"
 	}
@@ -880,7 +880,7 @@ Batman
 		"IconColor"		"227 227 227 255"
 		"LocalPlayerColor"	"18 17 17 255"
 
-		"BaseBackgroundColor"	 "57 54 54 238"	        //Dark background color        //130
+		"BaseBackgroundColor"	 "57 54 54 255"	        //Dark background color        //130 "57 54 54 238"
 		"LocalBackgroundColor"	"255 255 255 175"	//Background color for you own actions
 	}
 	// HudDeathNotice //stock broesel killfeed
