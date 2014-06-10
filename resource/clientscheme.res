@@ -1564,6 +1564,33 @@ Scheme{Colors{
 			}
 		}
 		
+		// BW TEAMSELECT
+		
+		solFontRegular14
+		{
+			"1"
+			{
+				"name"		"Solomon-Normal"
+				"tall"		"14"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		solFontRegular10
+		{
+			"1"
+			{
+				"name"		"Solomon-Normal"
+				"tall"		"10"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		
+		
+		/// BW END
+		
+		
 		/// BX FONTS BXFONTS
 		
 		/// BX AMMO
@@ -9453,6 +9480,11 @@ Scheme{Colors{
 		{
 			"font" "resource/fonts/MyriadPro-Light.otf"
 			"name" "MyriadPro-Light"
+		}
+		"46"
+		{
+			"font"	"resource/fonts/Solomon Normal.otf"
+			"name" "solFontRegular"
 		}
 
 	}
