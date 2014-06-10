@@ -22,7 +22,8 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabel"
 		"xpos"			"1"
-		"ypos"			"4"
+		"ypos"			"150"
+		"ypos_minmode"			"160"
 		"zpos"			"3"
 		"wide"			"100"
 		"tall"			"14"
@@ -39,13 +40,38 @@
 		"font"			"surface16"
 	}
 	
+	"ChargeLabelcrosshair"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ChargeLabelcrosshair"
+		"xpos"			"30"
+		"ypos"			"32"
+		"zpos"			"3"
+		"wide"			"100"
+		"tall"			"14"
+		"autoResize"	"1"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"#TF_UberchargeMinHUD"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"fgcolor" "0 255 30 255"
+		"font"			"dmg3"
+	}
+	
+	
+	
 	"ChargeMeter"
 	{	
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter"
 		"font"			"Default"
 		"xpos"			"1"
-		"ypos"			"4"
+		"ypos"			"150"
+		"ypos_minmode"			"160"
 		"zpos"			"2"
 		"wide"			"100"
 		"tall"			"14"				

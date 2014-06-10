@@ -1265,7 +1265,16 @@ Scheme{Colors{
 			}
 		}
 		
-			
+		"dmg3" //  crosshair charge meter
+		{
+			"1"
+			{
+				"name"		"Exo 2 Extra Light" 
+				"tall"		"16" //"18"
+				"additive"	"0" 
+				"antialias"	"1"
+			}
+		}	
 		
 		
 		

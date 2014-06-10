@@ -500,10 +500,10 @@ Batman
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-51"
-		"ypos"			"346"
-		"ypos_minmode"	"356"
-		"wide"			"400"
-		"tall"			"100"
+		"ypos"			"200"
+		//"ypos_minmode"	"356"
+		"wide"			"800"
+		"tall"			"900"
 	}
 	
 	HudDemomanCharge
