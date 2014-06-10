@@ -501,6 +501,7 @@ Batman
 		"enabled"		"1"
 		"xpos"			"c-51"
 		"ypos"			"346"
+		"ypos_minmode"	"356"
 		"wide"			"400"
 		"tall"			"100"
 	}
@@ -650,6 +651,7 @@ Batman
 		"enabled" 	"1"
 		"xpos"		"c-126"
 		"ypos"		"c54"
+		"ypos_minmode" "c37"
 		"wide"	 	"252"
 		"tall"	 	"34"
 		"priority"	"40"
@@ -1206,7 +1208,7 @@ Batman
 		"tall"					"200"
 		"visible"				"1"
 		"enabled"				"1"
-		"separator_width"		"5"	// distance between the icons (including their backgrounds)
+		"separator_width"	"0"	//"5"	// distance between the icons (including their backgrounds)
 		"separator_height"		"5"
 		"height_offset"			"0"	// distance from the bottom of the panel
 	}
