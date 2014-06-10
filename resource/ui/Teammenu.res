@@ -58,7 +58,7 @@
 				"pinCorner"             "0"
 				"visible"               "0"
 				"enabled"               "1"
-				"fillcolor"             "0 0 0 130"
+				"fillcolor"             "0 0 0 30"
 		} 
 		
 		"mapname"
@@ -90,8 +90,8 @@
 				"tall"                  "19"
 				"autoResize"    "0"
 				"pinCorner"             "0"
-				"visible"               "1"
-				"enabled"               "1"
+				"visible"               "0"
+				"enabled"               "0"
 				"labelText"             "%bluecount%"
 				"textAlignment" "center"
 				"dulltext"              "0"
@@ -111,8 +111,8 @@
 				"tall"                  "19"
 				"autoResize"    "0"
 				"pinCorner"             "0"
-				"visible"               "1"
-				"enabled"               "1"
+				"visible"               "0"
+				"enabled"               "0"
 				"labelText"             "%redcount%"
 				"textAlignment" "center"
 				"dulltext"              "0"
@@ -131,8 +131,8 @@
 				"tall"                  "18"
 				"autoResize"    "0"
 				"pinCorner"             "0"
-				"visible"               "1"
-				"enabled"               "1"
+				"visible"               "0"
+				"enabled"               "0"
 				"fillcolor"             "227 227 227 255" //255 255 255 175
 		}
 	   
@@ -146,8 +146,8 @@
 				"tall"                  "18"
 				"autoResize"    "0"
 				"pinCorner"             "0"
-				"visible"               "1"
-				"enabled"               "1"
+				"visible"               "0"
+				"enabled"               "0"
 				"fillcolor"             "227 227 227 255" //255 255 255 175
 		}
 
@@ -164,7 +164,7 @@
 				"pinCorner"             "0"
 				"visible"               "1"
 				"enabled"               "1"
-				"labelText"             "Blu"
+				"labelText"             "%bluecount%" //viaduct
 				"textAlignment" "center"
 				"dulltext"              "0"
 				"brighttext"    "1"
@@ -185,7 +185,7 @@
 				"pinCorner"             "0"
 				"visible"               "1"
 				"enabled"               "1"
-				"labelText"             "Red"
+				"labelText"            "%redcount%" //viaduct
 				"textAlignment" "center"
 				"dulltext"              "0"
 				"brighttext"    "1"
