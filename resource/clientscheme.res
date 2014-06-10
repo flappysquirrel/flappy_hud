@@ -1781,6 +1781,99 @@ Scheme{Colors{
 			}
 		}
 
+		/// engineer build menu (yahud flv)
+		 "NoveMedium14"            
+		{
+			"1"
+			{
+				"name"			"NovecentoMedium"
+				"tall"		"14"
+				"additive"	"0"
+				"antialias" 	"1"
+                "dropshadow"	"0"
+			}
+		}
+		
+		 "NoveMedium20"            
+		{
+			"1"
+			{
+				"name"			"NovecentoMedium"
+				"tall"		"20"
+				"additive"	"0"
+				"antialias" 	"1"
+                "dropshadow"	"0"
+			}
+		}
+		
+		 "NoveMedium18"            
+		{
+			"1"
+			{
+				"name"			"NovecentoMedium"
+				"tall"		"18"
+				"additive"	"0"
+				"antialias" 	"1"
+                "dropshadow"	"0"
+			}
+		}
+		 "SymbolYes18"
+		{
+			"1"
+			{
+				"name"			"Entypo"
+				"tall"		"28"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		
+		 "NoveMedium10"            
+		{
+			"1"
+			{
+				"name"			"NovecentoMedium"
+				"tall"		"10"
+				"additive"	"0"
+				"antialias" 	"1"
+                "dropshadow"	"0"
+			}
+		}
+		
+		 "SymbolNo18"
+		{
+			"1"
+			{
+				"name"			"Entypo"
+				"tall"		"34"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		
+		"NoveMedium10"            
+		{
+			"1"
+			{
+				"name"			"NovecentoMedium"
+				"tall"		"10"
+				"additive"	"0"
+				"antialias" 	"1"
+                "dropshadow"	"0"
+			}
+		}
+		
+		
+		"Heavy18"  /// mnm
+		{
+			"1"
+			{
+				"name"		"AvenirLTStd-Black"
+				"tall"		"18"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
 
 	   //// +circle
 		"yaCircleBGSmallest"
@@ -9486,7 +9579,13 @@ Scheme{Colors{
 			"font"	"resource/fonts/Solomon Normal.otf"
 			"name" "solFontRegular"
 		}
-
+		
+		"47" 
+		{
+			"font" "resource/fonts/AvenirLTStd-Black.ttf"
+			"name" "AvenirLTStd-Black"
+		}
+		
 	}
 }
 

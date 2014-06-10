@@ -1336,10 +1336,10 @@ Batman
 		"fieldName" 	"HudMenuEngyBuild"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-125"
-		"ypos"			"c-55"
-		"wide"			"250"
-		"tall"			"195"
+		"xpos"			"0"         //"-158" for center
+		"ypos"			"0"         //Engineer building panel
+		"wide"			"f0"
+		"tall"			"480"
 		"PaintBackgroundType"	"0"
 	}
 	
@@ -1348,10 +1348,10 @@ Batman
 		"fieldName" 	"HudMenuEngyDestroy"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-125"
-		"ypos"			"c-50"
-		"wide"			"250"
-		"tall"			"195"
+		"xpos"			"0"        //"-158" for center
+		"ypos"			"0"        //Engineer destroy panel
+		"wide"			"f0"
+		"tall"			"480"
 		"PaintBackgroundType"	"0"
 	}
 	
