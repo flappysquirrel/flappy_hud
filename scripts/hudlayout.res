@@ -1360,12 +1360,11 @@ Batman
 		"fieldName" 	"HudMenuSpyDisguise"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-189" // "c-189"
-		"ypos"			"c-92" // "c-92" TEST
-		"wide"			"378"
-		"tall"			"200"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"480"
 		"PaintBackgroundType"	"0"
-		"zpos"		"10000"
 	}	
 	
 	HudDemomanPipes

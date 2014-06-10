@@ -1851,17 +1851,7 @@ Scheme{Colors{
 			}
 		}
 		
-		"NoveMedium10"            
-		{
-			"1"
-			{
-				"name"			"NovecentoMedium"
-				"tall"		"10"
-				"additive"	"0"
-				"antialias" 	"1"
-                "dropshadow"	"0"
-			}
-		}
+	
 		
 		
 		"Heavy18"  /// mnm
