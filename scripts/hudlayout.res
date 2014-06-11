@@ -456,7 +456,7 @@ Batman
 		"enabled" "1"
 		"xpos"	"c-130"
 		"ypos"	"c+110"
-			"zpos" "10"
+			"zpos" "-1000" // "10"
 		"wide"	"500"
 		"tall"	"500"
 		
