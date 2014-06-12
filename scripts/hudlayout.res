@@ -276,6 +276,20 @@ Batman
 
 
 
+	
+	"HudEurekaEffectTeleportMenu"
+	{
+		"fieldName"		"HudEurekaEffectTeleportMenu"
+		"visible"		"1"
+		"enabled"	"1"
+		"xpos"	"c-10"	//"c-125"
+		"ypos"		"c-85" //"c-55"
+		"wide"		"250"
+		"tall"			"195"
+		"PaintBackgroundType"	"0"
+		
+		
+		}
 
 
 
