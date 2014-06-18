@@ -59,7 +59,7 @@
 		"wide"			"48"
 		"tall"			"32"
 		"visible"		"1"
-		"enabled"		"1"
+		"enabled"		"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"defaultbgcolor_override"	"0 0 0 0"
@@ -136,7 +136,7 @@
 		"textAlignment"	"center"	
 		"font"			"CapsFont20"
 		"LabelText"		"%Health%"
-		"fgcolor"		"0 0 0 60" 
+		"fgcolor"		"0 0 0 100" 
 	}
 	"PlayerStatusPlayerLevel"
 	{

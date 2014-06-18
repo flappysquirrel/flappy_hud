@@ -341,7 +341,7 @@ event HudHealthDyingPulse
 	Animate PlayerStatusHealthvalueTargetID FgColor "TargetID low HP" linear 0.0 0.0
 	
 	Animate SpecTournamentHealthAlert		Alpha		"220"		Accel 0.0 0.025
-	Animate SpectatorGUIHealthAlert			BgColor		"255 40 55 255"		Accel 0.0 0.025
+	// Animate SpectatorGUIHealthAlert			BgColor		"255 40 55 255"		Accel 0.0 0.025
 	Animate KillerHealthAlertLow			Alpha		"220"		Accel 0.0 0.025 //z
 	
 	//bxhud start
@@ -375,7 +375,7 @@ event HudHealthDyingPulseStop
 	Animate PlayerStatusHealthvalueTargetID fgcolor "HP" accel 0.0 0.0
 	
 	Animate SpecTournamentHealthAlert	BgColor		"0 0 0 0"		Accel 0.0 0.025
-	Animate SpectatorGUIHealthAlert		BgColor		"0 0 0 0"		Accel 0.0 0.025
+	//Animate SpectatorGUIHealthAlert		BgColor		"0 0 0 0"		Accel 0.0 0.025
 	Animate KillerHealthAlert			Alpha		"0"				Accel 0.0 0.025 //z
 	
 	
