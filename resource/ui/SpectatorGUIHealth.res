@@ -120,7 +120,7 @@
 		"textAlignment"	"center"	
 		"font"			"CapsFont20"
 		"LabelText"		"%Health%"
-		"fgcolor"		"235 235 235 240"// "White"
+		"fgcolor"		"255 255 255 255"// "White" "235 235 235 255"
 	}
 	"SpecHealthValueShadow"
 	{
@@ -136,7 +136,7 @@
 		"textAlignment"	"center"	
 		"font"			"CapsFont20"
 		"LabelText"		"%Health%"
-		"fgcolor"		"0 0 0 100" 
+		"fgcolor"		"20 20 20 130" 
 	}
 	"PlayerStatusPlayerLevel"
 	{
