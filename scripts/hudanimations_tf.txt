@@ -291,6 +291,7 @@ event HudHealthBonusPulse
 	Animate PlayerStatusHealthvalueTargetID FgColor "TargetID buffed HP" linear 0.0 0.0
 
 	Animate SpectatorGUIHealthAlert			BgColor		"80 180 88 255"	Accel 0.0 0.025 //zimmy "80 180 88 255"
+	Animate SpectatorGUIHealthAlert			BgColor		"41 157 87 255"	Linear 0.125 1.075 //zimmy "80 180 88 255"
 	Animate KillerHealthAlertBonus			Alpha		"220"		Accel 0.0 0.025 //zimmy
 	
 	///BX start
@@ -347,8 +348,8 @@ event HudHealthDyingPulse
 	//bxhud start
 	
 	
-	Animate	PlayerHealthBG					BgColor		"221 74 56 255"		Linear 0.0 0.075
-	Animate	PlayerHealthBG					BgColor		"147 44 31 255"		Linear 0.125 0.075
+	Animate	PlayerHealthBG					BgColor		"231 74 56 220"		Linear 0.0 0.075
+	Animate	PlayerHealthBG					BgColor		"255 40 55 230"	    Linear 0.125 0.545 //"147 44 31 255"	
 	Animate	SpecPlayerHealthBG				BgColor		"221 74 56 255"		Linear 0.0 0.075
 	Animate	SpecPlayerHealthBG				BgColor		"147 44 31 255"		Linear 0.125 0.075
 	Animate	PlayerHealthCrossBG		BgColor		"221 74 56 255"		Linear 0.0 0.075
