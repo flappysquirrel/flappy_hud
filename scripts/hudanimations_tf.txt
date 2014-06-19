@@ -290,18 +290,18 @@ event HudHealthBonusPulse
 	Animate PlayerStatusHealthvalue         FgColor "buffed HP"          linear 0.0 0.0
 	Animate PlayerStatusHealthvalueTargetID FgColor "TargetID buffed HP" linear 0.0 0.0
 
-	Animate SpectatorGUIHealthAlert			BgColor		"0 146 118 255"		Accel 0.0 0.025 //zimmy "50 170 255 255"
+	Animate SpectatorGUIHealthAlert			BgColor		"80 180 88 255"	Accel 0.0 0.025 //zimmy "80 180 88 255"
 	Animate KillerHealthAlertBonus			Alpha		"220"		Accel 0.0 0.025 //zimmy
 	
 	///BX start
 	
 	
-	Animate	PlayerHealthBG					BgColor		"34 164 135 255"		Linear 0.0 0.075
-	Animate	PlayerHealthBG					BgColor		"0 146 118 255"			Linear 0.125 0.075
-	Animate	SpecPlayerHealthBG				BgColor		"34 164 135 255"		Linear 0.0 0.075
-	Animate	SpecPlayerHealthBG				BgColor		"0 146 118 255"			Linear 0.125 0.075
-	Animate	PlayerHealthCrossBG		BgColor		"34 164 135 255"		Linear 0.0 0.075
-	Animate	PlayerHealthCrossBG		BgColor		"0 146 118 255"			Linear 0.125 0.075
+	Animate	PlayerHealthBG					BgColor		"80 180 88 255"		Linear 0.0 0.075
+	Animate	PlayerHealthBG					BgColor		"80 180 88 255"		Linear 0.125 0.075
+	Animate	SpecPlayerHealthBG				BgColor		"80 180 88 255"		Linear 0.0 0.075
+	Animate	SpecPlayerHealthBG				BgColor		"80 180 88 255"		Linear 0.125 0.075
+	Animate	PlayerHealthCrossBG		BgColor		"80 180 88 255"		Linear 0.0 0.075
+	Animate	PlayerHealthCrossBG		BgColor		"80 180 88 255"			Linear 0.125 0.075
 	
 
 	
@@ -602,8 +602,8 @@ event HudTournamentSetupPanelClose
  
 event HudMedicCharged
 {
-        Animate ChargeMeter      FgColor       "0 146 118 255"                 Linear 0.0 0.6  //"Ubercharge Full 1" 
-        Animate ChargeMeter      FgColor       "0 146 118 255"                 Linear 0.6 0.6  //"Ubercharge Full 2" 
+        Animate ChargeMeter      FgColor       "80 180 88 255" Linear 0.0 0.6  //"Ubercharge Full 1" 
+        Animate ChargeMeter      FgColor       "106 18 222 255" Linear 0.6 0.6  //"Ubercharge Full 2" 
  
         RunEvent HudMedicChargedLoop    1.2
 }
