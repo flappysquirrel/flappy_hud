@@ -382,9 +382,9 @@ event HudHealthDyingPulseStop
 	
 	//bxhud start
 	
-	Animate	PlayerHealthBG					BgColor		"0 0 0 130"		Linear 0.0 0.0
+	Animate	PlayerHealthBG					BgColor		"57 54 54 200"		Linear 0.0 0.0
 	Animate	SpecPlayerHealthBG				BgColor		"50 50 50 255"		Linear 0.0 0.0
-	Animate	PlayerHealthCrossBG		BgColor		"0 0 0 130"		Linear 0.0 0.0
+	Animate	PlayerHealthCrossBG		BgColor		"57 54 54 200" 	Linear 0.0 0.0
 
 	
 	//bxhud end 
@@ -439,7 +439,7 @@ event HudLowAmmoPulseStop
 	//Animate	AmmoNoClip	    FgColor		"Ammo in Clip"		//Linear 0.0 0.0
 	
 	//bx start
-	Animate	PlayerAmmoBG					BgColor		"0 0 0 130"		Linear 0.0 0.0
+	Animate	PlayerAmmoBG					BgColor		"57 54 54 200"	Linear 0.0 0.0
 	
 	//bx end
 }

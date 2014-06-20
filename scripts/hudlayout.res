@@ -892,8 +892,8 @@ Batman
 		"RightJustify"	  "1"
 		"TextFont"		"NoveLight12" //"Medium11"
 		
-		"TeamBlue"		"72 107 141 255"	
-		"TeamRed"		"189 55 56 255"	
+		"TeamBlue"		"37 113 180 255"//"72 107 141 255"	
+		"TeamRed"		"213 49 25 255"//"189 55 56 255"	
 		"IconColor"		"227 227 227 255"
 		"LocalPlayerColor"	"18 17 17 255"
 
