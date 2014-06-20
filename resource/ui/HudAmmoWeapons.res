@@ -30,7 +30,7 @@
 		"tall_minmode"						"20"
 		"visible_minmode"					"1"		
 		"enabled_minmode"					"1"
-		"defaultbgcolor_override_minmode"	"57 54 54 200"	
+		"defaultbgcolor_override_minmode"	"57 54 54 220"	
 		"PaintBackgroundType_minmode"		"0"
 		"TextInsetX_minmode"				"999999"
 		
