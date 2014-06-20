@@ -139,6 +139,8 @@
 		"defaultbgcolor_override_minmode"	"0 0 0 130"
 		"PaintBackgroundType_minmode"		"0"
 		"TextInsetX_minmode"				"999999"
+		
+		"border_default" "noborder" /// This turns the rounded corners in bxHUD into square ones!
 	}
 
 	
