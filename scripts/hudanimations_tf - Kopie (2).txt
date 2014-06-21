@@ -1,4 +1,4 @@
-//TO ACTIVATE THE LOW-AMMO FLASH, //OVE THE // FROM THE NEXT LINE
+//TO ACTIVATE THE LOW-AMMO FLASH, REMOVE THE // FROM THE NEXT LINE
 
 event HudLowAmmoPulse {RunEvent LowAmmoPulse 0}
 
@@ -603,50 +603,16 @@ event HudTournamentSetupPanelClose
  
 event HudMedicCharged
 {
-      //Animate ChargeMeter      FgColor       "51 188 61 255" Linear 0.0 2.0  //"Ubercharge Full 1" 
-      // Animate ChargeMeter      FgColor      "83 188 0 255" Linear 2.0 2.2  //"Ubercharge Full 2" "106 18 222 255"
-	  //Animate ChargeMeter      FgColor      "72 60 255 255" Linear 2.2 2.3 // 2.0 3.0 
-	  // Animate ChargeMeter      FgColor      "98 12 255 255" Linear 2.3 3.0 // 2.0 3.0 
-	 
-	 
-	 	Animate ChargeMeter      FgColor      "247 47 68 255"  Linear 0.0 0.1
-		Animate ChargeMeter      FgColor      "247 76 93 255"  Linear 0.1 0.2
-		Animate ChargeMeter      FgColor      "247 0 93 255"   Linear 0.2 2.0
-	    Animate ChargeMeter      FgColor      "0 0 255 255"    Linear 2.1 2.2
-	    Animate ChargeMeter      FgColor      "89 12 255 255"  Linear 2.2 3.0
-	    Animate ChargeMeter      FgColor      "0 0 255 255"    Linear 3.0 3.1
-        Animate ChargeMeter      FgColor      "89 12 255 255"  Linear 3.1 4.0 	
-        Animate ChargeMeter      FgColor      "72 60 255 255"  Linear 4.8 5.2   
-		Animate ChargeMeter      FgColor      "46 0 94 255"    Linear 5.2 5.4  
-		Animate ChargeMeter      FgColor      "46 0 94 255"    Linear 5.2 5.7 
-		Animate ChargeMeter      FgColor      "0 99 188 255"   Linear 6.2 7.2
-		Animate ChargeMeter      FgColor      "82 21 255 255"  Linear 7.2 7.7 
-		Animate ChargeMeter      FgColor      "70 18 219 255"  Linear 7.7 8.2 
-		Animate ChargeMeter      FgColor      "0 99 188 255"   Linear 8.2 8.5 
-		Animate ChargeMeter      FgColor      "0 99 188 255"   Linear 8.5 8.9
-		Animate ChargeMeter      FgColor      "56 112 255 255" Linear 8.9 9.4
-		Animate ChargeMeter      FgColor      "56 112 255 255" Linear 9.9 10.6
-		Animate ChargeMeter      FgColor      "0 103 255 255" Linear 11.0 11.7
-		
-		Animate ChargeMeter      FgColor      "0 143 255 255" Linear 12.0 12.2
-		Animate ChargeMeter      FgColor      "0 143 255 255" Linear 12.2 12.3
-		Animate ChargeMeter      FgColor      "90 247 88 255" Linear 12.3 12.6
-		Animate ChargeMeter      FgColor      "51 188 61 255" Linear 12.6 12.9
-		Animate ChargeMeter      FgColor      "51 188 61 255" Linear 12.9 13.0
-		Animate ChargeMeter      FgColor      "51 188 61 255" Linear 13.0 13.2
-		Animate ChargeMeter      FgColor      "0 255 0 255" Linear 13.2 13.5
-		Animate ChargeMeter      FgColor      "0 255 0 255" Linear 13.5 14.0
-		Animate ChargeMeter      FgColor      "0 255 0 255" Linear 14.0 14.0
-		
-		
-		RunEvent HudMedicChargedLoop 18.0
+        Animate ChargeMeter      FgColor       "80 180 88 255" Linear 0.0 1.0  //"Ubercharge Full 1" 
+        Animate ChargeMeter      FgColor      "255 189 17 255" Linear 1.0 2.0  //"Ubercharge Full 2" "106 18 222 255"
+       Animate ChargeMeter      FgColor      "247 79 87 255" Linear 2.2 2.3 // 2.0 3.0 
+       
+	   
+	   Animate ChargeMeter      FgColor      "73 181 233 255" Linear 3.2 3.5 // 3.2 3.5 //4.2 //2.8  // **
 		
 		
 		
-		
-		
-		
-		
+		RunEvent HudMedicChargedLoop 3.7 // 2.8 //3.2 //  **
 }
 
 event HudMedicChargedLoop
