@@ -604,19 +604,17 @@ event HudTournamentSetupPanelClose
 event HudMedicCharged
 {
     
-Animate ChargeMeter FgColor "88 0 181 255 255" Linear 0.0 0.2
-Animate ChargeMeter FgColor "69 6 160 255" Linear 0.7 3.0
-Animate ChargeMeter FgColor "0 200 78 255" Linear 4.2 5.5
-Animate ChargeMeter FgColor "62 188 64 255" Linear 5.8 3.6
-Animate ChargeMeter FgColor "0 166 57 255" Linear 8.0 3.0
+Animate ChargeMeter FgColor "88 0 181 255" Linear 0.0 0.2
 
 
-Animate ChargeMeter FgColor "255 237 67 255" Linear 9.2 3.0
-Animate ChargeMeter FgColor "212 59 69 255" Linear 11.1 3.8
-
-Animate ChargeMeter FgColor "88 0 181 255 255" Linear 16.2 3.6
-
-RunEvent HudMedicChargedLoop 19.4	
+Animate ChargeMeter FgColor "69 6 160 255" Linear 0.7 6.3 
+Animate ChargeMeter FgColor "0 200 78 255" Linear 2.2 7.9 
+Animate ChargeMeter FgColor "62 188 64 255" Linear 7.8 5.6
+Animate ChargeMeter FgColor "0 166 57 255" Linear 9.0 5.6
+Animate ChargeMeter FgColor "255 237 67 255" Linear 13.5 5.2
+Animate ChargeMeter FgColor "212 59 69 255" Linear 16.4 4.2 // magenta to end
+Animate ChargeMeter FgColor "88 0 181 255 255" Linear 21.7 3.9 // fade to starting color
+RunEvent HudMedicChargedLoop 26.0	
 
 		
 			
