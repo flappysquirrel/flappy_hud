@@ -9585,6 +9585,18 @@ Scheme{Colors{
 			"name" "AvenirLTStd-Black"
 		}
 		
+		"48" 
+		{
+			"font" "resource/fonts/Diamonds Regular.otf"
+			"name" "DiamondsRegular"
+		}
+		"49" 
+		{
+			"font" "resource/fonts/hn.otf"
+			"name" "HelveticaNeueLTPro-Th"
+		}
+		
+	
 	}
 }
 
