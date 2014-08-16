@@ -16,11 +16,11 @@
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"maw4qtw4nu_image"
-		"xpos"		"360" //300
-		"ypos"		"155" //100
+		"xpos"		"300" //300
+		"ypos"		"135" //100
 		"zpos"		"800"
-		"wide"		"150"
-		"tall"		"150"
+		"wide"		"235" //300x250
+		"tall"		"185"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -132,7 +132,7 @@
 		"zpos"			"204"
 		"wide"			"f0"
 		"tall"			"480"
-		"fillcolor"		"0 0 0 255"	//"ya_flBG"
+		"fillcolor"		"0 174 239 255"	//"ya_flBG" !!!!!!!!!!!!!!!!
 		"visible"		"1"
 		"enabled"		"1"
 	}
@@ -182,7 +182,7 @@
 	//	"xpos"		"300"
 	//	"ypos"		"100"
 	//	"zpos"		"3"
-	//	"wide"		"150"
+	//	"wide"		"250"
 	//	"tall"		"150"
 	//	"autoResize"	"0"
 	//	"pinCorner"		"0"
