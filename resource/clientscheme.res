@@ -6026,8 +6026,8 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"Tienne"
-				"tall"		"10"
+				"name"		"FuturaStd-Medium"
+				"tall"		"11"
 				"additive"	"0"
 				"antialias" 	"1"
 				"outline"	"0"
@@ -6503,7 +6503,7 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"Tienne"
+				"name"		"FuturaStd-Medium"
 				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
