@@ -3,14 +3,10 @@
 1 "bg1"
 2 "bg2"
 3 "bg3"
-4 "bg4"
-5 "bg5"
 }
 "BackgroundMaps"
 {
 1 "bg1"
 2 "bg2"
 3 "bg3"
-4 "bg4"
-5 "bg5"
 }
