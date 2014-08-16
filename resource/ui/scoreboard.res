@@ -13,13 +13,13 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"avatar_width"		"55"	[$WIN32] //50 "46"
-		"name_width"		"90"		[$WIN32] //60 "69"
-		"status_width"		"13"	[$WIN32] //10 "13"
-		"nemesis_width"		"13"	[$WIN32] //15 "13"
-		"class_width"		"14"	[$WIN32]//14
-		"score_width"		"22" //20 "17"
-		"ping_width"		"21"	[$WIN32]//18 "19"
+		"avatar_width"		"55"	
+		"name_width"		"90"		
+		"status_width"		"13"	
+		"nemesis_width"		"13"	
+		"class_width"		"14"	
+		"score_width"		"22" 
+		"ping_width"		"21"	
 	}
 	"BlueScoreBG"
 	{
@@ -49,7 +49,7 @@
 		"textAlignment"		"west"
 		"textinsetx"		"20"
 		"xpos"			"c-400" //"c-200"
-		"ypos"			"c+185"	[$WIN32] //"c-25"
+		"ypos"			"c+185"	
 		"wide"			"200"
 		"tall"			"20"
 		"autoResize"		"0"
@@ -71,7 +71,7 @@
 		"labelText"	"VS"
 		"textAlignment"	"center"
 		"xpos"		"c-200"
-		"ypos"		"c-38"	[$WIN32]
+		"ypos"		"c-38"	
 		"zpos"		"3"
 		"wide"		"400"
 		"tall"		"40"
@@ -189,7 +189,7 @@
 		"textAlignment"		"east"
 		"textinsetx"		"20"
 		"xpos"		"c+200"	//"c0"
-		"ypos"			"c+185"// "c-25"	[$WIN32]
+		"ypos"			"c+185"
 		"wide"			"200"
 		"tall"			"20"
 		"autoResize"	"0"	
@@ -258,7 +258,7 @@
 		"textAlignment"	"west"
 		"textinsetx"	"20"
 		"xpos"		"c1"
-		"ypos"		"c-39" //"c-39""r38"
+		"ypos"		"c-39" 
 		"zpos"		"4"
 		"wide"		"200"
 		"tall"		"40"
@@ -337,7 +337,7 @@
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"	[$WIN32]
+		"visible"		"1"	
 		"enabled"		"1"
 		"textinsetx"	"-4"
 		"use_proportional_insets" "1"
@@ -351,11 +351,11 @@
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"BluePlayerList"
-		"xpos"			"c-250" //"c-197""c-227" "c-250" "c-220"
+		"xpos"			"c-250" 
 		"ypos"			"c15"
 		"zpos"			"20"
-		"wide"			"250" //250
-		"tall"			"178"	[$WIN32]
+		"wide"			"250" 
+		"tall"			"178"	
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -373,11 +373,11 @@
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"RedPlayerList"
-		"xpos"			"c+2"// "c-3" "c+17"
+		"xpos"			"c+2"
 		"ypos"			"c15"
 		"zpos"			"20"
 		"wide"			"250"
-		"tall"			"178"	[$WIN32]
+		"tall"			"178"	
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -401,13 +401,13 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"Spectators"
-		"font"			"robotoreg10"
+		"font"			"Futura11"
 		"fgcolor"		"255 255 255 255"
 		"labelText"		"%spectators%"
 		"textAlignment"		"west"
 		"textinsetx"		"20"
 		"xpos"			"c-400"
-		"ypos"			"r17"	[$WIN32]
+		"ypos"			"r17"	
 		"zpos"			"4"
 		"wide"			"320"
 		"tall"			"20"
@@ -425,12 +425,12 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"SpectatorsInQueue"
-		"font"			"robotoreg10"
+		"font"			"Futura11"
 		"labelText"		"%waitingtoplay%"
 		"textAlignment"		"west"
 		"textinsetx"		"20"
 		"xpos"			"c-320"
-		"ypos"			"r70"	[$WIN32]
+		"ypos"			"r70"	
 		"zpos"			"4"
 		"wide"			"320"
 		"tall"			"20"
@@ -449,7 +449,7 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"		"LocalBG"
 		"xpos"			"0"
-		"ypos"			"r16"	[$WIN32] //"r50"	[$WIN32]
+		"ypos"			"r16"	
 		"zpos"			"2"
 		"wide"			"f0"
 		"tall"			"50"
@@ -521,7 +521,7 @@
 			"textAlignment"	"center"
 			"textinsetx"	"10"
 			"xpos"		"c-50"
-			"ypos"		"r54"	[$WIN32]
+			"ypos"		"r54"	
 			"zpos"		"3"
 			"wide"		"100"
 			"tall"		"50"
@@ -548,7 +548,7 @@
 			"textAlignment"	"east"
 			"textinsetx"	"10"
 			"xpos"		"c-50"
-			"ypos"		"r52"	[$WIN32]
+			"ypos"		"r52"	
 			"zpos"		"3"
 			"wide"		"50"
 			"tall"		"50"
@@ -567,7 +567,7 @@
 			"textAlignment"	"west"
 			"textinsetx"	"10"
 			"xpos"		"c0"
-			"ypos"		"r52"	[$WIN32]
+			"ypos"		"r52"	
 			"zpos"		"3"
 			"wide"		"50"
 			"tall"		"50"
@@ -588,7 +588,7 @@
 			"textAlignment"	"south-west"
 			"textinsetx"	"20"
 			"xpos"	"c-320"
-			"ypos"		"r50"	[$WIN32]
+			"ypos"		"r50"	
 			"zpos"		"3"
 			"wide"		"90"
 			"tall"		"25"
@@ -597,7 +597,7 @@
 			"visible"	"1"
 			"enabled"	"1"
 		}
-		"Assists" //move KILLS, ASSISTS + DEATHS TO BOTTOM BAR
+		"Assists" 
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"	"Assists"
@@ -607,7 +607,7 @@
 			"textAlignment"	"south-east"
 			"textinsetx"	"10"
 			"xpos"		"c-320"
-			"ypos"		"r50"	[$WIN32]
+			"ypos"		"r50"	
 			"zpos"		"3"
 			"wide"		"90"
 			"tall"		"25"
@@ -625,8 +625,8 @@
 			"labelText"	"#TF_ScoreBoard_BackstabsLabel"
 			"textAlignment"	"north-west"
 			"textinsetx"	"20"
-			"xpos"		"c-320"	[$WIN32]
-			"ypos"		"r25"	[$WIN32]
+			"xpos"		"c-320"	 
+			"ypos"		"r25"	 
 			"zpos"		"3"
 			"wide"		"90"
 			"tall"		"25"
@@ -642,10 +642,10 @@
 			"font"		"robotoreg12"
 			"fgcolor"	"255 255 255 255"
 			"labelText"	"%backstabs%"
-			"textAlignment"	"north-east"		[$WIN32]
+			"textAlignment"	"north-east"		 
 			"textinsetx"	"10"
-			"xpos"		"c-320"	[$WIN32]
-			"ypos"		"r25"	[$WIN32]
+			"xpos"		"c-320"	 
+			"ypos"		"r25"	 
 			"zpos"		"3"
 			"wide"		"90"
 			"tall"		"25"
@@ -663,8 +663,8 @@
 			"labelText"	"#TF_ScoreBoard_BonusLabel"
 			"textAlignment"	"south-west"
 			"textinsetx"	"20"
-			"xpos"		"c-230"	[$WIN32]
-			"ypos"		"r50"	[$WIN32]
+			"xpos"		"c-230"	 
+			"ypos"		"r50"	 
 			"zpos"		"3"
 			"wide"		"90"
 			"tall"		"25"
@@ -680,10 +680,10 @@
 			"font"		"robotoreg12"
 			"fgcolor"	"255 255 255 255"
 			"labelText"	"%bonus%"
-			"textAlignment"	"south-east"	[$WIN32]
+			"textAlignment"	"south-east"	 
 			"textinsetx"	"10"
-			"xpos"		"c-230"	[$WIN32]
-			"ypos"		"r50"	[$WIN32]
+			"xpos"		"c-230"	 
+			"ypos"		"r50"	 
 			"zpos"		"3"
 			"wide"		"90"
 			"tall"		"25"
@@ -701,8 +701,8 @@
 			"labelText"	"#TF_ScoreBoard_CapturesLabel"
 			"textAlignment"	"north-west"
 			"textinsetx"	"20"
-			"xpos"		"c-230"	[$WIN32]
-			"ypos"		"r25"	[$WIN32]
+			"xpos"		"c-230"	 
+			"ypos"		"r25"	 
 			"zpos"		"3"
 			"wide"		"90"
 			"tall"		"25"
@@ -720,8 +720,8 @@
 			"labelText"	"%captures%"
 			"textAlignment"	"north-east"
 			"textinsetx"	"10"
-			"xpos"		"c-230"	[$WIN32]
-			"ypos"		"r25"	[$WIN32]
+			"xpos"		"c-230"	 
+			"ypos"		"r25"	 
 			"zpos"		"3"
 			"wide"		"90"
 			"tall"		"25"
@@ -739,8 +739,8 @@
 			"labelText"	"#TF_ScoreBoard_DefensesLabel"
 			"textAlignment"	"south-west"
 			"textinsetx"	"20"
-			"xpos"		"c-140"	[$WIN32]
-			"ypos"		"r50"	[$WIN32]
+			"xpos"		"c-140"	 
+			"ypos"		"r50"	 
 			"zpos"		"3"
 			"wide"		"90"
 			"tall"		"25"
@@ -758,8 +758,8 @@
 			"labelText"	"%defenses%"
 			"textAlignment"	"south-east"
 			"textinsetx"	"10"
-			"xpos"		"c-140"	[$WIN32]
-			"ypos"		"r50"	[$WIN32]
+			"xpos"		"c-140"	 
+			"ypos"		"r50"	 
 			"zpos"		"3"
 			"wide"		"90"
 			"tall"		"25"
@@ -778,7 +778,7 @@
 			"textAlignment"	"north-west"
 			"textinsetx"	"20"
 			"xpos"		"c-140"
-			"ypos"		"r25"	[$WIN32]
+			"ypos"		"r25"	 
 			"zpos"		"3"
 			"wide"		"90"
 			"tall"		"25"
@@ -797,7 +797,7 @@
 			"textAlignment"	"north-east"
 			"textinsetx"	"10"
 			"xpos"		"c-140"
-			"ypos"		"r25"	[$WIN32]
+			"ypos"		"r25"	 
 			"zpos"		"3"
 			"wide"		"90"
 			"tall"		"25"
@@ -815,8 +815,8 @@
 			"labelText"	"#TF_ScoreBoard_DominationLabel"
 			"textAlignment"	"south-west"
 			"textinsetx"	"10"
-			"xpos"		"c50"	[$WIN32]
-			"ypos"		"r50"	[$WIN32]
+			"xpos"		"c50"	 
+			"ypos"		"r50"	 
 			"zpos"		"3"
 			"wide"		"90"
 			"tall"		"25"
@@ -834,8 +834,8 @@
 			"labelText"	"%dominations%"
 			"textAlignment"	"south-east"
 			"textinsetx"	"20"
-			"xpos"		"c50"	[$WIN32]
-			"ypos"		"r50"	[$WIN32]
+			"xpos"		"c50"	 
+			"ypos"		"r50"	 
 			"zpos"		"3"
 			"wide"		"90"
 			"tall"		"25"
@@ -853,10 +853,10 @@
 			"labelText"	"#TF_ScoreBoard_HeadshotsLabel"
 			"textAlignment"	"north-west"
 			"textinsetx"	"10"
-			"xpos"		"c50"	[$WIN32]
-			"ypos"		"r25"	[$WIN32]
+			"xpos"		"c50"	 
+			"ypos"		"r25"	 
 			"zpos"		"3"
-			"wide"		"90"	[$WIN32]
+			"wide"		"90"	 
 			"tall"		"25"
 			"autoResize"	"0"
 			"pinCorner"	"0"
@@ -872,8 +872,8 @@
 			"labelText"	"%headshots%"
 			"textAlignment"	"north-east"
 			"textinsetx"	"20"
-			"xpos"		"c50"	[$WIN32]
-			"ypos"		"r25"	[$WIN32]
+			"xpos"		"c50"	 
+			"ypos"		"r25"	 
 			"zpos"		"3"
 			"wide"		"90"
 			"tall"		"25"
@@ -891,10 +891,10 @@
 			"labelText"	"#TF_ScoreBoard_HealingLabel"
 			"textAlignment"	"south-west"
 			"textinsetx"	"10"
-			"xpos"		"c140"	[$WIN32]
-			"ypos"		"r50"	[$WIN32]
+			"xpos"		"c140"	 
+			"ypos"		"r50"	 
 			"zpos"		"3"
-			"wide"		"90"	[$WIN32]
+			"wide"		"90"	 
 			"tall"		"25"
 			"autoResize"	"0"
 			"pinCorner"	"0"
@@ -910,8 +910,8 @@
 			"labelText"	"%healing%"
 			"textAlignment"	"south-east"
 			"textinsetx"	"20"
-			"xpos"		"c140"	[$WIN32]
-			"ypos"		"r50"	[$WIN32]
+			"xpos"		"c140"	 
+			"ypos"		"r50"	 
 			"zpos"		"3"
 			"wide"		"90"
 			"tall"		"25"
@@ -929,8 +929,8 @@
 			"labelText"	"#TF_ScoreBoard_InvulnLabel"
 			"textAlignment"	"north-west"
 			"textinsetx"	"10"
-			"xpos"		"c140"	[$WIN32]
-			"ypos"		"r25"	[$WIN32]
+			"xpos"		"c140"	 
+			"ypos"		"r25"	 
 			"zpos"		"3"
 			"wide"		"90"
 			"tall"		"25"
@@ -948,8 +948,8 @@
 			"labelText"	"%invulns%"
 			"textAlignment"	"north-east"
 			"textinsetx"	"20"
-			"xpos"		"c140"	[$WIN32]
-			"ypos"		"r25"	[$WIN32]
+			"xpos"		"c140"	 
+			"ypos"		"r25"	 
 			"zpos"		"3"
 			"wide"		"90"
 			"tall"		"25"
@@ -967,8 +967,8 @@
 			"labelText"	"#TF_ScoreBoard_RevengeLabel"
 			"textAlignment"	"south-west"
 			"textinsetx"	"10"
-			"xpos"		"c230"	[$WIN32]
-			"ypos"		"r50"	[$WIN32]
+			"xpos"		"c230"	 
+			"ypos"		"r50"	 
 			"zpos"		"3"
 			"wide"		"90"
 			"tall"		"25"
@@ -988,8 +988,8 @@
 			"labelText"	"%Revenge%"
 			"textAlignment"	"south-east"
 			"textinsetx"	"20"
-			"xpos"		"c230"	[$WIN32]
-			"ypos"		"r50"	[$WIN32]
+			"xpos"		"c230"	 
+			"ypos"		"r50"	 
 			"zpos"		"3"
 			"wide"		"90"
 			"tall"		"25"
@@ -1007,10 +1007,10 @@
 			"labelText"	"#TF_ScoreBoard_TeleportsLabel"
 			"textAlignment"	"north-west"
 			"textinsetx"	"10"
-			"xpos"		"c230"	[$WIN32]
-			"ypos"		"r25"	[$WIN32]
+			"xpos"		"c230"	 
+			"ypos"		"r25"	 
 			"zpos"		"3"
-			"wide"		"90"	[$WIN32]
+			"wide"		"90"	 
 			"tall"		"25"
 			"autoResize"	"0"
 			"pinCorner"	"0"
@@ -1028,8 +1028,8 @@
 			"labelText"	"%teleports%"
 			"textAlignment"	"north-east"
 			"textinsetx"	"20"
-			"xpos"		"c230"	[$WIN32]
-			"ypos"		"r25"	[$WIN32]
+			"xpos"		"c230"	 
+			"ypos"		"r25"	 
 			"zpos"		"3"
 			"wide"		"90"
 			"tall"		"25"
