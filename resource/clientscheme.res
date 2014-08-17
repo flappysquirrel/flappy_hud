@@ -1276,6 +1276,30 @@ Scheme{Colors{
 			}
 		}	
 		
+			"load1" 
+		{
+			"1"
+			{
+				"name"		"DiamondsRegular" 
+				"tall"		"30"
+				"additive"	"0" 
+				"antialias"	"1"
+				"dropshadow"	"0"
+			}
+		}
+		
+			"load2" 
+		{
+			"1"
+			{
+				"name"		"HelveticaNeueLTPro-Th" 
+				"tall"		"30"
+				"additive"	"0" 
+				"antialias"	"1"
+				"dropshadow"	"0"
+			}
+		}
+		
 		
 		
 		"dmg" 
