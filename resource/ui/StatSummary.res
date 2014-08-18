@@ -59,7 +59,7 @@
         "ControlName"	"CExLabel"
         "fieldName"		"Loading2"
         "font"		"load2"	// "yaHeavy54"
-        "labelText"		"WelcOme back" // thin font
+        "labelText"		"WelcOme back" // thick font
         "textAlignment"	"west"
         "xpos"			"17"
         "ypos"			"35" //37
@@ -278,14 +278,15 @@
     {
         "ControlName"       "CExLabel"
         "fieldName"     "OnYourWayLabel"
-        "font"        "yaHeavy54" 
-        "labelText"     "STAGE 2"
-        "textAlignment"     "center"
+        "font"       "load1" 
+        "labelText"     "Up next:"
+        "textAlignment"     "west"
         "xpos"     "17"  ////   "c-100"
         "ypos"      "7"  //////  "r120"
         "zpos"          "40"
-        "wide"          "200"
-        "tall"          "35"
+        "wide"			"490"
+        "tall"			"58"
+
         "autoResize"    "0"
         "pinCorner"     "0"
         "visible"       "1"
@@ -296,37 +297,40 @@
     {
         "ControlName"       "CExLabel"
         "fieldName"     "MapLabel"
-        "font"        "yaHeavy54" 
+        "font"        "load2"	
         "labelText"     "%maplabel%"
-        "textAlignment"     "center"
-        "xpos"          "c-300"
-        "ypos"          "r100"
+        "textAlignment"     "west"
+        "xpos"         	"17"
+        "ypos"          "35"
         "zpos"          "50"
-        "wide"          "600"
-        "tall"          "50"
+       "wide"			"490"
+        "tall"			"58"
+
         "autoResize"    "0"
         "pinCorner"     "0"
         "visible"       "1"
         "enabled"       "1"
-        "fgcolor_override" "White"
+        "fgcolor" "31 56 100 255"
+
     }
     "MapType"
     {
         "ControlName"   "CExLabel"
         "fieldName"     "MapType"
-        "font"          "yaHeavy54"
+        "font"        "load2"
         "labelText"     "%maptype%"
-        "textAlignment" "center"
-        "xpos"          "c-175"
-        "ypos"          "r50"
+        "textAlignment" "west"
+       "xpos"         	"17"
+        "ypos"          "63"
         "zpos"          "50"
-        "wide"          "350"
-        "tall"          "35"
+       "wide"			"490"
+        "tall"			"58"
+
         "autoResize"    "0"
         "pinCorner"     "0"
         "visible"       "1"
         "enabled"       "1"
-        "fgcolor_override" "Grey"
+        "fgcolor" "31 56 100 255"
     }                
 ///////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////
