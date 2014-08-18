@@ -16,8 +16,8 @@
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"maw4qtw4nu_image"
-		"xpos"		"300" //300
-		"ypos"		"135" //100
+		"xpos"		"310" //300
+		"ypos"		"145" //135
 		"zpos"		"800"
 		"wide"		"235" //300x250
 		"tall"		"185"
@@ -317,7 +317,7 @@
     {
         "ControlName"   "CExLabel"
         "fieldName"     "MapType"
-        "font"        "load2"
+        "font"        "load2" // "load2s"
         "labelText"     "%maptype%"
         "textAlignment" "west"
        "xpos"         	"17"
@@ -330,7 +330,7 @@
         "pinCorner"     "0"
         "visible"       "1"
         "enabled"       "1"
-        "fgcolor" "31 56 100 255"
+        "fgcolor"    "31 56 100 255"   // "63 86 139 255" //   "195 195 195 255"    //
     }                
 ///////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////

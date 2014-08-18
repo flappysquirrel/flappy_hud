@@ -1290,6 +1290,17 @@ Scheme{Colors{
 				"dropshadow"	"0"
 			}
 		}
+					"load1s" 
+		{
+			"1"
+			{
+				"name"		"HelveticaNeueLTPro-Th" 
+				"tall"		"25" //30
+				"additive"	"0" 
+				"antialias"	"1"
+				"dropshadow"	"0"
+			}
+		}
 		
 		
 		
@@ -1305,7 +1316,17 @@ Scheme{Colors{
 			}
 		}
 		
-	
+			"load2s" 
+		{
+			"1"
+			{
+				"name"		"DiamondsRegular" 
+				"tall"		"31" //30
+				"additive"	"0" 
+				"antialias"	"1"
+				"dropshadow"	"0"
+			}
+		}
 		
 		
 		"dmg" 
