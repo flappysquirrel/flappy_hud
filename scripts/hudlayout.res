@@ -886,7 +886,7 @@ Batman
 
 		"MaxDeathNotices" "10"
 		"IconScale"	  "0.35"
-		"LineHeight"	  "14" //16 //14
+		"LineHeight"	  "15" //16 //14
 		"LineSpacing"	  "-1"  //-1    //Increase this to around "2" for line spacing in the killfeed //1
 		"CornerRadius"	  "0"
 		"RightJustify"	  "1"

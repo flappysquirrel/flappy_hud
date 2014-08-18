@@ -39,7 +39,7 @@
         "ControlName"	"CExLabel"
         "fieldName"		"Loading"
         "font"		"load1"	// "yaHeavy54"
-        "labelText"		"DRUNTER drunter"
+        "labelText"		"Hey there,"
         "textAlignment"	"west"
         "xpos"			"17"
         "ypos"			"7"
@@ -59,10 +59,10 @@
         "ControlName"	"CExLabel"
         "fieldName"		"Loading2"
         "font"		"load2"	// "yaHeavy54"
-        "labelText"		"Loadering LOADERING"
+        "labelText"		"WelcOme back" // thin font
         "textAlignment"	"west"
-        "xpos"			"57"
-        "ypos"			"17"
+        "xpos"			"17"
+        "ypos"			"35" //37
         "zpos"			"-1"
         "wide"			"490"
         "tall"			"58"
@@ -70,7 +70,7 @@
         "pinCorner"		"0"
         "visible"		"1"
         "enabled"		"1"
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"31 56 100 255"
     }
 
 	  "ya_flBG"
