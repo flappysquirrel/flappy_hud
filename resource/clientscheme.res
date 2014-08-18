@@ -1316,12 +1316,25 @@ Scheme{Colors{
 			}
 		}
 		
-			"load2s" 
+					"load2s" 
 		{
 			"1"
 			{
 				"name"		"DiamondsRegular" 
 				"tall"		"31" //30
+				"additive"	"0" 
+				"antialias"	"1"
+				"dropshadow"	"0"
+			}
+		}
+		
+
+			"load3s" 
+		{
+			"1"
+			{
+				"name"		"phantom" 
+				"tall"		"27" //31
 				"additive"	"0" 
 				"antialias"	"1"
 				"dropshadow"	"0"
@@ -9646,7 +9659,11 @@ Scheme{Colors{
 			"font" "resource/fonts/hn.otf"
 			"name" "HelveticaNeueLTPro-Th"
 		}
-		
+		"50" 
+		{
+			"font" "resource/fonts/phantom_regular.otf"
+			"name" "phantom"
+		}
 	
 	}
 }
