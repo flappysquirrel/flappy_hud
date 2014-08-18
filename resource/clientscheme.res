@@ -1334,7 +1334,7 @@ Scheme{Colors{
 			"1"
 			{
 				"name"		"phantom" 
-				"tall"		"27" //31
+				"tall"		"25" //31
 				"additive"	"0" 
 				"antialias"	"1"
 				"dropshadow"	"0"

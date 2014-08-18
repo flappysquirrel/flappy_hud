@@ -317,11 +317,11 @@
     {
         "ControlName"   "CExLabel"
         "fieldName"     "MapType"
-        "font"        "load2s" // "load2"
+        "font"        "load3s" // "load2"
         "labelText"     "%maptype%"
         "textAlignment" "west"
        "xpos"         	"17"
-        "ypos"          "63"
+        "ypos"        "59" // 60 "63" 
         "zpos"          "50"
        "wide"			"490"
         "tall"			"58"
