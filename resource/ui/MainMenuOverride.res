@@ -181,6 +181,7 @@
     }
 	
 
+
 					
 	"TFLogoImage"
 	{
@@ -1444,6 +1445,7 @@
         }
     }
 
+
 	"GeneralStoreButton"
 	{
 		"ControlName"	"EditablePanel"
@@ -1605,8 +1607,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"StoreBGPanel"
-		"xpos"			"c-290"
-		"ypos"			"225"
+		"xpos"			"9999" //"c-290"
+		"ypos"			"9999" //"225"
 		"zpos"			"-1"
 		"wide"			"260"
 		"tall"			"60"
@@ -1623,11 +1625,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CustomizeLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"macHudFontSmallBold"
 		"labelText"		"#MMenu_Customize"
 		"textAlignment"	"west"
-		"xpos"			"c-278"
-		"ypos"			"226"
+		"xpos"			"9999" //"c-278"
+		"ypos"			"9999" //"226"
 		"wide"			"140"
 		"tall"			"30"
 		"autoResize"	"0"
@@ -2414,7 +2416,7 @@
 		"zpos"			"12"
 		"wide"			"26"
 		"tall"			"26"
-		"visible"		"1"
+		"visible"		"0"
 
 		"navLeft"		"MutePlayersButton"
 		"navRight"		"Notifications_ShowButtonPanel"
@@ -2512,8 +2514,8 @@
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"	"0"
 		"labelText"		""
 		"font"			"HudFontSmallBold"
@@ -2606,8 +2608,8 @@
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"	"0"
 		"labelText"		""
 		"font"			"HudFontSmallBold"
@@ -2653,8 +2655,8 @@
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"	"0"
 		"labelText"		""
 		"font"			"HudFontSmallBold"
@@ -2682,8 +2684,8 @@
 			"zpos"			"1"
 			"wide"			"15"
 			"tall"			"15"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"image"			"glyph_commentary"
 			"scaleImage"	"1"
 		}				
@@ -2700,8 +2702,8 @@
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"	"0"
 		"labelText"		""
 		"font"			"HudFontSmallBold"
@@ -2841,100 +2843,1325 @@
         }               
     }    
 	
-	"QuitButton"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"QuitButton"
-		"xpos"			"c-300"
-		"ypos"			"437"
-		"zpos"			"1"
-		"wide"			"150"
-		"tall"			"25"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"#TF_Quit_Title"
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"west"
-		"textinsetx"	"35"
-		"use_proportional_insets" "1"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"1"
-		"Command"		"engine replay_confirmquit"
-
-		"navUp"			"VRModeButton"
-		"navDown"		"DisconnectButton"
-		"navLeft"		"DisconnectButton"
-		"navRight"		"NewUserForumsButton"
-
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		
-		"image_drawcolor"	"235 226 202 255"
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"16"
-			"ypos"			"6"
-			"zpos"			"1"
-			"wide"			"14"
-			"tall"			"14"
-			"visible"		"1"
-			"enabled"		"1"
-			"scaleImage"	"1"
-			"image"			"glyph_quit"
-		}				
-	}			
+////////toggles viaduct ****************
 	
-	"DisconnectButton"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"DisconnectButton"
-		"xpos"			"c-300"
-		"ypos"			"437"
-		"zpos"			"1"
-		"wide"			"150"
-		"tall"			"25"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"#GameUI_GameMenu_Disconnect"
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"west"
-		"textinsetx"	"35"
-		"use_proportional_insets" "1"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"1"
-		"Command"		"engine disconnect"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+	"a" 
+    {
+        "ControlName"   "CExImageButton"
+        "fieldName"     "a"
+        "xpos"          "53"
+        "ypos"          "168"
+        "zpos"          "1"
+        "wide"          "95"
+        "tall"          "25"
+        "autoResize"    "0"
+        "pinCorner"     "0"
+        "visible"       "1"
+        "enabled"       "1"
+        "tabPosition"   "0"
+        "labelText"     "toggle"
+        "font"          "S007"
+        "textAlignment" "north-west"
+        "textinsetx"    "3"
+        "textinsety"    "-10"
+        "dulltext"      "0"
+        "brighttext"    "0"
+        "default"       "1"
+        "Command"       "engine incrementvar "
+        "sound_depressed"   "UI/buttonclick.wav"
+        "sound_released"    "UI/buttonclickrelease.wav"     
+        "border_default"    ""
+        "border_armed"      ""
+        "paintbackground"   "0"    
+        "defaultFgColor_override" "OmpText"
+        "armedFgColor_override" "SegText"
+        "depressedFgColor_override" "SegText" 
+        "image_drawcolor"   "235 226 202 255"
+        "SubImage"
+        {
+            "ControlName"   "ImagePanel"
+            "fieldName"     "SubImage"
+            "xpos"          "9999"
+            "ypos"          "9999"
+            "zpos"          "1"
+            "wide"          "14"
+            "tall"          "14"
+            "visible"       "1"
+            "enabled"       "1"
+            "scaleImage"    "1"          
+        }               
+    }    
+		"mutevolume" 
+    {
+        "ControlName"   "CExImageButton"
+        "fieldName"     "mutevolume"
+        "xpos"          "130"
+        "ypos"          "168"
+        "zpos"          "1"
+        "wide"          "108"
+        "tall"          "25"
+        "autoResize"    "0"
+        "pinCorner"     "0"
+        "visible"       "1"
+        "enabled"       "1"
+        "tabPosition"   "0"
+        "labelText"     "mute volume" // mute volume - +  mute voice - +  // demoui viewmodels fps achievements
+        "font"          "S007"
+        "textAlignment" "north-west"
+        "textinsetx"    "3"
+        "textinsety"    "-10"
+        "dulltext"      "0"
+        "brighttext"    "0"
+        "default"       "1"
+        "Command"       "engine volume 0; snd_musicvolume 0" // "engine incrementvar voice_scale 0 1 0.3"
+        "sound_depressed"   "UI/buttonclick.wav"
+        "sound_released"    "UI/buttonclickrelease.wav"     
+        "border_default"    ""
+        "border_armed"      ""
+        "paintbackground"   "0"    
+        "defaultFgColor_override" "OmpText"
+        "armedFgColor_override" "SegText"
+        "depressedFgColor_override" "SegText" 
+        "image_drawcolor"   "235 226 202 255"
+        "SubImage"
+        {
+            "ControlName"   "ImagePanel"
+            "fieldName"     "SubImage"
+            "xpos"          "9999"
+            "ypos"          "9999"
+            "zpos"          "1"
+            "wide"          "14"
+            "tall"          "14"
+            "visible"       "1"
+            "enabled"       "1"
+            "scaleImage"    "1"          
+        }               
+    }    
+	
+			"minus1" 
+    {
+        "ControlName"   "CExImageButton"
+        "fieldName"     "minus1"
+        "xpos"          "240"
+        "ypos"          "168"
+        "zpos"          "1"
+        "wide"          "20"
+        "tall"          "25"
+        "autoResize"    "0"
+        "pinCorner"     "0"
+        "visible"       "1"
+        "enabled"       "1"
+        "tabPosition"   "0"
+        "labelText"     "-" // master decrease
+        "font"          "S007"
+        "textAlignment" "north-west"
+        "textinsetx"    "3"
+        "textinsety"    "-10"
+        "dulltext"      "0"
+        "brighttext"    "0"
+        "default"       "1"
+        "Command"       "engine incrementvar volume 0 1 -0.25" 
+        "sound_depressed"   "UI/buttonclick.wav"
+        "sound_released"    "UI/buttonclickrelease.wav"     
+        "border_default"    ""
+        "border_armed"      ""
+        "paintbackground"   "0"    
+        "defaultFgColor_override" "OmpText"
+        "armedFgColor_override" "SegText"
+        "depressedFgColor_override" "SegText" 
+        "image_drawcolor"   "235 226 202 255"
+        "SubImage"
+        {
+            "ControlName"   "ImagePanel"
+            "fieldName"     "SubImage"
+            "xpos"          "9999"
+            "ypos"          "9999"
+            "zpos"          "1"
+            "wide"          "14"
+            "tall"          "14"
+            "visible"       "1"
+            "enabled"       "1"
+            "scaleImage"    "1"          
+        }               
+    }  
+	
+	"plus1" 
+    {
+        "ControlName"   "CExImageButton"
+        "fieldName"     "plus1"
+        "xpos"          "255"
+        "ypos"          "168"
+        "zpos"          "1"
+        "wide"          "20"
+        "tall"          "25"
+        "autoResize"    "0"
+        "pinCorner"     "0"
+        "visible"       "1"
+        "enabled"       "1"
+        "tabPosition"   "0"
+        "labelText"     "+" // master increase
+        "font"          "S007"
+        "textAlignment" "north-west"
+        "textinsetx"    "3"
+        "textinsety"    "-10"
+        "dulltext"      "0"
+        "brighttext"    "0"
+        "default"       "1"
+        "Command"       "engine incrementvar volume 0 1 0.3 " 
+        "sound_depressed"   "UI/buttonclick.wav"
+        "sound_released"    "UI/buttonclickrelease.wav"     
+        "border_default"    ""
+        "border_armed"      ""
+        "paintbackground"   "0"    
+        "defaultFgColor_override" "OmpText"
+        "armedFgColor_override" "SegText"
+        "depressedFgColor_override" "SegText" 
+        "image_drawcolor"   "235 226 202 255"
+        "SubImage"
+        {
+            "ControlName"   "ImagePanel"
+            "fieldName"     "SubImage"
+            "xpos"          "9999"
+            "ypos"          "9999"
+            "zpos"          "1"
+            "wide"          "14"
+            "tall"          "14"
+            "visible"       "1"
+            "enabled"       "1"
+            "scaleImage"    "1"          
+        }               
+    }  
+	
+			"mutevoice" 
+    {
+        "ControlName"   "CExImageButton"
+        "fieldName"     "mutevoice"
+        "xpos"          "297"
+        "ypos"          "168"
+        "zpos"          "1"
+        "wide"          "100"
+        "tall"          "25"
+        "autoResize"    "0"
+        "pinCorner"     "0"
+        "visible"       "1"
+        "enabled"       "1"
+        "tabPosition"   "0"
+        "labelText"     "mute voice"
+        "font"          "S007"
+        "textAlignment" "north-west"
+        "textinsetx"    "3"
+        "textinsety"    "-10"
+        "dulltext"      "0"
+        "brighttext"    "0"
+        "default"       "1"
+        "Command"       "engine voice_scale 0" 
+        "sound_depressed"   "UI/buttonclick.wav"
+        "sound_released"    "UI/buttonclickrelease.wav"     
+        "border_default"    ""
+        "border_armed"      ""
+        "paintbackground"   "0"    
+        "defaultFgColor_override" "OmpText"
+        "armedFgColor_override" "SegText"
+        "depressedFgColor_override" "SegText" 
+        "image_drawcolor"   "235 226 202 255"
+        "SubImage"
+        {
+            "ControlName"   "ImagePanel"
+            "fieldName"     "SubImage"
+            "xpos"          "9999"
+            "ypos"          "9999"
+            "zpos"          "1"
+            "wide"          "14"
+            "tall"          "14"
+            "visible"       "1"
+            "enabled"       "1"
+            "scaleImage"    "1"          
+        }               
+    }  
+	
+	"minus2" 
+    {
+        "ControlName"   "CExImageButton"
+        "fieldName"     "minus2"
+        "xpos"          "400"
+        "ypos"          "168"
+        "zpos"          "1"
+        "wide"          "20"
+        "tall"          "25"
+        "autoResize"    "0"
+        "pinCorner"     "0"
+        "visible"       "1"
+        "enabled"       "1"
+        "tabPosition"   "0"
+        "labelText"     "-" // voice decrease
+        "font"          "S007"
+        "textAlignment" "north-west"
+        "textinsetx"    "3"
+        "textinsety"    "-10"
+        "dulltext"      "0"
+        "brighttext"    "0"
+        "default"       "1"
+        "Command"       "engine incrementvar voice_scale 0 1 -0.3 " 
+        "sound_depressed"   "UI/buttonclick.wav"
+        "sound_released"    "UI/buttonclickrelease.wav"     
+        "border_default"    ""
+        "border_armed"      ""
+        "paintbackground"   "0"    
+        "defaultFgColor_override" "OmpText"
+        "armedFgColor_override" "SegText"
+        "depressedFgColor_override" "SegText" 
+        "image_drawcolor"   "235 226 202 255"
+        "SubImage"
+        {
+            "ControlName"   "ImagePanel"
+            "fieldName"     "SubImage"
+            "xpos"          "9999"
+            "ypos"          "9999"
+            "zpos"          "1"
+            "wide"          "14"
+            "tall"          "14"
+            "visible"       "1"
+            "enabled"       "1"
+            "scaleImage"    "1"          
+        }               
+    }  
+	
+	"plus2" 
+    {
+        "ControlName"   "CExImageButton"
+        "fieldName"     "plus2"
+        "xpos"          "415"
+        "ypos"          "168"
+        "zpos"          "1"
+        "wide"          "20"
+        "tall"          "25"
+        "autoResize"    "0"
+        "pinCorner"     "0"
+        "visible"       "1"
+        "enabled"       "1"
+        "tabPosition"   "0"
+        "labelText"     "+" // voice increase
+        "font"          "S007"
+        "textAlignment" "north-west"
+        "textinsetx"    "3"
+        "textinsety"    "-10"
+        "dulltext"      "0"
+        "brighttext"    "0"
+        "default"       "1"
+        "Command"       "engine incrementvar voice_scale 0 1 0.3" 
+        "sound_depressed"   "UI/buttonclick.wav"
+        "sound_released"    "UI/buttonclickrelease.wav"     
+        "border_default"    ""
+        "border_armed"      ""
+        "paintbackground"   "0"    
+        "defaultFgColor_override" "OmpText"
+        "armedFgColor_override" "SegText"
+        "depressedFgColor_override" "SegText" 
+        "image_drawcolor"   "235 226 202 255"
+        "SubImage"
+        {
+            "ControlName"   "ImagePanel"
+            "fieldName"     "SubImage"
+            "xpos"          "9999"
+            "ypos"          "9999"
+            "zpos"          "1"
+            "wide"          "14"
+            "tall"          "14"
+            "visible"       "1"
+            "enabled"       "1"
+            "scaleImage"    "1"          
+        }               
+    }  
+			"demoui" 
+    {
+        "ControlName"   "CExImageButton"
+        "fieldName"     "demoui"
+        "xpos"          "130"
+        "ypos"          "195"
+        "zpos"          "1"
+        "wide"          "70"
+        "tall"          "25"
+        "autoResize"    "0"
+        "pinCorner"     "0"
+        "visible"       "1"
+        "enabled"       "1"
+        "tabPosition"   "0"
+        "labelText"     "demoui"
+        "font"          "S007"
+        "textAlignment" "north-west"
+        "textinsetx"    "3"
+        "textinsety"    "-10"
+        "dulltext"      "0"
+        "brighttext"    "0"
+        "default"       "1"
+        "Command"     "engine demoui" //  "engine incrementvar voice_scale 0 1 0.5" // "engine incrementvar voice_enable 0 1 1"
+        "sound_depressed"   "UI/buttonclick.wav"
+        "sound_released"    "UI/buttonclickrelease.wav"     
+        "border_default"    ""
+        "border_armed"      ""
+        "paintbackground"   "0"    
+        "defaultFgColor_override" "OmpText"
+        "armedFgColor_override" "SegText"
+        "depressedFgColor_override" "SegText" 
+        "image_drawcolor"   "235 226 202 255"
+        "SubImage"
+        {
+            "ControlName"   "ImagePanel"
+            "fieldName"     "SubImage"
+            "xpos"          "9999"
+            "ypos"          "9999"
+            "zpos"          "1"
+            "wide"          "14"
+            "tall"          "14"
+            "visible"       "1"
+            "enabled"       "1"
+            "scaleImage"    "1"          
+        }               
+    }    
+	
+			"viewmodels" 
+    {
+        "ControlName"   "CExImageButton"
+        "fieldName"     "viewmodels"
+        "xpos"          "200" //"220"
+        "ypos"          "195" //"190"
+        "zpos"          "1"
+        "wide"          "100"
+        "tall"          "25"
+        "autoResize"    "0"
+        "pinCorner"     "0"
+        "visible"       "1"
+        "enabled"       "1"
+        "tabPosition"   "0"
+        "labelText"     "viewmodels"
+        "font"          "S007"
+        "textAlignment" "north-west"
+        "textinsetx"    "3"
+        "textinsety"    "-10"
+        "dulltext"      "0"
+        "brighttext"    "0"
+        "default"       "1"
+        "Command"      "engine toggle r_drawviewmodel" // "engine incrementvar volume 0 1 0.3 " 
+        "sound_depressed"   "UI/buttonclick.wav"
+        "sound_released"    "UI/buttonclickrelease.wav"     
+        "border_default"    ""
+        "border_armed"      ""
+        "paintbackground"   "0"    
+        "defaultFgColor_override" "OmpText"
+        "armedFgColor_override" "SegText"
+        "depressedFgColor_override" "SegText" 
+        "image_drawcolor"   "235 226 202 255"
+        "SubImage"
+        {
+            "ControlName"   "ImagePanel"
+            "fieldName"     "SubImage"
+            "xpos"          "9999"
+            "ypos"          "9999"
+            "zpos"          "1"
+            "wide"          "14"
+            "tall"          "14"
+            "visible"       "1"
+            "enabled"       "1"
+            "scaleImage"    "1"          
+        }               
+    }  
+	
+	"fps" 
+    {
+        "ControlName"   "CExImageButton"
+        "fieldName"     "fps"
+        "xpos"          "300" //"220"
+        "ypos"          "195" //"190"
+        "zpos"          "1"
+        "wide"          "50"
+        "tall"          "25"
+        "autoResize"    "0"
+        "pinCorner"     "0"
+        "visible"       "1"
+        "enabled"       "1"
+        "tabPosition"   "0"
+        "labelText"     "fps"
+        "font"          "S007"
+        "textAlignment" "north-west"
+        "textinsetx"    "3"
+        "textinsety"    "-10"
+        "dulltext"      "0"
+        "brighttext"    "0"
+        "default"       "1"
+        "Command"       "engine toggle cl_showfps" 
+        "sound_depressed"   "UI/buttonclick.wav"
+        "sound_released"    "UI/buttonclickrelease.wav"     
+        "border_default"    ""
+        "border_armed"      ""
+        "paintbackground"   "0"    
+        "defaultFgColor_override" "OmpText"
+        "armedFgColor_override" "SegText"
+        "depressedFgColor_override" "SegText" 
+        "image_drawcolor"   "235 226 202 255"
+        "SubImage"
+        {
+            "ControlName"   "ImagePanel"
+            "fieldName"     "SubImage"
+            "xpos"          "9999"
+            "ypos"          "9999"
+            "zpos"          "1"
+            "wide"          "14"
+            "tall"          "14"
+            "visible"       "1"
+            "enabled"       "1"
+            "scaleImage"    "1"          
+        }               
+    }  
+	
+	"achievements" 
+    {
+        "ControlName"   "CExImageButton"
+        "fieldName"     "achievements"
+        "xpos"          "340" //"220"
+        "ypos"          "195" //"190"
+        "zpos"          "1"
+        "wide"          "120"
+        "tall"          "25"
+        "autoResize"    "0"
+        "pinCorner"     "0"
+        "visible"       "1"
+        "enabled"       "1"
+        "tabPosition"   "0"
+        "labelText"     "achievements"
+        "font"          "S007"
+        "textAlignment" "north-west"
+        "textinsetx"    "3"
+        "textinsety"    "-10"
+        "dulltext"      "0"
+        "brighttext"    "0"
+        "default"       "1"
+        "Command"       "OpenAchievementsDialog" 
+        "sound_depressed"   "UI/buttonclick.wav"
+        "sound_released"    "UI/buttonclickrelease.wav"     
+        "border_default"    ""
+        "border_armed"      ""
+        "paintbackground"   "0"    
+        "defaultFgColor_override" "OmpText"
+        "armedFgColor_override" "SegText"
+        "depressedFgColor_override" "SegText" 
+        "image_drawcolor"   "235 226 202 255"
+        "SubImage"
+        {
+            "ControlName"   "ImagePanel"
+            "fieldName"     "SubImage"
+            "xpos"          "9999"
+            "ypos"          "9999"
+            "zpos"          "1"
+            "wide"          "14"
+            "tall"          "14"
+            "visible"       "1"
+            "enabled"       "1"
+            "scaleImage"    "1"          
+        }               
+    }  
+	
+	"reloadscheme" 
+    {
+        "ControlName"   "CExImageButton"
+        "fieldName"     "reloadscheme"
+        "xpos"          "130"
+        "ypos"          "222"
+        "zpos"          "1"
+        "wide"          "113"
+        "tall"          "25"
+        "autoResize"    "0"
+        "pinCorner"     "0"
+        "visible"       "1"
+        "enabled"       "1"
+        "tabPosition"   "0"
+        "labelText"     "reloadscheme"
+        "font"          "S007"
+        "textAlignment" "north-west"
+        "textinsetx"    "3"
+        "textinsety"    "-10"
+        "dulltext"      "0"
+        "brighttext"    "0"
+        "default"       "1"
+        "Command"     "engine hud_reloadscheme; echo executed hud_reloadscheme."
+        "sound_depressed"   "UI/buttonclick.wav"
+        "sound_released"    "UI/buttonclickrelease.wav"     
+        "border_default"    ""
+        "border_armed"      ""
+        "paintbackground"   "0"    
+        "defaultFgColor_override" "OmpText"
+        "armedFgColor_override" "SegText"
+        "depressedFgColor_override" "SegText" 
+        "image_drawcolor"   "235 226 202 255"
+        "SubImage"
+        {
+            "ControlName"   "ImagePanel"
+            "fieldName"     "SubImage"
+            "xpos"          "9999"
+            "ypos"          "9999"
+            "zpos"          "1"
+            "wide"          "14"
+            "tall"          "14"
+            "visible"       "1"
+            "enabled"       "1"
+            "scaleImage"    "1"          
+        }               
+    }    
+	
 
-		"navUp"			"QuitButton"
-		"navRight"		"NewUserForumsButton"
+	
+	"minmode" 
+    {
+        "ControlName"   "CExImageButton"
+        "fieldName"     "minmode"
+        "xpos"          "250"
+        "ypos"          "222"
+        "zpos"          "1"
+        "wide"          "113"
+        "tall"          "25"
+        "autoResize"    "0"
+        "pinCorner"     "0"
+        "visible"       "1"
+        "enabled"       "1"
+        "tabPosition"   "0"
+        "labelText"     "minmode"
+        "font"          "S007"
+        "textAlignment" "north-west"
+        "textinsetx"    "3"
+        "textinsety"    "-10"
+        "dulltext"      "0"
+        "brighttext"    "0"
+        "default"       "1"
+        "Command"     "engine toggle cl_hud_minmode"
+        "sound_depressed"   "UI/buttonclick.wav"
+        "sound_released"    "UI/buttonclickrelease.wav"     
+        "border_default"    ""
+        "border_armed"      ""
+        "paintbackground"   "0"    
+        "defaultFgColor_override" "OmpText"
+        "armedFgColor_override" "SegText"
+        "depressedFgColor_override" "SegText" 
+        "image_drawcolor"   "235 226 202 255"
+        "SubImage"
+        {
+            "ControlName"   "ImagePanel"
+            "fieldName"     "SubImage"
+            "xpos"          "9999"
+            "ypos"          "9999"
+            "zpos"          "1"
+            "wide"          "14"
+            "tall"          "14"
+            "visible"       "1"
+            "enabled"       "1"
+            "scaleImage"    "1"          
+        }               
+    }    
+	
+//"tserv" // viaduct
+//    {
+//        "ControlName"   "CExImageButton"
+//        "fieldName"     "tserv"
+//        "xpos"          "330"
+//        "ypos"          "40"
+//        "zpos"          "1"
+//        "wide"          "95"
+//        "tall"          "25"
+//        "autoResize"    "0"
+//        "pinCorner"     "0"
+//        "visible"       "1"
+//        "enabled"       "1"
+//        "tabPosition"   "0"
+//        "labelText"     "servertest"
+//        "font"          "S10"
+//        "textAlignment" "north-west"
+//        "textinsetx"    "3"
+//        "textinsety"    "-10"
+//        "dulltext"      "0"
+//        "brighttext"    "0"
+//        "default"       "1"
+//       // "Command"       "engine con_enable 1;toggleconsole;echo test126666666; exec serverbutton"
+//	   "Command"       "engine con_enable 1;showconsole;; serverbutton1; clear;echo test126666666; exec serverbutton; exec howto1; howto1; penis"
+//
+//        "sound_depressed"   "UI/buttonclick.wav"
+//        "sound_released"    "UI/buttonclickrelease.wav"
+//        
+//        "border_default"    ""
+//        "border_armed"      ""
+//        "paintbackground"   "0"
+//        
+//        "defaultFgColor_override" "OmpText"
+//        "armedFgColor_override" "SegText"
+//        "depressedFgColor_override" "SegText"
+//        
+//        "image_drawcolor"   "235 226 202 255"
+//        "SubImage"
+//        {
+//            "ControlName"   "ImagePanel"
+ //           "fieldName"     "SubImage"
+  //          "xpos"          "9999"
+ //           "ypos"          "9999"
+ //           "zpos"          "1"
+//            "wide"          "14"
+//            "tall"          "14"
+ //           "visible"       "1"
+ //           "enabled"       "1"
+ //           "scaleImage"    "1"
+//
+//                        
+//        }               
+//    }       
+//
+	
+	"tserv1" // viaduct2 
+    {
+        "ControlName"   "CExImageButton"
+        "fieldName"     "tserv1"
+        "xpos"          "137"
+        "ypos"         "445" //437
+        "zpos"          "1"
+        "wide"          "40" //95
+        "tall"          "250"
+        "autoResize"    "0"
+        "pinCorner"     "0"
+        "visible"       "1"
+        "enabled"       "1"
+        "tabPosition"   "0"
+        "labelText"     "1" // ZEICHENTABELLE/ CHARACTER MAP SEGOE UI SYMBOL
+        "font"          "circl4"
+        "textAlignment" "north-west"
+        "textinsetx"    "0" //3
+        "textinsety"    "0" //-10
+        "dulltext"      "0"
+        "brighttext"    "0"
+        "default"       "1"
+  
+	   "Command"       "engine exec serverbutton; clear; serverbutton1; howto1"
+
+        "sound_depressed"   "UI/buttonclick.wav"
+        "sound_released"    "UI/buttonclickrelease.wav"
+        
+        "border_default"    ""
+        "border_armed"      ""
+        "paintbackground"   "0"
+        
+        "defaultFgColor_override" "OmpText"
+        "armedFgColor_override" "SegText"
+        "depressedFgColor_override" "SegText"
+        
+        "image_drawcolor"   "235 226 202 255"
+        "SubImage"
+        {
+            "ControlName"   "ImagePanel"
+            "fieldName"     "SubImage"
+            "xpos"          "9999"
+            "ypos"          "9999"
+            "zpos"          "1"
+            "wide"          "14"
+            "tall"          "14"
+            "visible"       "1"
+            "enabled"       "1"
+            "scaleImage"    "1"
+
+                        
+        }               
+    }       
+
+"tserv2" // viaduct2 
+    {
+        "ControlName"   "CExImageButton"
+        "fieldName"     "tserv2"
+        "xpos"          "187"
+    "ypos"         "445" //437
+        "zpos"          "1"
+        "wide"          "40" //95
+        "tall"          "250"
+        "autoResize"    "0"
+        "pinCorner"     "0"
+        "visible"       "1"
+        "enabled"       "1"
+        "tabPosition"   "0"
+        "labelText"     "2" // b is the 2 with a circle in this font
+        "font"          "circl4"
+        "textAlignment" "north-west"
+        "textinsetx"    "0" //3
+        "textinsety"    "0" //-10
+        "dulltext"      "0"
+        "brighttext"    "0"
+        "default"       "1"
+  
+	   "Command"       "engine exec serverbutton; clear; serverbutton2; howto2"
+
+        "sound_depressed"   "UI/buttonclick.wav"
+        "sound_released"    "UI/buttonclickrelease.wav"
+        
+        "border_default"    ""
+        "border_armed"      ""
+        "paintbackground"   "0"
+        
+        "defaultFgColor_override" "OmpText"
+        "armedFgColor_override" "SegText"
+        "depressedFgColor_override" "SegText"
+        
+        "image_drawcolor"   "235 226 202 255"
+        "SubImage"
+        {
+            "ControlName"   "ImagePanel"
+            "fieldName"     "SubImage"
+            "xpos"          "9999"
+            "ypos"          "9999"
+            "zpos"          "1"
+            "wide"          "14"
+            "tall"          "14"
+            "visible"       "1"
+            "enabled"       "1"
+            "scaleImage"    "1"
+
+                        
+        }               
+    }       	
+
+	"tserv3" // viaduct2 
+    {
+        "ControlName"   "CExImageButton"
+        "fieldName"     "tserv3"
+        "xpos"          "237"
+   "ypos"          "445" //437
+        "zpos"          "1"
+        "wide"          "40" //95
+        "tall"          "250"
+        "autoResize"    "0"
+        "pinCorner"     "0"
+        "visible"       "1"
+        "enabled"       "1"
+        "tabPosition"   "0"
+        "labelText"     "3" //
+        "font"          "circl4"
+        "textAlignment" "north-west"
+        "textinsetx"    "0" //3
+        "textinsety"    "0" //-10
+        "dulltext"      "0"
+        "brighttext"    "0"
+        "default"       "1"
+
+	   "Command"       "engine exec serverbutton; clear; serverbutton3; howto3"
+
+        "sound_depressed"   "UI/buttonclick.wav"
+        "sound_released"    "UI/buttonclickrelease.wav"
+        
+        "border_default"    ""
+        "border_armed"      ""
+        "paintbackground"   "0"
+        
+        "defaultFgColor_override" "OmpText"
+        "armedFgColor_override" "SegText"
+        "depressedFgColor_override" "SegText"
+        
+        "image_drawcolor"   "235 226 202 255"
+        "SubImage"
+        {
+            "ControlName"   "ImagePanel"
+            "fieldName"     "SubImage"
+            "xpos"          "9999"
+            "ypos"          "9999"
+            "zpos"          "1"
+            "wide"          "14"
+            "tall"          "14"
+            "visible"       "1"
+            "enabled"       "1"
+            "scaleImage"    "1"
+
+                        
+        }               
+    }       	
+
+	"tserv4" // viaduct2 
+    {
+        "ControlName"   "CExImageButton"
+        "fieldName"     "tserv4"
+        "xpos"          "287"
+    "ypos"          "445" //437
+        "zpos"          "1"
+        "wide"          "40" //95
+        "tall"          "250"
+        "autoResize"    "0"
+        "pinCorner"     "0"
+        "visible"       "1"
+        "enabled"       "1"
+        "tabPosition"   "0"
+        "labelText"     "4" // 
+        "font"          "circl4"
+        "textAlignment" "north-west"
+        "textinsetx"    "0" //3
+        "textinsety"    "0" //-10
+        "dulltext"      "0"
+        "brighttext"    "0"
+        "default"       "1"
+    
+	   "Command"       "engine exec serverbutton; clear; serverbutton4; howto4"
+
+        "sound_depressed"   "UI/buttonclick.wav"
+        "sound_released"    "UI/buttonclickrelease.wav"
+        
+        "border_default"    ""
+        "border_armed"      ""
+        "paintbackground"   "0"
+        
+        "defaultFgColor_override" "OmpText"
+        "armedFgColor_override" "SegText"
+        "depressedFgColor_override" "SegText"
+        
+        "image_drawcolor"   "235 226 202 255"
+        "SubImage"
+        {
+            "ControlName"   "ImagePanel"
+            "fieldName"     "SubImage"
+            "xpos"          "9999"
+            "ypos"          "9999"
+            "zpos"          "1"
+            "wide"          "14"
+            "tall"          "14"
+            "visible"       "1"
+            "enabled"       "1"
+            "scaleImage"    "1"
+
+                        
+        }               
+    }       	
+
+	"tserv5" // viaduct2 
+    {
+        "ControlName"   "CExImageButton"
+        "fieldName"     "tserv5"
+        "xpos"          "337"
+      "ypos"          "445" //437
+        "zpos"          "1"
+        "wide"          "40" //95
+        "tall"          "250"
+        "autoResize"    "0"
+        "pinCorner"     "0"
+        "visible"       "1"
+        "enabled"       "1"
+        "tabPosition"   "0"
+        "labelText"     "5" //  UCS-2 little endian UNICODE-> SEGOE UI SYMBOL CIRCL1
+        "font"          "circl4"
+        "textAlignment" "north-west"
+        "textinsetx"    "0" //3
+        "textinsety"    "0" //-10
+        "dulltext"      "0"
+        "brighttext"    "0"
+        "default"       "1"
+  
+	   
+ "Command"       "engine exec serverbutton; clear; serverbutton5; howto5"
+        "sound_depressed"   "UI/buttonclick.wav"
+        "sound_released"    "UI/buttonclickrelease.wav"
+        
+        "border_default"    ""
+        "border_armed"      ""
+        "paintbackground"   "0"
+        
+        "defaultFgColor_override" "OmpText"
+        "armedFgColor_override" "SegText"
+        "depressedFgColor_override" "SegText"
+        
+        "image_drawcolor"   "235 226 202 255"
+        "SubImage"
+        {
+            "ControlName"   "ImagePanel"
+            "fieldName"     "SubImage"
+            "xpos"          "9999"
+            "ypos"          "9999"
+            "zpos"          "1"
+            "wide"          "14"
+            "tall"          "14"
+            "visible"       "1"
+            "enabled"       "1"
+            "scaleImage"    "1"
+
+                        
+        }               
+    }       	
+
+	//////TEST TOOLTIP TSERV
+	
+
+	
+	
+	
+	
+"tserv6" // viaduct2 
+    
+    {
+        "ControlName"   "EditablePanel"
+        "fieldname"     "tserv6"
+        "xpos"          "400"
+        "ypos"           "445"
+        "zpos"          "11"
+        "wide"         "60" //"14"
+        "tall"          "45"
+        "visible"       "1"
+        "PaintBackgroundType"   "0"
 		
-		"image_drawcolor"	"235 226 202 255"
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"16"
-			"ypos"			"6"
-			"zpos"			"1"
-			"wide"			"14"
-			"tall"			"14"
-			"visible"		"1"
-			"enabled"		"1"
-			"scaleImage"	"1"
-			"image"			"glyph_quit"
-		}				
-	}			
+        "SubButton"	
+	{
+        "ControlName"   "CExImageButton"
+        "fieldName"     "SubButton"
+        "xpos"          "0"
+		"ypos"          "0" //437
+        "zpos"          "11"
+        "wide"          "40" //95
+        "tall"          "250"
+        "autoResize"    "0"
+        "pinCorner"     "0"
+        "visible"       "1"
+        "enabled"       "1"
+        "tabPosition"   "0"
+        "labelText"     "" //  UCS-2 little endian UNICODE-> SEGOE UI SYMBOL CIRCL1
+        "font"          "circlx"
+        "textAlignment" "north-west"
+        "textinsetx"    "0" //3
+        "textinsety"    "0" //-10
+        "dulltext"      "0"
+        "brighttext"    "0"
+        "default"       "1"   
+		"Command"       "engine exec serverbutton; clear; serverbutton5; howto5"
+        "sound_depressed"   "UI/buttonclick.wav"
+        "sound_released"    "UI/buttonclickrelease.wav" 
+        "border_default"    ""
+        "border_armed"      ""
+        "paintbackground"   "0"
+        "defaultFgColor_override" "OmpText"
+        "armedFgColor_override" "SegText"
+        "depressedFgColor_override" "SegText"
+        "image_drawcolor"   "235 226 202 255"
+       
+	   "SubImage"
+        {
+            "ControlName"   "ImagePanel"
+            "fieldName"     "SubImage"
+            "xpos"          "9999"
+            "ypos"          "9999"
+            "zpos"          "1"
+            "wide"          "14"
+            "tall"          "14"
+            "visible"       "1"
+            "enabled"       "1"
+            "scaleImage"    "1"
+
+                        
+        }               
+    }       	
+}
+
+
+"tserv7" // viaduct2 
+    
+    {
+        "ControlName"   "EditablePanel"
+        "fieldname"     "tserv7"
+        "xpos"          "450"
+        "ypos"           "445"
+        "zpos"          "11"
+        "wide"         "60" //"14"
+        "tall"          "45"
+        "visible"       "1"
+        "PaintBackgroundType"   "0"
+		
+        "SubButton"	
+	{
+        "ControlName"   "CExImageButton"
+        "fieldName"     "SubButton"
+        "xpos"          "0"
+		"ypos"          "0" //437
+        "zpos"          "11"
+        "wide"          "40" //95
+        "tall"          "250"
+        "autoResize"    "0"
+        "pinCorner"     "0"
+        "visible"       "1"
+        "enabled"       "1"
+        "tabPosition"   "0"
+        "labelText"     "" //  UCS-2 little endian UNICODE-> SEGOE UI SYMBOL CIRCL1
+        "font"          "circlx"
+        "textAlignment" "north-west"
+        "textinsetx"    "0" //3
+        "textinsety"    "0" //-10
+        "dulltext"      "0"
+        "brighttext"    "0"
+        "default"       "1"   
+		"Command"       "engine exec serverbutton; clear; serverbutton5; howto5"
+        "sound_depressed"   "UI/buttonclick.wav"
+        "sound_released"    "UI/buttonclickrelease.wav" 
+        "border_default"    ""
+        "border_armed"      ""
+        "paintbackground"   "0"
+        "defaultFgColor_override" "OmpText"
+        "armedFgColor_override" "SegText"
+        "depressedFgColor_override" "SegText"
+        "image_drawcolor"   "235 226 202 255"
+       
+	   "SubImage"
+        {
+            "ControlName"   "ImagePanel"
+            "fieldName"     "SubImage"
+            "xpos"          "9999"
+            "ypos"          "9999"
+            "zpos"          "1"
+            "wide"          "14"
+            "tall"          "14"
+            "visible"       "1"
+            "enabled"       "1"
+            "scaleImage"    "1"
+
+                        
+        }               
+    }       	
+}
+
+
+//"tserv8" // viaduct2 
+//    
+//   {
+//      "ControlName"   "EditablePanel"
+//     "fieldname"     "tserv8"
+//        "xpos"          "550"
+//        "ypos"           "445"
+//        "zpos"          "11"
+//        "wide"         "60" //"14"
+ //       "tall"          "45"
+//        "visible"       "1"
+//        "PaintBackgroundType"   "0"
+//		
+//        "SubButton"	
+//	{
+//        "ControlName"   "CExImageButton"
+//        "fieldName"     "SubButton"
+ //       "xpos"          "0"
+//		"ypos"          "0" //437
+ //       "zpos"          "11"
+//        "wide"          "40" //95
+//        "tall"          "250"
+ //       "autoResize"    "0"
+//        "pinCorner"     "0"
+//        "visible"       "1"
+//        "enabled"       "1"
+//        "tabPosition"   "0"
+//        "labelText"     "" //  UCS-2 little endian UNICODE-> SEGOE UI SYMBOL CIRCL1
+//        "font"          "circlx"
+//        "textAlignment" "north-west"
+ //       "textinsetx"    "0" //3
+//        "textinsety"    "0" //-10
+//        "dulltext"      "0"
+//        "brighttext"    "0"
+//        "default"       "1"   
+//		"Command"       "engine exec serverbutton; clear; serverbutton5; howto5"
+//        "sound_depressed"   "UI/buttonclick.wav"
+//        "sound_released"    "UI/buttonclickrelease.wav" 
+//        "border_default"    ""
+//        "border_armed"      ""
+//        "paintbackground"   "0"
+//        "defaultFgColor_override" "OmpText"
+//        "armedFgColor_override" "SegText"
+//        "depressedFgColor_override" "SegText"
+//        "image_drawcolor"   "235 226 202 255"
+//       
+//	   "SubImage"
+ //       {
+//            "ControlName"   "ImagePanel"
+//            "fieldName"     "SubImage"
+//            "xpos"          "9999"
+//            "ypos"          "9999"
+//            "zpos"          "1"
+//            "wide"          "14"
+//            "tall"          "14"
+//            "visible"       "1"
+//            "enabled"       "1"
+//            "scaleImage"    "1"
+//
+//                        
+//        }               
+//    }       	
+// }
+	
+	
+	// ende serverbuttons endserv
+    "SettingsButton"
+    {
+        "ControlName"   "CExImageButton"
+        "fieldName"     "SettingsButton"
+        "xpos"          "105"
+        "ypos"          "72"
+        "zpos"          "1"
+        "wide"          "88" //fix1
+        "tall"          "25"
+        "autoResize"    "0"
+        "pinCorner"     "0"
+        "visible"       "1"
+        "enabled"       "1"
+        "tabPosition"   "0"
+        "labelText"     "options"
+        "font"          "S10"
+        "textAlignment" "north-west"
+        "textinsetx"    "5"
+        "textinsety"    "-10"
+        "use_proportional_insets" "1"
+        "dulltext"      "0"
+        "brighttext"    "0"
+        "default"       "1"
+        "Command"       "OpenOptionsDialog"
+
+        "sound_depressed"   "UI/buttonclick.wav"
+        "sound_released"    "UI/buttonclickrelease.wav"
+        
+        "border_default"    ""
+        "border_armed"      ""
+        "paintbackground"   "0"
+        
+        "defaultFgColor_override" "OmpText"
+        "armedFgColor_override" "SegText"
+        "depressedFgColor_override" "SegText"
+        
+        "image_drawcolor"   "235 226 202 255"
+        "SubImage"
+        {
+            "ControlName"   "ImagePanel"
+            "fieldName"     "SubImage"
+            "xpos"          "9999"
+            "ypos"          "9999"
+            "zpos"          "1"
+            "wide"          "14"
+            "tall"          "14"
+            "visible"       "1"
+            "enabled"       "1"
+            "scaleImage"    "1"
+            "image"         "glyph_options"
+        }           
+    }
+"QuitButton"
+    {
+        "ControlName"   "CExImageButton"
+        "fieldName"     "QuitButton"
+        "xpos"          "0"
+        "ypos"          "435"
+
+
+        "zpos"          "1"
+        "wide"          "100"
+        "tall"          "45"
+
+
+        "autoResize"    "0"
+        "pinCorner"     "3"
+        "visible"       "1"
+        "enabled"       "1"
+        "tabPosition"   "0"
+        "labelText"     "quit"
+        "font"          "S16"
+
+        "textAlignment" "west"
+        "textinsetx"    "5"
+        "textinsety"    "-12"
+        "use_proportional_insets" "1"
+        "dulltext"      "0"
+        "brighttext"    "0"
+        "default"       "1"
+        "Command"       "engine replay_confirmquit"
+
+
+
+
+
+
+        "sound_depressed"   "UI/buttonclick.wav"
+        "sound_released"    "UI/buttonclickrelease.wav"
+        
+        "border_default"    ""
+        "border_armed"      ""
+        "paintbackground"   "0"
+        
+        "defaultFgColor_override" "OmpText"
+        "armedFgColor_override" "SegText"
+        "depressedFgColor_override" "SegText"
+        
+        "image_drawcolor"   "235 226 202 255"
+        "SubImage"
+        {
+            "ControlName"   "ImagePanel"
+            "fieldName"     "SubImage"
+            "xpos"          "9999"
+            "ypos"          "9999"
+
+
+            "zpos"          "1"
+            "wide"          "14"
+            "tall"          "14"
+            "visible"       "1"
+            "enabled"       "1"
+            "scaleImage"    "1"
+            "image"         "glyph_quit"
+        }               
+    }           
+    
+    "DisconnectButton"
+    {
+        "ControlName"   "CExImageButton"
+        "fieldName"     "DisconnectButton"
+        "xpos"          "0"
+        "ypos"          "440"
+
+
+        "zpos"          "1"
+        "wide"          "180"
+        "tall"          "45"
+
+
+        "autoResize"    "0"
+        "pinCorner"     "1"
+        "visible"       "1"
+        "enabled"       "1"
+        "tabPosition"   "0"
+        "labelText"     "disconnect"
+        "font"          "S11" //"S14"
+
+
+        "textAlignment" "west"
+        "textinsetx"    "5"
+        "textinsety"    "-10"
+        "use_proportional_insets" "1"
+        "dulltext"      "0"
+        "brighttext"    "0"
+        "default"       "1"
+        "Command"       "engine disconnect"
+        "sound_depressed"   "UI/buttonclick.wav"
+        "sound_released"    "UI/buttonclickrelease.wav"
+        
+        "border_default"    ""
+        "border_armed"      ""
+        "paintbackground"   "0"
+        
+        "defaultFgColor_override" "OmpText"
+        "armedFgColor_override" "SegText"
+        "depressedFgColor_override" "SegText"
+
+
+        
+        "image_drawcolor"   "235 226 202 255"
+        "SubImage"
+        {
+            "ControlName"   "ImagePanel"
+            "fieldName"     "SubImage"
+            "xpos"          "9999"
+            "ypos"          "9999"
+
+
+            "zpos"          "1"
+            "wide"          "14"
+            "tall"          "14"
+            "visible"       "1"
+            "enabled"       "1"
+            "scaleImage"    "1"
+            "image"         "glyph_quit"
+        }               
+    }           
 	
 	"BackToReplaysButton"
 	{
