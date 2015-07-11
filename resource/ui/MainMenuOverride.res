@@ -2619,8 +2619,8 @@
     {
         "ControlName"   "CExImageButton"
         "fieldName"     "heart" // "AchievementsButton"
-        "xpos"          "r13"//"r13999999" //"r13"
-        "ypos"        "469" // "4699999999" //"469"
+        "xpos"          "9999"// "r13"
+        "ypos"          "999999" // "469"
         "zpos"          "3"
         "wide"          "12"
         "tall"          "12"
@@ -5066,7 +5066,7 @@
 		"zpos"			"-60"
 		"wide"			"320"
 		"tall"			"f0"
-		"visible"		"1"
+		"visible"		"0" // "1"
 		"PaintBackgroundType"	"0"
 
 			
