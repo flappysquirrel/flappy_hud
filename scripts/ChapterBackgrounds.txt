@@ -2,11 +2,9 @@
 {
 1 "bg1"
 2 "bg2"
-3 "bg3"
 }
 "BackgroundMaps"
 {
 1 "bg1"
 2 "bg2"
-3 "bg3"
 }
