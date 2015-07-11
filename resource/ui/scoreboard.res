@@ -15,7 +15,6 @@
 		"tabPosition"		"0"
 		"avatar_width"		"55"	
 		"name_width"		"90"		
-		"medal_width" "13"
 		"status_width"		"13"	
 		"nemesis_width"		"13"	
 		"class_width"		"14"	
