@@ -1309,7 +1309,7 @@ Scheme{Colors{
 			"1"
 			{
 				"name"		"DiamondsRegular" 
-				"tall"		"36" //30
+				"tall"		"34" //30
 				"additive"	"0" 
 				"antialias"	"1"
 				"dropshadow"	"0"
@@ -1321,13 +1321,24 @@ Scheme{Colors{
 			"1"
 			{
 				"name"		"DiamondsRegular" 
-				"tall"		"31" //30
+				"tall"		"15" //30
 				"additive"	"0" 
 				"antialias"	"1"
 				"dropshadow"	"0"
 			}
 		}
-		
+				
+				"loadt" 
+		{
+			"1"
+			{
+				"name"		"Azo Sans"
+				"tall"		"14" 
+				"additive"	"0" 
+				"antialias"	"1"
+				"dropshadow"	"0"
+			}
+		}
 
 			"load3s" 
 		{
@@ -9663,6 +9674,11 @@ Scheme{Colors{
 		{
 			"font" "resource/fonts/phantom_regular.otf"
 			"name" "phantom"
+		}
+		"51" 
+		{
+			"font" "resource/fonts/Azo Sans Regular.otf"
+			"name" "Azo Sans"
 		}
 	
 	}

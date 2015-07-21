@@ -301,7 +301,7 @@
         "labelText"     "%maplabel%"
         "textAlignment"     "west"
         "xpos"         	"17"
-        "ypos"          "35"
+        "ypos"          "51"
         "zpos"          "50"
        "wide"			"490"
         "tall"			"58"
@@ -310,18 +310,18 @@
         "pinCorner"     "0"
         "visible"       "1"
         "enabled"       "1"
-        "fgcolor" "31 56 100 255"
+        "fgcolor" "47 85 151 255"
 
     }
     "MapType"
     {
         "ControlName"   "CExLabel"
         "fieldName"     "MapType"
-        "font"        "load2s" // "load2"
+        "font"        "loadt" // "load2"
         "labelText"     "%maptype%"
         "textAlignment" "west"
-       "xpos"         	"17"
-        "ypos"          "63"
+       "xpos"         	"19" //"17"
+        "ypos"          "35" //"63"
         "zpos"          "50"
        "wide"			"490"
         "tall"			"58"
@@ -330,7 +330,7 @@
         "pinCorner"     "0"
         "visible"       "1"
         "enabled"       "1"
-        "fgcolor"   "195 195 195 255"   // "31 56 100 255"   // "63 86 139 255" //   
+        "fgcolor"  "46 117 182 255"   
     }                
 ///////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////
