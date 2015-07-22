@@ -39,7 +39,7 @@
         "ControlName"	"CExLabel"
         "fieldName"		"Loading"
         "font"		"load1"	// "yaHeavy54"
-        "labelText"		"Hey there,"
+        "labelText"	 "Any second now.."	//"Hey there,"
         "textAlignment"	"west"
         "xpos"			"17"
         "ypos"			"7"
@@ -54,24 +54,46 @@
     }
 
 	
-	    "Loading2"
-    {
-        "ControlName"	"CExLabel"
-        "fieldName"		"Loading2"
-        "font"		"load2"	// "yaHeavy54"
-        "labelText"		"WelcOme back" // thick font
-        "textAlignment"	"west"
-        "xpos"			"17"
-        "ypos"			"35" //37
-        "zpos"			"-1"
-        "wide"			"490"
-        "tall"			"58"
-        "autoResize"	"0"
-        "pinCorner"		"0"
-        "visible"		"1"
-        "enabled"		"1"
-		"fgcolor"		"31 56 100 255"
-    }
+//	"Loading2"
+ //   {
+  //      "ControlName"	"CExLabel"
+   //     "fieldName"		"Loading2"
+    //    "font"		"loadt"	// "yaHeavy54"
+     ////   "labelText"		"gorgeous gamer.." 
+      //  "textAlignment"	"west"
+       //"xpos"         	"19" //"17"
+       // "ypos"          "35" //"63"
+       // "zpos"			"-1"
+       // "wide"			"490"
+       // "tall"			"58"
+       // "autoResize"	"0"
+       // "pinCorner"		"0"
+       // "visible"		"1"
+       // "enabled"		"1"
+	//	"fgcolor"  "46 117 182 255"   
+    //}
+	
+	
+	
+	
+//	    "Loading3"
+//    {
+//        "ControlName"	"CExLabel"
+//        "fieldName"		"Loading3"
+ //       "font"		"load2"	// "yaHeavy54"
+//        "labelText"		"WelcOme back" // thick font
+ //       "textAlignment"	"west"
+ //       "xpos"			"17"
+ //       "ypos"		"51"	// "35" // 37
+//        "zpos"			"-1"
+ //       "wide"			"490"
+ //       "tall"			"58"
+ //       "autoResize"	"0"
+  //      "pinCorner"		"0"
+//        "visible"		"1"
+ //       "enabled"		"1"
+//		"fgcolor"		"47 85 151 255" //"31 56 100 255"
+ //   }
 
 	  "ya_flBG"
 	{
